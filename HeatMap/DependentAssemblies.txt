@@ -1,0 +1,2 @@
+Syncfusion.SampleBrowser.UWP.Common.dll
+Syncfusion.SfHeatMap.UWP.dll

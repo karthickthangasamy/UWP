@@ -1,0 +1,2 @@
+Syncfusion.SampleBrowser.UWP.Common.dll
+Syncfusion.SfKanban.UWP.dll
