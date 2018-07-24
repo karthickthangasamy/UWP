@@ -1,0 +1,61 @@
+<?js
+	var self = this;
+	var item = obj;
+	var getChilds = function(item){
+		var childs = [];
+		for(var prop in item)
+			if(prop.indexOf("$$$") === 0)
+				childs.push(item[prop]);
+		return childs;
+	}
+	var stringify = function(val){
+		var str = "";
+		if(typeof val === "object") {
+			if(val instanceof Array) {
+				str += "[";
+				for(var i =0;i<val.length;i++){
+					if(i) str+= ",";
+					str += stringify(val[i]);
+				}
+				str += "]";
+				return str;
+			}
+			str += "{  ";
+			for(var prop in val){
+				if(!val.hasOwnProperty(prop))
+					continue;
+				try {
+					str += "'" + prop + "':";
+					str += stringify(val[prop]);
+					str += ","
+				} catch(e){}
+			}
+			str = str.slice(0, str.length-2);
+			str += "}";			
+			return str;
+		}
+		if(typeof val !== "function") {
+			return "'" + val + "'";
+		}
+	}
+?>
+
+<?js
+	for(var prop in item) {
+	if(prop.indexOf("$$$") !== 0) continue;
+	var cur = item[prop], v = cur.__value;
+	if(v){ 
+		var name = v.name.split("->")?>
+	<li class="sub-item" data-name="<?js= v.longname.replace(/.+->/g, "") ?>">
+	<?js= self.linkto(v.longname, name[name.length - 1]) ?>
+<?js }
+	var childs = getChilds(cur);
+	if(childs.length) { ?>
+		<ul class="child_tree">
+		<?js= self.partial("childTree.tmpl", cur) ?>
+		</ul>
+	<?js }
+	if(v) { ?>
+		</li>
+	<?js }
+	} ?>

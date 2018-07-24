@@ -1,0 +1,1 @@
+HTMLToDLS.Base,CompoundFile.Base,Pdf.Legacy.Base,Barcodes.Web,GridConverter.Web,ProjIO.WPF,SfDockingManager.WPF,SfTileLayoutControl.VisualStudio.Design,Dashboard.Base

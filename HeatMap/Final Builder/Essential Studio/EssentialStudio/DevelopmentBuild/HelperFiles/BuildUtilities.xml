@@ -1,0 +1,418 @@
+<Build>
+  <Utilities>
+  <Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\DashBoardGenerator_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Syncfusion.Installer.UIComponents_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="2.0" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSampleBrowserMVC\StartSampleBrowserMVC_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSampleBrowserMVC\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\StartSampleBrowserMVC</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="2.0" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSilverlightSamplebrowser\StartSilverlightSB_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSilverlightSamplebrowser\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\StartSilverlightSamplebrowser</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="2.0" Name="License Management">
+      <Solutionfile>%PATH%\Build\Utilities\KeyChecker\KeyChecker_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\KeyChecker\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\KeyChecker</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="2.0" Name="License Management">
+      <Solutionfile>%PATH%\Build\Utilities\LicenseManager\LicenseManager_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\LicenseManager\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\LicenseManager</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="2.0" Name="Sample Browsers">
+      <Solutionfile>%PATH%\Build\Utilities\KeywordGenerator\KeywordGenerator_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SampleBrowser\bin\2.0</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\KeywordGenerator</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="4.6" Name="Sample Browsers">
+      <Solutionfile>%PATH%\Build\Utilities\SampleBrowser\SampleBrowser_2015.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SampleBrowser\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\SampleBrowser\bin\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SampleBrowser</Folder>
+	  </Folders>
+    </Utility>	
+    <Utility Framework="3.5" Name="Build Manager">
+      <Solutionfile>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerConsole\BuildManagerConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\BuildManagerNew\bin</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\BuildManagerNew</Folder>
+	  <Folder>%PATH%\Build\Utilities\Common Code</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Build Manager">
+      <Solutionfile>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerWindows\BuildManagerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\BuildManagerNew\bin</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\BuildManagerNew</Folder>
+	  <Folder>%PATH%\Build\Utilities\Common Code</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="2.0" Name="Sample Browsers">
+      <Solutionfile>%PATH%\Build\Utilities\KeywordGeneratorUtility\KeywordGeneratorUtility_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\KeywordGeneratorUtility\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\KeywordGeneratorUtility</Folder>
+	  </Folders>
+    </Utility>   	
+	<Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerConsole\MultiTargetManagerConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\MultiTargetManager_New\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\MultiTargetManager_New</Folder>
+	  </Folders>
+	  </Utility>
+	  <Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerWindows\MultiTargetManagerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\MultiTargetManager_New\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\MultiTargetManager_New</Folder>
+	  </Folders>
+	  </Utility>
+    <Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\AssemblyManagerConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\MultiTargetManager\bin\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\AssemblyManager New</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\AssemblyManagerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\AssemblyManager New</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\asp\StartSampleBrowserASP\StartSampleBrowserASP_2008.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\asp\StartSampleBrowserASP\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\asp\StartSampleBrowserASP</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWeb\StartSampleBrowserEJWeb_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWeb\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWeb</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartWindowsReportingSampleBrowser\StartReportingWindowsSampleBrowser.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartWindowsReportingSampleBrowser\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\StartWindowsReportingSampleBrowser</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="4.6" Name="Sample Browsers">
+      <Solutionfile>%PATH%\Build\Utilities\WPFSampleBrowser\WPFSamplebrowser_2015.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\WPFSampleBrowser\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\SampleBrowser\bin\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\WPFSampleBrowser</Folder>
+	  </Folders>
+    </Utility>
+  
+	<Utility Framework="2.0" Name="Bootstrapper">
+      <Solutionfile>%PATH%\Build\Utilities\BootStrapper\BootStrapper_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\BootStrapper\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\BootStrapper</Folder>
+	  </Folders>
+    </Utility>
+ 
+	<Utility Framework="3.5" Name="Silverlight Switcher">
+      <Solutionfile>%PATH%\Build\Utilities\SyncfusionSilverlightSwitcher\SyncfusionSilverlightSwitcher.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncfusionSilverlightSwitcher\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncfusionSilverlightSwitcher</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Misc Utils">
+      <Solutionfile>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcher.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\WebConfigSwitcher\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\WebConfigSwitcher</Folder>
+	  </Folders>
+    </Utility>
+	 <Utility Framework="3.5" Name="Misc Utils">
+      <Solutionfile>%PATH%\Build\Utilities\WebConfigSwitcherLS\WebConfigSwitcherLS.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\WebConfigSwitcherLS\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\WebConfigSwitcherLS</Folder>
+	  </Folders>
+    </Utility>
+	 
+	<Utility Framework="3.5" Name="Misc Utils">
+      <Solutionfile>%PATH%\Build\Utilities\NetDepends\NetDepends\NetDepends.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\NetDepends\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\NetDepends</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Misc Utils">
+      <Solutionfile>%PATH%\Build\Utilities\NetDepends\NetDependsConsole\NetDependsConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\NetDepends\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\NetDepends</Folder>
+	  </Folders>
+    </Utility>
+
+	<Utility Framework="3.5" Name="Toolbox Installers">
+      <Solutionfile>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_New\SyncfusionToolboxInstaller.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_New\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_New</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="3.5" Name="Toolbox Installers">
+      <Solutionfile>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\SyncfusionToolboxInstallerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="3.5" Name="Toolbox Installers">
+      <Solutionfile>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\ToolBoxInstaller_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Toolbox Installers">
+      <Solutionfile>%PATH%\Build\Utilities\ToolboxInstallers\VS2010ToolboxInstaller\VS2010ToolboxInstaller.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ToolboxInstallers\VS2010ToolboxInstaller\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ToolboxInstallers\VS2010ToolboxInstaller</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Toolbox Installers">
+      <Solutionfile>%PATH%\Build\Utilities\ToolboxInstallers\ToolboxUninstall\ToolboxUninstall.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ToolboxInstallers\ToolboxUninstall\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ToolboxInstallers\ToolboxUninstall</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\SyncGacutil.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil</Folder>
+	  </Folders>
+    </Utility> 
+	    
+
+	<Utility Framework="4.0" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\SyncGacutil_40.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40</Folder>
+	  </Folders>
+    </Utility>
+
+    <Utility Framework="3.5" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSampleBrowserJS\StartSampleBrowserJS_2008.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSampleBrowserJS\bin\Release\</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\StartSampleBrowserJS</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="3.5" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSampleBrowserEJMVC\StartSampleBrowserEJMVC_2008.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSampleBrowserEJMVC\bin\Release\</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\StartSampleBrowserEJMVC</Folder>
+	  </Folders>
+    </Utility>	
+	<Utility Framework="4.0" Name="MVC Extension">
+      <Solutionfile>%PATH%\Build\Utilities\InstallMVCExtension\InstallMVCExtension.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\InstallMVCExtension\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\InstallMVCExtension</Folder>
+	  </Folders>
+    </Utility>	
+	<Utility Framework="4.0" Name="LightSwitch Extension">
+      <Solutionfile>%PATH%\Build\Utilities\InstallLightSwitchExtension\InstallLightSwitchExtension.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\InstallLightSwitchExtension\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\InstallLightSwitchExtension</Folder>
+	  </Folders>
+    </Utility>	
+<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\DashboardGeneratorUtility_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility</Folder>
+	  </Folders>
+    </Utility>
+   
+	<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard</Folder>
+	  </Folders>
+    </Utility>	
+  </Utilities>
+  <Manifest>
+           <Path>%PATH%\Build\Utilities\SilverlightIISConfig\ServiceModelConfig.exe</Path>
+            <Path>%PATH%\Build\Utilities\NetDepends\bin\Release\netdependsconsole.exe</Path>
+        <Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\bin\Release\ToolBoxInstaller.exe</Path>
+        <Path>%PATH%\Build\Utilities\CheckDevEnvToolbox\checkdevenvToolbox.exe</Path>
+      <Path>%PATH%\Build\Utilities\WebConfigSwitcherLS\bin\Release\LightSwitchWebConfigSwitcher.exe</Path>
+	<Path>%PATH%\Build\Utilities\SyncfusionSilverlightSwitcher\bin\Release\SyncfusionSilverlightSwitcher.exe</Path>
+	<Path>%PATH%\Base\XlsIO.Base\XlsIO File Explorer\bin_2010\Release\XlsIO Code Generator.exe</Path>
+	<Path>%PATH%\Base\XlsIO.Base\XlsIO File Explorer\bin_2008\Release\XlsIO Code Generator.exe</Path>
+    <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\bin\Release\AssemblyManagerWindows.exe</Path>
+	<Path>%PATH%\Build\Utilities\InstallMVCExtension\bin\Release\InstallMVCExtension.exe</Path>
+	<Path>%PATH%\Build\Utilities\InstallLightSwitchExtension\bin\Release\InstallLightSwitchExtension.exe</Path>
+    <Path>%PATH%\Build\Utilities\BuildManagerNew\bin\BuildManagerWindows.exe</Path>
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\bin\release\InstallInfoGenerator.exe</Path>
+    <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\bin\Release\OLAPSamplesDatasourceUtility.exe</Path>
+    <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\bin_2010\Release\OLAPSamplesDatasourceUtility.exe</Path>
+	<Path>%PATH%\Build\Utilities\MultiTargetManager_New\bin\Release\MultiTargetManagerWindows.exe</Path>
+	<Path>%PATH%\Build\Utilities\LicenseManager\bin\Release\LicenseManager.exe</Path>
+	<Path>%PATH%\Build\Utilities\NetDepends\bin\Release\netdepends.exe</Path>
+	<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+	<Path>%PATH%\Build\Utilities\WebConfigSwitcher\bin\Release\WebConfigSwitcher.exe</Path>	
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2010ToolboxInstaller\bin\Release\VS2010ToolboxInstaller.exe</Path>
+	<Path>%PATH%\Build\Utilities\Syncfusion.DiagramBlendAddIn\bin\Release\SyncfusionDiagramBlendAddIn.exe</Path>
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_New\bin\Release\SyncfusionToolboxInstaller.exe</Path>
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\bin\Release\ToolboxInstallerWindows.exe</Path>	
+	<Path>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS\bin_2008\Release\ReportDesignerUtility.exe</Path>
+	<Path>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS\bin_2010\Release\ReportDesignerUtility.exe</Path>
+	<Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolExporterCompiler\bin\Release\SyncfusionDiagramExporterExe.exe</Path>
+	<Path>%PATH%\Base\HTMLConverter.Base\Extensions\LegacyDrawing\bin\Release\IE Legacy Drawing.exe</Path>
+<Path>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWEB\bin\Release\StartSampleBrowserASP.exe</Path>
+<Path>%PATH%\Build\Utilities\asp\StartSampleBrowserASP\bin\Release\StartSampleBrowserASPClassic.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserEJMVC\bin\Release\StartSampleBrowserMVC.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserMVC\bin\Release\StartSampleBrowserMVCClassic.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserJS\bin\Release\StartSampleBrowserJS.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSilverlightSamplebrowser\bin\Release\StartSilverlightSB.exe</Path>
+<Path>%PATH%\Build\Utilities\SampleBrowser\bin\Release\SampleBrowser.exe</Path>
+<Path>%PATH%\Build\Utilities\WPFSampleBrowser\bin\release\WPFSampleBrowser.exe</Path>
+<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+<Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release\Syncfusion Control Panel.exe</Path>
+<Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\bin\Release\AssemblyManagerConsole.exe</Path>
+<Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\release\SyncGacutil.exe</Path>
+<Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\release\SyncGacutil_40.exe</Path>
+<Path>%PATH%\Build\Utilities\CheckDevEnv\checkdevenv.exe</Path>
+<Path>%PATH%\Build\Utilities\MultiTargetManager_New\bin\Release\MultiTargetManagerConsole.exe</Path>
+<Path>%PATH%\Build\Utilities\Build\Utilities\SilverlightIISConfig\ServiceModelConfig.exe</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\MSI_Files\resettoolboxVS2005.exe</Path>
+  </Manifest>
+  <!--List of files to be chaging version numbers EX: 8.1.0.12  -->
+  <VersionSwitcher>
+  <Path>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolExporterCompiler\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Formula Validator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SilverlightSampleBrowserProjects\Showcase\DiagramBuilder\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Base\HTMLConverter.Base\Extensions\LegacyDrawing\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\DocIO.Windows\Document Explorer\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\Diagram.Windows\Symbol Designer\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolDesigner\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\FindIISPortNo\FindIISPortNo\Properties\AssemblyInfo.cs </Path>
+  <Path>%PATH%\Build\Utilities\JSShapeConverter\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\KeywordGeneratorUtility\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\WebConfigSwitcherLS\WebConfigSwitcher\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcherWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcher\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\NetDepends\NetDepends\NetdDepends\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\NetDepends\NetDependsConsole\NetDependsConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SampleBrowser\AssemblyInfo.cs</Path>   
+  <Path>%PATH%\Build\Utilities\SyncfusionSilverlightSwitcher\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SilverlightSampleBrowser\SilverlightSampleBrowser.Web\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallMVCExtension\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallLightSwitchExtension\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerWindows\BuildManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerConsole\BuildManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_New\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\AssemblyManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\AssemblyManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerConsole\MultiTargetManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerWindows\MultiTargetManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.DeleteRegistryKeys\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.RemoveStartMenu\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\LicenseManager\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Supporting Files\Read Me\ASP.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\ASPMVC.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WindowsForms.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WPF.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\Silverlight.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WindowsPhone.html</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard\Form1.cs</Path>  
+  </VersionSwitcher>
+</Build>

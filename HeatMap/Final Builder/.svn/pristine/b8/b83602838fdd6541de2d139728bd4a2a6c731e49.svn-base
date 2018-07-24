@@ -1,0 +1,104 @@
+﻿<html>
+<head>
+    <title></title>
+    </head>
+<body>
+<table cellpadding="10px">
+<tr align="left"><td>Hi Everyone,</td></tr>
+<tr align="left"><td>The latest Trunk build is completed successfully and here is the location of latest assemblies</td></tr>
+<tr><td><img src="logo.png"/></td></tr>
+<tr align="left"><td>
+<table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6; color:White"><thead align="left"><tr><td colspan="2"><b>SVN Update Details</b></td></tr></thead></table></td></tr>
+<tr><td><table width="100%" style="background:#D2EAF1"><tbody align="left">
+<tr><td><b>Start Time</b></td><td>##SVNUPDATESTARTTIME##</td></tr>
+<tr><td><b>End Time</b></td><td>##SVNUPDATEENDTIME##</td></tr>
+</tbody>
+</table></td></tr>
+</table>
+</td></tr>
+<tr><td><table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6;"><thead style="background:#4BACC6; color:White" align="left"><tr><td><b>Files Modified</b></td></tr></thead></table></td></tr>
+<tr><td><table width="100%" style="background:#D2EAF1"><tbody  align="left">
+<tr><td>##FILESMODIFIEDDETAILS##</td></tr>
+</tbody>
+</table></td></tr>
+</table></td></tr>
+
+<tr><td><table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6;"><thead style="background:#4BACC6; color:White" align="left"><tr><td><b>For Information</b></td></tr></thead></table></td></tr>
+<tr><td>
+<table width="100%" style="background:#D2EAF1">
+<tbody  align="left">
+<tr><td><b>Image size more than 100KB</b></td>
+<td>-</td>
+<td>LargerImageSizelog.txt</td>
+<td>-</td>
+<td>This log file contains the list of image files greater than 100 KB size. It has to be reduced without modifying the image quality.<br>Please check with the Graphics team and get it modified.
+<br/>Note: Image files are binary, it doesn’t compress in our setup and this is the major hurdle for us to reduce the size of our setup.</td>
+</tr>
+<tr></tr>
+<tr>
+<td><b>Bin Obj folders</b></td>
+<td>-</td>
+<td>binobjlog.txt</td>
+<td>-</td>
+<td>This log file contains the paths of the bin and obj folders committed to SVN. It has to be deleted and it should not be committed to SVN without any valid reason.
+<br/>Note: Send the path details to the Build Team for maintenance. We will add it to the “Exclude Folders” list to exclude it in future reports.</td>
+</tr>
+<tr></tr>
+<tr>
+<td><b>Files committed with more than <br/>2 MB size</b></td>
+<td>-</td>
+<td>Morethan2MBlog.txt</td>
+<td>-</td>
+<td>This log file contains the list of files greater than 2MB size. All files have been committed to both Common Data and Samples folders.<br>Please let us know if it is alright to commit files to the Common folder alone, instead of committing to both Common Data and Samples folders?
+<br/>Note : Send us the path details of folders that need to be committed and excluded from this report.</td>
+</tr>
+<tr></tr>
+<tr>
+<td><b>Assembly or Binary files</b></td>
+<td>-</td>
+<td>DllExelog.txt</td>
+<td>-</td>
+<td>This log file contains the list of binary files. Do not commit binary files to SVN as it will cause overloading of the SVN repository.<br>If such files have to be committed for any valid reason, place it in any one of the following paths: Common\Data folder or<br>Program files\Syncfusion\Essential Studio\{Version}\Assemblies.
+<br/>Note : Send us the path details of folders that need to be committed and excluded from this report.</td>
+</tr>
+<tr></tr>
+<tr>
+<td><b>Duplicate files</b></td>
+<td>-</td>
+<td>DuplicateFilesLog.txt</td>
+<td>-</td>
+<td>This log file contains the list of duplicate files present in the Common Data folder. We want then to be changed to a common name.</td>
+</tr>
+<tr></tr>
+<tr>
+<td><b>Duplicate files</b></td>
+<td>-</td>
+<td>DuplicateFilesInTwoFolder.txt</td>
+<td>-</td>
+<td>This log file contains the list of files in the  Common\Data and Samples folders.<br>Delete the files in either of the two folders, and retain only one folder for reference.
+<br/>Note : Send us a file path, if there is any valid reason to keep the files as duplicated, and to be excluded from this report.</td>
+</tr>
+<tr></tr>
+<tr>
+<td><b>Files not used</b></td>
+<td>-</td>
+<td>FilesNotReferedLog.txt</td>
+<td>-</td>
+<td>If any file is present in the Common\Data folder and has not been referred in any of the samples, that particular file name will be listed in this log file.<br>Please verify and remove it.</td>
+</tr>
+</tbody>
+</table></td></tr>
+</table></td></tr>
+<tr><td><b>Note : If you want to exclude any files or folders from this list, Please create <a href="https://syncfusion.atlassian.net/browse/IN">Install Team</a> task</b></td></tr>
+<tr><td>
+<br/>
+Thanks,<br />
+Build Team.<br />
+Syncfusion Software.
+</td></tr>
+</table>
+</body>
+</html>

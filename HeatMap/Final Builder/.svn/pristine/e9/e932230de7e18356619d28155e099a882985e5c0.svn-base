@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+  </configSections>
+  <connectionStrings configProtectionProvider="RsaProtectedConfigurationProvider">
+    <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element"
+      xmlns="http://www.w3.org/2001/04/xmlenc#">
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+          <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <KeyName>Rsa Key</KeyName>
+          </KeyInfo>
+          <CipherData>
+            <CipherValue>gnRJv5zjNnv1s+KeE4fAjNdw15jCJhqS3bT37wb1GZzhVtLl+nUsyqwTCzF2YYcU5JzxSk6ugnxtIwDdLxcY3Ny5LnZ+kcF9Nond/Eaqa42hePSsxkz5X7OxGYeWwS85mlHr6F8NKZs9F20N+mODkcxOOaaYqbjowOa1+fKNDZs=</CipherValue>
+          </CipherData>
+        </EncryptedKey>
+      </KeyInfo>
+      <CipherData>
+        <CipherValue>NrrT3lBH13Lt+G/OFY3LKlzFKTBzPYi68pc9frIUXOGoq3juS7ofnZKtFs6uKA/MbvArpv438FhOhGunWOLXp4DRuxKcwqP2bi8oAwa2jIu7u0r6K7iw0lxnZSXpWCbOF8YRcaf/ud5ieaFiU7C34s81/Dhg62Ps/dzRmkhn1Pe2s4sZd2JM/39jj5WXReufccEIxDhU/iUIQG6R7HcAscIv4be7qBvvBdpgsVha5sxTaQxwwRjpbAmG00OLJ2cF3BC6kXcoN2W93L8BFCy0QtLZ7GxPQqdOS1nCtk+pJcYVMAKoHtsJhLo2fyODWo2aGGuNXrpirpS7cvsCeYsblW+J//Y4+7jW22mdkQ0I91JW+Pchjmnt71z6l+iwdAAYMf8/EKCVAxSegKXZK3LsdDDbApe8+Uz8IId2EbLDe/PuVPppnxZ2X/qPFBHbxEJ8zEQu6hA8jPMC6R17GqxQLl8rcNJbsbkmDaagxLEjjxvizkyEjgYtut3ptBe6omEfDQoqVnuxQO7P2mzhjWbMNseDlVMmEEJU476RoaEwp4CZO5Kvzw0guMpHPY5uiQm84RQcKE7EY2jHae3Zxa2mLOXXxjzS8dQolNpaGvhgotqJOV9qrR93fnczZ5mnICUdvzOq8jgiADVIfaG4UJpjarGZgMzJv49/usjJyf8utQ1iXHbY6gqe2HKOQm4nyq21</CipherValue>
+      </CipherData>
+    </EncryptedData>
+  </connectionStrings>
+  <configProtectedData>
+<providers>
+<remove name="RSAProtectedConfigurationProvider" />
+<add keyContainerName="RSAKeys" useMachineContainer="true" description="Uses RsaCryptoServiceProvider to encrypt and decrypt" name="RsaProtectedConfigurationProvider" type="System.Configuration.RsaProtectedConfigurationProvider, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+</providers>
+</configProtectedData>
+  <appSettings>
+    <add key="TemplatePath" value="E:\Work\Tools\FailedMonitor\Template\" />
+    <add key="BusinessHours" value="9.30" />
+    <add key="FirstFollowUp" value="30" />
+    <add key="SecondFollowUp" value="1" />
+    <add key="BuildTeamEscalationFollowUp" value="1.30" />
+    <add key="BuildTeamEscalationList" value="chnbuild@syncfusion.com" />
+    <add key="port" value="587" />
+    <add key="buildinbox" value="buildautomation@syncfusion.com" />
+    <add key="postmasterID" value="AKIAIXFYGWLDHXZOZF7Q"/>
+    <add key="postmasterPWD" value="f8Xiw8n3RRPWzywoSfTZJTZ3LGVXJHv3v/Hr4Lps"/>
+    <add key="postmasterEmail" value="AutoMailer@syncfusion.com" />
+    <add key="Web-Admin" value="chnbuild@syncfusion.com" />
+    <add key="DT-Admin" value="" />
+    <add key="mercury_SMTPServer" value="smtp.office365.com" />
+    <add key="mercury_port" value="587" />
+    <add key="mercuryID" value="buildautomation@syncfusion.com" />
+    <add key="mercuryPWD" value="Coolcomp299" />
+    <add key="LogHostedLink" value="//172.16.106.54/EssentialStudioLog/FailedLogs/" />
+  </appSettings>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.SqlConnectionFactory, EntityFramework" />
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5" />
+  </startup>
+</configuration>

@@ -1,0 +1,27 @@
+[FBVariables]
+PATH=D:\Work\SVN\16.2.0.1
+GitLabPath=D:\Git\RP
+STUDIO_VERSION=16.2.0.1
+PlatformShortName=javascript
+PlatformType=EJ2
+LogDetailPath=D:\EssentialStudioLog
+FinalBuilderBinariesPath=D:\Work\Tools\16.2.0.1\Binaries\BuildAutomation
+PLATFORMS=Licensing,BASE,WPF,EJMVC,Portable,Web(EssentialJS2)
+SetupName=Essential Studio for JavaScript (Essential JS 2) – Beta
+SetupType=JavaScript2
+KarunaIP=\\172.16.100.69
+EJ2SourcePath=D:\Git\RP\EJ2
+EJ2RepositoryLocation=D:\Git\RP\EJ2\ej2-es-build
+EJ2PackagesLocation=D:\EJ2
+Branch=release/16.2.0.1
+EJ2SourceBranch=master
+FRAMEWORK_VERSION=2.0,3.5,4.0,4.5,4.5.1,4.6
+Email=chnbuild@syncfusion.com
+Machine=172.16.106.229
+BuildEnvironment=ReleasePrep
+SVNLink=https://svn.syncfusion.com/svn/studio/Source/releaseprep/16.2.0.1
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+SvnSharedPath=\\\\syncdeskn15781\\SVN\\16.2.0.1
+GitlabSharedPath=\\\\syncdeskn15781\\Git\\RP
+2017MSBuildPath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe

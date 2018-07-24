@@ -1,0 +1,32 @@
+﻿<html>
+<head>
+    <title></title>
+    </head>
+<body>
+<table cellpadding="10px">
+<tr><td><img src="cid:companylogo"/></td></tr>
+<tr align="center"><td><h2>Latest Build from <a href="http://svn.syncfusion.com/svn/studio/Source/trunk/">Trunk</a> Source is available from the following locations.</h2></td></tr>
+<tr align="left"><td>
+<table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6; color:White"><thead align="left"><tr><td colspan="2"><b>Download and Install Links</b></td></tr></thead></table></td></tr>
+<tr><td><table width="100%" style="background:#D2EAF1"><tbody align="left">
+<tr><td><b>Local Setup</b></td><td>\\buildserver-82\EssentialStudio\12.1.0.43\CAB\EssentialCABAddonSetup.exe</td></tr>
+</tbody>
+</table></td></tr>
+</table>
+</td></tr>
+<tr><td><table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6;"><thead style="background:#4BACC6; color:White" align="left"><tr><td colspan="2"><b>EssentialStudio CAB Properties</b></td></tr></thead></table></td></tr>
+<tr><td><table width="100%" style="background:#D2EAF1"><tbody  align="left">
+<tr><td><b>Studio Version</b></td><td>12.1.0.43</td></tr>
+</tbody>
+</table></td></tr>
+</table></td></tr>
+<tr><td>
+Thanks,<br />
+Build Team.<br />
+Syncfusion Software.
+</td></tr>
+</table>
+</body>
+</html>

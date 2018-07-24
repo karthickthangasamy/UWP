@@ -1,0 +1,25 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+GitLabPath=D:\Git\Dev
+LogDetailPath=D:\EssentialStudioLog
+FinalBuilderBinariesPath=D:\Work\Tools\Trunk\Binaries\BuildAutomation
+FRAMEWORK_VERSION=2.0,3.5,4.0,4.5,4.5.1,4.6
+STUDIO_VERSION=16.2.0.1
+BuildEnvironment=Trunk
+BUILD_CONFIG=Release
+SVN=https://svn.syncfusion.com/svn/studio/Source/trunk
+PASSWORD=tmYSf8VQ9w
+PlatformType=Xamarin
+PLATFORMS=Portable,UWP,ANDROID,Xamarin
+UWP=Data.UWP,Pdf.UWP,SfShared.UWP,SfInput.UWP,SfChart.UWP,SfRadialMenu.UWP,SfTabControl.UWP,SfGrid.UWP,XlsIO.UWP,SfGauge.UWP,SfTreeMap.UWP,SfBarcode.UWP,SfBusyIndicator.UWP,SfRangeSlider.UWP,SfAutoComplete.UWP,SfNumericTextBox.UWP,SfDataGrid.UWP,SfGridConverter.UWP,SfCalendar.UWP,SfRating.UWP,SfCarousel.UWP,SfMaps.UWP,SfNumericUpDown.UWP,SfRotator.UWP,SfPullToRefresh.UWP,SfNavigationDrawer.UWP,SfKanban.UWP,SfSunburstChart.UWP,SfDiagram.UWP,SfImageEditor.UWP
+Machine=172.16.102.65
+ClassicFilesLocation=\\SVN3404\EssentialStudio
+Branch=development
+2017MSBuildPath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe
+XamarinFormsVersion=2.4.0.280
+XamarinAndroidVersion=25.4.0.2
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+SvnSharedPath=\\\\syncdeskn15781\\SVN\\Trunk
+GitlabSharedPath=\\\\syncdeskn15781\\Git\\Dev
+MachineName=syncdeskn15781

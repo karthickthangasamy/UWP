@@ -1,0 +1,17 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+BuildDetailPath=D:\EssentialStudioLog
+SVN=http://svn.syncfusion.com/svn/studio/Source/trunk
+Platform=WPF
+SetupName=Essential Studio for WPF
+SetupType=WPF
+platformname=WPF
+PlatformShortName=wpf
+PlatformType=Desktop
+Key=Use your Direct-Trac login credential.
+KarunaIP=\\172.16.100.69
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+RELEASE_VOLUME=2018 Volume 2
+ConfigPlatformName=WPF
+MSILocation=\\172.16.102.62\Development\EssentialStudio

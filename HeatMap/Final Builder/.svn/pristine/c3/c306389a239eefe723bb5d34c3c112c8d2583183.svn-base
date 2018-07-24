@@ -1,0 +1,12 @@
+[SamplesList]
+PATH=C:\Work\SVN\Trunk
+BUILD_CONFIG=Debug
+STUDIO_VERSION=15.2.0.1
+BuildEnvironment=Trunk
+User=labuser
+Password=coolcomp
+PLATFORMS=WINDOWS,WPF
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+WinRT=SfShared.WinRT,Data.WinRT,GridCommon.WinRT,SfGridBase.WinRT,SfGrid.WinRT,SfChart.WinRT,SfCarousel.WinRT,SfDiagram.WinRT,DocIO.winrt,SfGauge.WinRT,SfInput.WinRT,SfHubTile.WinRT,SfMaps.WinRT,Pdf.winRT,SfRadialMenu.WinRT,SfTabControl.WinRT,SfTileView.WinRT,XlsIO.WinRT,SfRichTextBoxAdv.WinRT,SfAccordion.WinRT,SfTreeNavigator.WinRT,SfColorPickers.WinRT,SfBulletGraph.WinRT,SfBarcode.WinRT,SfReportViewer.WinRT,SfBusyIndicator.WinRT,SfTreeMap.WinRT,SfSchedule.WinRT,SfGridConverter.WinRT,SfPdfViewer.WinRT
+REPORTS=ReportWriter.Base,ReportDesigner.WPF,ReportViewer.WPF
+Universal=SfShared.Universal,SfInput.Universal,SfRadialMenu.Universal,SfTileView.Universal,SfTabControl.Universal,SfAccordion.Universal,SfBusyIndicator.Universal,SfCarousel.Universal,SfColorPickers.Universal,SfHubTile.Universal,SfMaps.Universal,SfTreeMap.Universal,SfTreeNavigator.Universal,Calculate.Universal,Data.Universal,DocIO.Universal,Pdf.Universal,SfBarcode.Universal,SfBulletGraph.Universal,SfChart.Universal,SfGauge.Universal,SfGrid.Universal,XlsIO.Universal,SfGridConverter.Universal

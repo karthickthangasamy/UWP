@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Xamarin>
+  <Platform Name="XForms" CommonDescription="Note: This package needs to be installed in all Xamarin.Forms projects (PCL, Android, iOS and UWP).">
+    <Project Name="SampleBrowser.Core" DependentPackages="" IsAddXForms="True" Description="Essential Chart for Xamarin.Forms is a feature rich, highly customizable and presentable business Chart control. It is intended for developers looking to add advanced, feature rich, visually appealing charts to the cross-platform mobile applications.">
+      <SubPlatform Name="Android" Dependent="SampleBrowser.Core,SampleBrowser.Core.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="SampleBrowser.Core,SampleBrowser.Core.iOS" />
+      <SubPlatform Name="UWP" Dependent="SampleBrowser.Core,SampleBrowser.Core.UWP" />
+      <SubPlatform Name="PCL" Dependent="SampleBrowser.Core" />
+	  <SubPlatform Name="macOS" Dependent="SampleBrowser.Core,SampleBrowser.Core.macOS" />
+    </Project>    
+   </Platform>
+  <Products>SfChart,SfGauge,SfTreeMap,SfBarcode,SfBusyIndicator,SfRangeSlider,SfAutoComplete,SfNumericTextBox,SfDataGrid,SfGridConverter,SfSchedule,SfCalendar,SfRating,SfCarousel,SfMaps,SfNumericUpDown,SfRotator,SfPullToRefresh,SfNavigationDrawer,Compression,OfficeChart,Presentation,DocIO,Pdf,XlsIO,DataSource,Calculate,SfKanban,SfPdfViewer,SfRadialMenu,SfSparkline,SfListView,SfSunburstChart,SfImageEditor,SfDataForm,SfDiagram,SfPicker,GridCommon,Core,SfProgressBar,SfPopupLayout,SfMaskedEdit</Products>
+  <URL>http://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin</URL>
+<Externaldependencies>
+	<Externaldependency>
+	<![CDATA[<dependency id="Xamarin.Forms" version="2.4.0.280" />]]>
+	</Externaldependency>
+  </Externaldependencies>
+  <Internaldependencies>	
+	<InternaldependencyCompression>
+	<![CDATA[<dependency id="Syncfusion.Xamarin.Compression" version="###Version" />]]>
+	</InternaldependencyCompression>
+	<InternaldependencyPdf>
+	<![CDATA[<dependency id="Syncfusion.Xamarin.Pdf" version="###Version" />]]>
+	</InternaldependencyPdf>
+  </Internaldependencies>
+</Xamarin>

@@ -1,0 +1,16 @@
+[FBVariables]
+PATH=D:\Work\SourceAutomation\SVN\Trunk
+FRAMEWORK_VERSION=2.0,3.5,4.0,4.5,4.5.1
+STUDIO_VERSION=13.4.0.1
+BUILD_CONFIG=Release
+SVN=http://svn.syncfusion.com/svn/studio/Source/trunk/
+Platform=Android
+SetupName=Essential Studio for Android
+SetupType=Android
+platformname=Android
+Key=@31332e332e30GlGOCD8yM1VzNlEJLJV4iRIovIp8UzSNrSWHG8IvXFs=
+RELEASE_VOLUME=2015 volume 4
+PASSWORD=tmYSf8VQ9w
+ANDROID=SfChart.Android,SfGauge.Android,SfTreeMap.Android,SfBusyIndicator.Android,SfBarcode.Android,SfRangeSlider.Android,SfAutoComplete.Android,SfNumericTextBox.Android,SfNavigationDrawer.Android,SfMaps.Android,SfCalendar.Android,SfSchedule.Android,SfRating.Android,SfCarousel.Android
+localip=172.16.0.14
+karunaip=172.16.106.239

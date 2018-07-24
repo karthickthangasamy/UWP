@@ -1,0 +1,24 @@
+﻿<html>
+<head>
+    <title></title>
+    </head>
+<body>
+<table cellpadding="10px">
+<tr><td><img src="cid:companylogo"/></td></tr>
+<tr align="left"><td>
+<tr><td><table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6;"><thead style="background:#4BACC6; color:White" align="left"><tr><td><b>Dependency Checker Tool</b></td></tr></thead></table></td></tr>
+<tr><td><table width="100%" style="background:#D2EAF1"><tbody  align="left">
+<tr><td><b>PRODUCT</b></td><td><b>REMOVE ASSEMBLIES IN XML FILE</b></td><td><b>ADD ASSEMBLIES IN XML FILE</b></td></tr>
+<tr><td>##PRODUCT##</td><td>##Remove Assemblies##</td><td>##Add Assemblies##</td></tr>
+</tbody>
+</table></td></tr>
+</table></td></tr>
+<tr><td> 
+Thanks,<br />
+Build Team.<br />
+Syncfusion Software.
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[FBVariables]
+PATH=C:\Work\SVN\Trunk\CAB
+STUDIO_VERSION=12.1.0.43
+BUILD_CONFIG=Release
+SETUPNAME=CAB
+USER=build
+PASSWORD=tmYSf8VQ9w
+KarunaIP=\\172.16.100.69
+EymardIP=\\172.16.0.14
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe

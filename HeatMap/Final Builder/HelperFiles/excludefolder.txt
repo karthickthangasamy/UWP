@@ -1,0 +1,1 @@
+obj,Backup,_UpgradeReport_Files,.svn,samples_obsolete,VSdoc,bin,AssemblyBuilder,Maps_JSON,OCR

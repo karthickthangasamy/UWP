@@ -1,0 +1,19 @@
+[FBVariables]
+PATH=C:\Work\SVN\Trunk
+GitLabPath=C:\Work\GitLab\development
+WebBitbucketPath=C:\Work\SVN\JS API Docs\
+AureliaBitbucketPath=C:\Work\SVN\AureliaPackage
+FinalBuilderBinariesPath=C:\Work\Tools\Automation\Trunk\Binaries\BuildAutomation
+FRAMEWORK_VERSION=2.0,3.5,4.0,4.5,4.5.1,4.6
+STUDIO_VERSION=15.2.0.1
+BUILD_CONFIG=Release
+SVN=https://svn.syncfusion.com/svn/studio/Source/trunk/
+PASSWORD=tmYSf8VQ9w
+PLATFORMS=Base,WPF,JS,EJMVC,Portable,ASPNETCORE
+WPF=Shared.WPF,Chart.WPF,SfChart.WPF,OfficeChartToImageConverter.WPF,Gauge.WPF,RichTextBoxAdv.WPF,SfMaps.WPF,ExcelChartToImageConverter.WPF
+TOOLBOXINSTALL=TRUE
+BuildEnvironment=Trunk
+Location=RDU
+ApacheServerPath=C:\Work\SVN\apache-tomcat-7.0.72
+Emailgroup=chnbuild@syncfusion.com,web-development@syncfusion.com,biweb@syncfusion.com,gridwf@syncfusion.com,reports-dev@syncfusion.com,chartwebteam@syncfusion.com,io-dev@syncfusion.com,mapsjs@syncfusion.com,extensionteam@syncfusion.com
+Branch=development

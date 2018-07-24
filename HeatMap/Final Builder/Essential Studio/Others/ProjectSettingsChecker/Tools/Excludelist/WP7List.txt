@@ -1,0 +1,1 @@
+SampleBrowser,dll.Design,SfChart.WP7.dll.Design

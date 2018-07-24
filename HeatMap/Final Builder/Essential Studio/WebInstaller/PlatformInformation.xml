@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!-- Platform Name shoud be like in WebInstaller.ini file -->
+<!-- Secondary Platform Name should be like in ProductList.xml file -->
+<!-- MSIPackageId shoud be like in burn file -->
+
+<Platforms>
+<Platform Name="ASP.NET MVC - EJ2" SecondaryPlatformName="ASP.NET MVC (Essential JS 2)" SetupName="Essential Studio for ASP.NET MVC (Essential JS 2) - Beta" MSIName="syncfusionessentialaspnetmvc-js2_##Version##.msi" MSIPackageId="ASPNETMVC_EJ2" BurnExeName="syncfusionaspnetmvcjs2webinstaller_##Version##" />
+<Platform Name="ASP.NET Core - EJ2" SecondaryPlatformName="ASP.NET Core (Essential JS 2)" SetupName="Essential Studio for ASP.NET CORE (Essential JS 2) - Beta" MSIName="syncfusionessentialaspnetcore-js2_##Version##.msi" MSIPackageId="ASPNETCore_EJ2" BurnExeName="syncfusionaspnetcorejs2webinstaller_##Version##" />
+<Platform Name="JavaScript - EJ2" SecondaryPlatformName="JavaScript (Essential JS 2)" SetupName="Essential Studio for JavaScript (Essential JS 2)" MSIName="syncfusionejs2_##Version##.msi" MSIPackageId="JavaScript_EJ2" BurnExeName="syncfusionejs2webinstaller_##Version##" />
+<Platform Name="Xamarin" SecondaryPlatformName="Xamarin" SetupName="Essential Studio for Xamarin"  MSIName="syncfusionessentialxamarin_##Version##.msi" MSIPackageId="Xamarin" BurnExeName="syncfusionxamarinwebinstaller_##Version##" />
+<Platform Name="Windows Forms" SecondaryPlatformName="Windows Forms" SetupName="Essential Studio for Windows Forms" MSIName="syncfusionessentialwindowsforms_##Version##.msi" MSIPackageId="WINDOWSFORMS" BurnExeName="syncfusionwindowsformswebinstaller_##Version##" />
+<Platform Name="WPF" SecondaryPlatformName="WPF" SetupName="Essential Studio for WPF"  MSIName="syncfusionessentialwpf_##Version##.msi" MSIPackageId="WPF" BurnExeName="syncfusionwpfwebinstaller_##Version##" />
+<Platform Name="Universal Windows" SecondaryPlatformName="UWP" SetupName="Essential Studio for Universal Windows"  MSIName="syncfusionessentialuniversalwindows_##Version##.msi" MSIPackageId="Universal_Windows" BurnExeName="syncfusionuniversalwindowswebinstaller_##Version##" />
+<Platform Name="ASP.NET MVC" SecondaryPlatformName="ASP.NET MVC (Essential JS 1)" SetupName="Essential Studio for ASP.NET MVC (Essential JS 1)"  MSIName="syncfusionessentialaspnetmvc_##Version##.msi" MSIPackageId="ASPNETMVC" BurnExeName="syncfusionaspnetmvcwebinstaller_##Version##" />
+<Platform Name="ASP.NET" SecondaryPlatformName="ASP.NET (Essential JS 1)" SetupName="Essential Studio for ASP.NET"  MSIName="syncfusionessentialaspnet_##Version##.msi" MSIPackageId="ASPNET" BurnExeName="syncfusionaspnetwebinstaller_##Version##" />
+<Platform Name="ASP.NET Core" SecondaryPlatformName="ASP.NET Core (Essential JS 1)" SetupName="Essential Studio for ASP.NET CORE (Essential JS 1)"  MSIName="syncfusionessentialaspnetcore_##Version##.msi" MSIPackageId="ASPNETCore" BurnExeName="syncfusionaspnetcorewebinstaller_##Version##" />
+<Platform Name="JavaScript" SecondaryPlatformName="JavaScript (Essential JS 1)" SetupName="Essential Studio for JavaScript (Essential JS 1)" MSIName="syncfusionessentialjavascript_##Version##.msi" MSIPackageId="JavaScript" BurnExeName="syncfusionjavascriptwebinstaller_##Version##" />
+<Platform Name="PHP" SecondaryPlatformName="PHP (Essential JS 1)" SetupName="Essential Studio for PHP"  MSIName="syncfusionessentialphp_##Version##.msi" MSIPackageId="PHP" BurnExeName="syncfusionphpwebinstaller_##Version##" />
+<Platform Name="JSP" SecondaryPlatformName="JSP (Essential JS 1)" SetupName="Essential Studio for JSP"  MSIName="syncfusionessentialjsp_##Version##.msi" MSIPackageId="JSP" BurnExeName="syncfusionjspwebinstaller_##Version##" />
+<Platform Name="File Formats" SecondaryPlatformName="File Formats" SetupName="Essential Studio for File Formats" MSIName="syncfusionessentialfileformats_##Version##.msi" MSIPackageId="FileFormats" BurnExeName="syncfusionfileformatswebinstaller_##Version##" />
+<Platform Name="Essential Studio" SecondaryPlatformName="Essential Studio" SetupName="Essential Studio" MSIName="" MSIPackageId="JSP" BurnExeName="syncfusionessentialstudiowebinstaller_##Version##" />
+</Platforms>

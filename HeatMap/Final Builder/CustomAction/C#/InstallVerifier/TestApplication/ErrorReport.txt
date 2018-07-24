@@ -1,0 +1,2 @@
+
+Assembly Syncfusion.Core was compiled with 8.104.0.30 instead of 8.103.0.30

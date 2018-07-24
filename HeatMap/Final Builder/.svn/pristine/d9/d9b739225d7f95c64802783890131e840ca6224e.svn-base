@@ -1,0 +1,203 @@
+<Build>
+  <Utilities>
+  
+
+     <Utility Framework="2.0" Name="Diagram Utilities">
+      <Solutionfile>%PATH%\Windows\Diagram.Windows\Diagram Builder\CS\DiagramBuilder_2005.sln</Solutionfile>
+      <Output>%PATH%\CustomUtilities\Diagram Builder\CS\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Windows\Diagram.Windows\Diagram Builder\CS</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="3.5" Name="IO Utilities">
+      <Solutionfile>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS\ReportDesignerUtility_2008.sln</Solutionfile>
+      <Output>%PATH%\CustomUtilities\Report Designer Utility\CS\bin_2008\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="3.5" Name="IO Utilities">
+      <Solutionfile>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\EssentialGantt_2008.sln</Solutionfile>
+      <Output>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\bin_2008\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Base\ProjIO.Base\ProjIO.Utilities</Folder>
+	  </Folders>
+    </Utility>
+	 <Utility Framework="3.5" Name="Misc Utils">
+      <Solutionfile>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcher.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\WebConfigSwitcher\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\WebConfigSwitcher</Folder>
+	  </Folders>
+    </Utility>	
+	 <Utility Framework="3.5" Name="Olap Utils">
+      <Solutionfile>%PATH%\WPF\ReportBuilder.WPF\Src\Syncfusion.ReportBuilder.WPF_2008.sln</Solutionfile>
+      <Output>%PATH%\WPF\ReportBuilder.WPF\Src\bin\Release</Output>
+      <ReferencePath>%PATH%\Assemblies\3.5\en-US</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\WPF\ReportBuilder.WPF\Src</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="IO Utilities">
+      <Solutionfile>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS\ReportDesignerUtility_2010.sln</Solutionfile>
+      <Output>%PATH%\CustomUtilities\Report Designer Utility\CS\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS</Folder>
+	  </Folders>
+    </Utility>
+	 <Utility Framework="4.0" Name="IO Utilities">
+      <Solutionfile>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\EssentialGantt_2010.sln</Solutionfile>
+      <Output>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Base\ProjIO.Base\ProjIO.Utilities</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Diagram Utilities">
+      <Solutionfile>%PATH%\WPF\Diagram.WPF\AddIn\SymbolDesigner\SymbolDesigner_2010.sln</Solutionfile>
+      <Output>%PATH%\CustomUtilities\SymbolDesigner\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\WPF\Diagram.WPF\AddIn\SymbolDesigner</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Olap Utils">
+      <Solutionfile>%PATH%\WPF\ReportBuilder.WPF\Src\Syncfusion.ReportBuilder.WPF_2010.sln</Solutionfile>
+      <Output>%PATH%\WPF\ReportBuilder.WPF\Src\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Assemblies\4.0\en-US</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\WPF\ReportBuilder.WPF\Src</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Toolbox Installers">
+      <Solutionfile>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_VS2017\SyncfusionToolboxInstaller_VS2017.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_VS2017\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_VS2017</Folder>
+	  </Folders>
+    </Utility>
+	
+	
+  </Utilities>
+  <Manifest>           
+            <Path>%PATH%\Build\Utilities\NetDepends\bin\Release\netdependsconsole.exe</Path>
+        <Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\bin\Release\ToolBoxInstaller.exe</Path>
+        <Path>%PATH%\Build\Utilities\CheckDevEnvToolbox\checkdevenvToolbox.exe</Path>
+      <Path>%PATH%\Supporting Files\Tools\Migration\ConvertResx\3.5\ConvertResX.exe</Path>
+        <Path>%PATH%\Supporting Files\Tools\Migration\ConvertResx\4.0\ConvertResX.exe</Path>      
+	<Path>%PATH%\Base\XlsIO.Base\XlsIO File Explorer\bin_2010\Release\XlsIO Code Generator.exe</Path>
+	<Path>%PATH%\Base\XlsIO.Base\XlsIO File Explorer\bin_2008\Release\XlsIO Code Generator.exe</Path>
+    <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\bin\Release\AssemblyManagerWindows.exe</Path>
+	<Path>%PATH%\Build\Utilities\InstallMVCExtension\bin\Release\InstallMVCExtension.exe</Path> 
+    <Path>%PATH%\Build\Utilities\BuildManagerNew\bin\BuildManagerWindows.exe</Path>
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\bin\release\InstallInfoGenerator.exe</Path>
+	<Path>%PATH%\WPF\ReportBuilder.WPF\Src\bin\Release\Report Builder.exe</Path>
+    <Path>%PATH%\WPF\ReportBuilder.WPF\Src\bin_2010\Release\Report Builder.exe</Path>
+    <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\bin\Release\OLAPSamplesDatasourceUtility.exe</Path>
+    <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\bin_2010\Release\OLAPSamplesDatasourceUtility.exe</Path>
+	<Path>%PATH%\Build\Utilities\MultiTargetManager_New\bin\Release\MultiTargetManagerWindows.exe</Path>
+	<Path>%PATH%\Build\Utilities\LicenseManager\bin\Release\LicenseManager.exe</Path>
+	<Path>%PATH%\Build\Utilities\NetDepends\bin\Release\netdepends.exe</Path>
+	<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+	<Path>%PATH%\Build\Utilities\WebConfigSwitcher\bin\Release\WebConfigSwitcher.exe</Path>	
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2010ToolboxInstaller\bin\Release\VS2010ToolboxInstaller.exe</Path>
+	<Path>%PATH%\Build\Utilities\Syncfusion.DiagramBlendAddIn\bin\Release\SyncfusionDiagramBlendAddIn.exe</Path>
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole\bin\Release\SyncfusionToolboxInstaller.exe</Path>
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole\bin\Release\ToolboxInstallerConsole_VS2017.exe</Path>
+	<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\bin\Release\ToolboxInstallerWindows.exe</Path>	
+	<Path>%PATH%\CustomUtilities\Report Designer Utility\CS\bin_2008\Release\ReportDesignerUtility.exe</Path>
+	<Path>%PATH%\CustomUtilities\Report Designer Utility\CS\bin_2010\Release\ReportDesignerUtility.exe</Path>
+	<Path>%PATH%\CustomUtilities\SymbolExporterCompiler\bin\Release\SyncfusionDiagramExporterExe.exe</Path>
+	<Path>%PATH%\CustomUtilities\LegacyDrawing\bin\Release\IE Legacy Drawing.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserJS\bin\Release\StartSampleBrowserJS.exe</Path>
+<Path>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWEB\bin\Release\StartSampleBrowserASP.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserEJMVC\bin\Release\StartSampleBrowserMVC.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE\bin\Release\StartSampleBrowserASPNETCORE.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserPHP\bin\Release\StartSampleBrowserPHP.exe</Path>
+<Path>%PATH%\Build\Utilities\SampleBrowser\bin\Release\SampleBrowser.exe</Path>
+<Path>%PATH%\Build\Utilities\WPFSampleBrowser\bin\release\WPFSampleBrowser.exe</Path>
+<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+<Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release\Syncfusion Control Panel.exe</Path>
+<Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\bin\Release\AssemblyManagerConsole.exe</Path>
+<Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\release\SyncGacutil.exe</Path>
+<Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\release\SyncGacutil_40.exe</Path>
+<Path>%PATH%\Build\Utilities\CheckDevEnv\checkdevenv.exe</Path>
+<Path>%PATH%\CustomUtilities\Diagram Builder\CS\bin\Release\DiagramBuilder.exe</Path>
+<Path>%PATH%\CustomUtilities\Symbol Designer\bin\Release\Syncfusion.SymbolDesigner.exe</Path>
+<Path>%PATH%\CustomUtilities\SymbolDesigner\bin\Release\Syncfusion.Windows.Diagram.SymbolDesigner.exe</Path>
+<Path>%PATH%\CustomUtilities\Document Explorer\bin\Release\Document Explorer.exe</Path>
+<Path>%PATH%\Build\Utilities\FindIISPortNo\bin\Release\FindIISPortNo.exe</Path>
+<Path>%PATH%\Build\Utilities\Formula Validator\bin\release\Formula Validator.exe</Path>
+<Path>%PATH%\Build\Utilities\JSShapeConverter\bin\Release\MapsUtility.exe</Path>
+<Path>%PATH%\Supporting Files\Tools\Migration\ConvertResx\2.0\ConvertResX.exe</Path>
+<Path>%PATH%\Build\Utilities\MultiTargetManager_New\bin\Release\MultiTargetManagerConsole.exe</Path>
+<Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\bin\Release\ProjectMigrationWindows.exe</Path>
+<Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\bin\Release\ProjectMigrationConsole.exe</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\MSI_Files\resettoolboxVS2005.exe</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_VS2017\bin\Release\SyncfusionToolboxInstaller_VS2017.vsix</Path>
+
+  </Manifest>
+  <!--List of files to be chaging version numbers EX: 8.1.0.12  -->
+  <VersionSwitcher>
+  <Path>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolExporterCompiler\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Formula Validator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\Properties\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Base\HTMLConverter.Base\Extensions\LegacyDrawing\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\DocIO.Windows\Document Explorer\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\Diagram.Windows\Symbol Designer\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolDesigner\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\FindIISPortNo\FindIISPortNo\Properties\AssemblyInfo.cs </Path>
+  <Path>%PATH%\Build\Utilities\JSShapeConverter\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\KeywordGeneratorUtility\AssemblyInfo.cs</Path>  
+   <Path>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcherWindows\Properties\AssemblyInfo.cs</Path>
+   <Path>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcher\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\NetDepends\NetDepends\NetdDepends\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\NetDepends\NetDependsConsole\NetDependsConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SampleBrowser\AssemblyInfo.cs</Path>       
+  <Path>%PATH%\Build\Utilities\InstallMVCExtension\Properties\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerWindows\BuildManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerConsole\BuildManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole\Properties\AssemblyInfo.cs</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole_VS2017\Properties\AssemblyInfo.cs</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_VS2017\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\AssemblyManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\AssemblyManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerConsole\MultiTargetManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerWindows\MultiTargetManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.DeleteRegistryKeys\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.RemoveStartMenu\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\WPFSampleBrowser\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserJS\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserEJMVC\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserPHP\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWeb\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SampleBrowser\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\Properties\AssemblyInfo.cs</Path>
+  
+  <Path>%PATH%\Build\Utilities\LicenseManager\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Supporting Files\Read Me\ASP.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\ASPMVC.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WindowsForms.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WPF.html</Path>  
+  <Path>%PATH%\Build\Utilities\Dashboard\Form1.cs</Path>  
+  </VersionSwitcher>
+</Build>

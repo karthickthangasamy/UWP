@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ComponentGroups>
+
+<!--========================================EJ2 Samples and Packages====================================-->
+
+<!-- <ComponentGroup Name="EJ2Packages"> -->
+<!-- <SourcePath>\ej2-es-build\EssentialJS2\Packages\*.*</SourcePath> -->
+<!-- <FileName>EJ2Packages</FileName> -->
+<!-- <OutputPath>\ZipFiles\SamplesZipFiles</OutputPath> -->
+<!-- </ComponentGroup> -->
+
+<!-- <ComponentGroup Name="EJ2Samples"> -->
+<!-- <SourcePath>\ej2-es-build\EssentialJS2\Samples\*.*</SourcePath> -->
+<!-- <FileName>EJ2Samples</FileName> -->
+<!-- <OutputPath>\ZipFiles\SamplesZipFiles</OutputPath> -->
+<!-- </ComponentGroup> -->
+
+<!--========================================ASPNETCore Samples and Packages====================================-->
+
+<ComponentGroup Name="EJ2BasePackages">
+<SourcePath>\ej2-asp-core\Nuget\Syncfusion.EJ2\*.*</SourcePath>
+<FileName>EJ2BasePackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="EJ2MVC4Packages">
+<SourcePath>\ej2-asp-core\Nuget\Syncfusion.EJ2.MVC4\*.*</SourcePath>
+<FileName>EJ2MVC4Packages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="EJ2MVC5Packages">
+<SourcePath>\ej2-asp-core\Nuget\Syncfusion.EJ2.MVC5\*.*</SourcePath>
+<FileName>EJ2MVC5Packages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="EJ2Packages">
+<SourcePath>\ej2-asp-core\NugetPackages\*.nupkg</SourcePath>
+<FileName>EJ2SamplesPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="EJ2SamplesPackagesMVC">
+<SourcePath>\Packages\AspNet.Mvc - EJ2\*.nupkg</SourcePath>
+<FileName>EJ2SamplesPackagesMVC</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="ASPNETCoreEJ2Samples">
+<SourcePath>\ej2-aspcore-samples\*.*</SourcePath>
+<FileName>ASPNETCoreEJ2Samples</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="CompressionBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.Compression.Base\*.*</SourcePath>
+<FileName>CompressionBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="OfficeChartBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.OfficeChart.Base\*.*</SourcePath>
+<FileName>OfficeChartBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="DocIOBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.DocIO.Base\*.*</SourcePath>
+<FileName>DocIOBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="DocToPdfConverterBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.DocToPdfConverter.Base\*.*</SourcePath>
+<FileName>DocToPdfConverterBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="PdfBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.Pdf.Base\*.*</SourcePath>
+<FileName>PdfBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="OfficeChartToImageConverterWPFPkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.OfficeChartToImageConverter.WPF\*.*</SourcePath>
+<FileName>OfficeChartToImageConverterWPFPkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="SfChartWPFPkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.SfChart.WPF\*.*</SourcePath>
+<FileName>SfChartWPFPkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="XlsIOBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.XlsIO.Base\*.*</SourcePath>
+<FileName>XlsIOBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="ExcelToPDFConverterBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.ExcelToPDFConverter.Base\*.*</SourcePath>
+<FileName>ExcelToPDFConverterBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="ExcelChartToImageConverterWPFPkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.ExcelChartToImageConverter.WPF\*.*</SourcePath>
+<FileName>ExcelChartToImageConverterWPFPkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="PresentationBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.Presentation.Base\*.*</SourcePath>
+<FileName>PresentationBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="PresentationToPdfConverterBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.PresentationToPdfConverter.Base\*.*</SourcePath>
+<FileName>PresentationToPdfConverterBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="HtmlConverterBasePkg">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.HtmlConverter.Base\*.*</SourcePath>
+<FileName>HtmlConverterBasePkg</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="CompressionNETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.Compression.NETStandard\*.*</SourcePath>
+<FileName>CompressionNETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="DocIONETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.DocIO.NETStandard\*.*</SourcePath>
+<FileName>DocIONETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="OfficeChartNETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.OfficeChart.NETStandard\*.*</SourcePath>
+<FileName>OfficeChartNETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="PdfNETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.Pdf.NETStandard\*.*</SourcePath>
+<FileName>PdfNETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="PresentationNETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.Presentation.NETStandard\*.*</SourcePath>
+<FileName>PresentationNETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="XlsIONETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.XlsIO.NETStandard\*.*</SourcePath>
+<FileName>XlsIONETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="DocIORendererNETStandardPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.DocIORenderer.NETStandard\*.*</SourcePath>
+<FileName>DocIORendererNETStandardPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="EJ2DocumentEditorPackages">
+<SourcePath>\Assemblies\NuGetPackages\Syncfusion.EJ2.DocumentEditor\*.*</SourcePath>
+<FileName>EJ2DocumentEditorPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup Name="EJ2WebServices">
+<SourcePath>\ej2-web-services\src\deploy\*.*</SourcePath>
+<FileName>EJ2WebServices</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+<!--========================================ASPNETMVC Samples and Packages====================================-->
+
+<ComponentGroup Name="ASPNETMVCEJ2Samples">
+<SourcePath>\ej2-aspmvc-samples\*.*</SourcePath>
+<FileName>ASPNETMVCEJ2Samples</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+ <ComponentGroup Name="Common" SourceType="SVN">
+<SourcePath>\ej2-asp-core\Nuget\Syncfusion.Licensing\*.*</SourcePath>
+<FileName>LicensingPackages</FileName>
+<OutputPath>\ZipFiles\SamplesZipFiles</OutputPath>
+</ComponentGroup>
+
+</ComponentGroups>

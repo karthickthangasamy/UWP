@@ -1,0 +1,9 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+STUDIO_VERSION=15.1.0.35
+Key=---
+Platform=Electron
+SetupName=Electron Samples
+SetupType=Electron
+KarunaIP=\\172.16.100.69
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <!-- For more information on Entity Framework configuration, visit http://go.microsoft.com/fwlink/?LinkID=237468 -->
+    <section name="entityFramework" type="System.Data.Entity.Internal.ConfigFile.EntityFrameworkSection, EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+  </configSections>
+  <appSettings>
+    <add key="webpages:Version" value="3.0.0.0"/>
+    <add key="webpages:Enabled" value="false"/>
+    <add key="ClientValidationEnabled" value="true"/>
+    <add key="UnobtrusiveJavaScriptEnabled" value="false"/>
+
+    <add key="port" value="587" />
+    <add key="buildinbox" value="buildautomation@syncfusion.com" />
+    <add key="postmasterID" value="AKIAIXFYGWLDHXZOZF7Q"/>
+    <add key="postmasterPWD" value="f8Xiw8n3RRPWzywoSfTZJTZ3LGVXJHv3v/Hr4Lps"/>
+    <add key="postmasterEmail" value="AutoMailer@syncfusion.com" />
+    <add key="Web-Admin" value="chnbuild@syncfusion.com" />
+    <add key="DT-Admin" value="" />
+    <add key="mercury_SMTPServer" value="smtp.office365.com"/>
+    <add key="mercury_port" value="587"/>
+    <add key="mercuryID" value="buildautomation@syncfusion.com"/>
+    <add key="mercuryPWD" value="Coolcomp299"/>
+    <add key="TemplatPath"  value="D:\Syncfusion\Trunk\webdt\Syncfusion.WebDT.Application\Content\"/>
+  </appSettings>
+  <connectionStrings configProtectionProvider="RsaProtectedConfigurationProvider">
+    <EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element"
+      xmlns="http://www.w3.org/2001/04/xmlenc#">
+      <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc" />
+      <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <EncryptedKey xmlns="http://www.w3.org/2001/04/xmlenc#">
+          <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5" />
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <KeyName>Rsa Key</KeyName>
+          </KeyInfo>
+          <CipherData>
+            <CipherValue>SWCFEufEIDPdPZTDH82zpIEHoyc63yX8EIVFwLWdxHrMmNVyNPYJ6dNpx0cxjGHNhye/YMdZDvG2OanEo3xq+kV7/RqtRAtAPj9yGvgNSnBm9fFD8RH5iSYFuIc3Gc5PWcClq22eQq2JJ8FsUpsvQHijm1apgDL1uyglbWj1Kow=</CipherValue>
+          </CipherData>
+        </EncryptedKey>
+      </KeyInfo>
+      <CipherData>
+        <CipherValue>qle3pDp6gQh4OeNHHGNBz7qy1kTD0BMW6HeTZ/s07ACTkmDPhCv6wVdbA8wgdYELZJiRRNNh0yJJHh2idpVqVj+AgdzBV4v3OYYtJEGaN7HuaAhwMKaoGHXgtKt9uLD7Na9TcezrLP6fmPhOZBs8bcoIy28GBrsekO4kMNeBbRPQjtzy3+Wx9hC2w9yxq6jMFrwUI2G4Ts2SUOIc02eXXGhKEzTbGE5LOmMpmIIpT3TAX6+GQebn7+ebmeasCohQNfQlJz/R3riixrFSX5cFXqDcosyu1PBXN9t47hhj/WPV7RITRRZgud78+RfDs/JXzAkW15h5lAh+hKPrh3wAxBrc8eTIpLQYt8MQm21r/39/D/UfHWfmrTRgP0x7GApr9xpkMqXhUtIIXdXTmc6MQvYo15syYRV4Cw+9PeV3Hs1VDgDsg0bguqRfuRQDqtjn4NhoZECR8hnEN9MSHweUkeO/5Mv3mTFAWGBuKy7Z9Sx5DeEQ/CRBqa/kA7L3CRflR7ZuAccDt/49m9ApKz/yBnt+1BitU1+jKFEjaVVIXOK8iX9rGpoOhXjltaggqhBetEXu1LqdPmn42F54Tn4wzGEqVQDEaHO3nHmlqMZS1d0SsXrfEy7n/L/3RtHtay5U6mx79o/RX/kr92CMkLNSMyEAMLYXf1Qv3fXVIZewDWJ3ho0Up3CkK5Hn6vYinHiH</CipherValue>
+      </CipherData>
+    </EncryptedData>
+  </connectionStrings>
+  <configProtectedData>
+<providers>
+<remove name="RSAProtectedConfigurationProvider" />
+<add keyContainerName="RSAKeys" useMachineContainer="true" description="Uses RsaCryptoServiceProvider to encrypt and decrypt" name="RsaProtectedConfigurationProvider" type="System.Configuration.RsaProtectedConfigurationProvider, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+</providers>
+</configProtectedData>
+  <entityFramework>
+    <defaultConnectionFactory type="System.Data.Entity.Infrastructure.SqlConnectionFactory, EntityFramework" />
+    <providers>
+      <provider invariantName="System.Data.SqlClient" type="System.Data.Entity.SqlServer.SqlProviderServices, EntityFramework.SqlServer" />
+    </providers>
+  </entityFramework>
+</configuration>

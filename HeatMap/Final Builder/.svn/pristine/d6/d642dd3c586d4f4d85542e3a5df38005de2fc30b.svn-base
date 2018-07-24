@@ -1,0 +1,74 @@
+<Projects>
+<Project Name="InstallInfoGenerator.sln">
+ <Path>Build\Utilities\InstallInfo\InstallInfoGenerator\</Path>
+ <AssemblyPath>Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</AssemblyPath>
+ <CompileType>Release</CompileType>
+ <Output>bin\Release</Output>
+ <ReferencePath></ReferencePath>
+ <BuildVersion>v4.0.30319</BuildVersion>
+</Project>
+<Project Name="Syncfusion.QTP.InstallInfoLibrary_2008.sln">
+    <Path>Build\Utilities\InstallInfo\InstallInfoClassLibrary\</Path>
+	<CompileType>Release</CompileType>
+	<AssemblyPath>Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</AssemblyPath>
+ <Output>2.0</Output>
+<ReferencePath></ReferencePath>
+ <BuildVersion>v3.5</BuildVersion>
+</Project>
+<Project Name="Syncfusion.QTP.InstallInfoLibrary_2010.sln">
+    <Path>Build\Utilities\InstallInfo\InstallInfoClassLibrary\</Path>
+	<CompileType>Release</CompileType>
+	<AssemblyPath>Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</AssemblyPath>
+ <Output>4.0</Output>
+<ReferencePath></ReferencePath>
+<BuildVersion>v4.0.30319</BuildVersion>
+</Project>
+<Project Name="AssemblyManagerConsole.sln">
+    <Path>Build\Utilities\Assembly Manager QTP\AssemblyManagerConsole\</Path>
+	<CompileType>Release</CompileType>
+	<Output>bin\Release</Output>
+	<AssemblyPath>Build\Utilities\Assembly Manager QTP\AssemblyManagerConsole\AssemblyManagerConsole\Properties\AssemblyInfo.cs</AssemblyPath>
+	 <ReferencePath>Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	 <BuildVersion>v4.0.30319</BuildVersion>
+	</Project>
+<Project Name="AssemblyManagerWindows.sln">
+    <Path>Build\Utilities\Assembly Manager QTP\AssemblyManagerWindows\</Path>
+	<CompileType>Release</CompileType>
+	<Output>bin\Release</Output>
+	<AssemblyPath>Build\Utilities\Assembly Manager QTP\AssemblyManagerWindows\AssemblyManagerWindows\Properties\AssemblyInfo.cs</AssemblyPath>
+	 <ReferencePath>Build\Utilities\\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	 <BuildVersion>v4.0.30319</BuildVersion>
+ </Project>
+<Project Name="AssemblyBuilderConsole.sln">
+    <Path>Extensions\QTP\Essential QTP\Utilities\Assembly Builder Console\</Path>
+	<CompileType>Release</CompileType>
+	 <Output>bin\Release</Output>
+	 <AssemblyPath>Extensions\QTP\Essential QTP\Utilities\Assembly Builder Console\Properties\AssemblyInfo.cs</AssemblyPath>
+	  <ReferencePath></ReferencePath>
+	  <BuildVersion>v4.0.30319</BuildVersion>
+	</Project>
+<Project Name="UserConfiguration.sln">
+    <Path>Extensions\QTP\Essential QTP\Utilities\Assembly Builder\</Path>
+	<CompileType>Release</CompileType>
+	<Output>bin\Release</Output>
+	<AssemblyPath>Extensions\QTP\Essential QTP\Utilities\Assembly Builder\Properties\AssemblyInfo.cs</AssemblyPath>
+	 <ReferencePath></ReferencePath>
+	 <BuildVersion>v4.0.30319</BuildVersion>
+	</Project>
+<Project Name="SwfConfigUtility.sln">
+   <Path>Extensions\QTP\Essential QTP\Utilities\SwfConfigUtility\</Path>
+   <CompileType>Release</CompileType>
+	 <Output>bin\Release</Output>
+	 <AssemblyPath>Extensions\QTP\Essential QTP\Utilities\SwfConfigUtility\Properties\AssemblyInfo.cs</AssemblyPath>
+	  <ReferencePath></ReferencePath>
+	  <BuildVersion>v4.0.30319</BuildVersion>
+</Project>
+<Project Name="SwfConfigUtilityConsole.sln">
+ <Path>Extensions\QTP\Essential QTP\Utilities\SwfConfigUtilityConsole\</Path>
+ <CompileType>Release</CompileType>
+ <Output>bin\Release</Output>
+ <AssemblyPath>Extensions\QTP\Essential QTP\Utilities\SwfConfigUtilityConsole\Properties\AssemblyInfo.cs</AssemblyPath>
+  <ReferencePath></ReferencePath>
+  <BuildVersion>v4.0.30319</BuildVersion>
+</Project>
+</Projects>

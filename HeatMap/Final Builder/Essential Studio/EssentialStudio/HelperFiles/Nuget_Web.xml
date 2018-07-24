@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Platforms>   
+  <Platform Name="AspNet.Mvc - EJ2" URL="http://nuget.syncfusion.com/nuget_aspnetmvc/nuget/getsyncfusionpackages/aspnetmvc">	
+	
+	<Package Name="Syncfusion.Compression.Base" Assemblies="Compression.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.Compression.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.OfficeChart.Base" Assemblies="OfficeChart.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.OfficeChart.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.DocIO.Base" Assemblies="DocIO.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.DocIO.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.DocToPdfConverter.Base" Assemblies="DocToPdfConverter.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.DocToPdfConverter.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.Pdf.Base" Assemblies="Pdf.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.Pdf.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.OfficeChartToImageConverter.WPF" Assemblies="OfficeChartToImageConverter.WPF" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.OfficeChartToImageConverter.WPF assembly" Design="" Scripts="" SupportedFramework="35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.XlsIO.Base" Assemblies="XlsIO.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.XlsIO.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.SfChart.WPF" Assemblies="SfChart.WPF" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.SfChart.WPF assembly" Design="" Scripts="" SupportedFramework="35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.ExcelChartToImageConverter.WPF" Assemblies="ExcelChartToImageConverter.WPF" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.ExcelChartToImageConverter.WPF assembly" Design="" Scripts="" SupportedFramework="35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.ExcelToPDFConverter.Base" Assemblies="ExcelToPDFConverter.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.ExcelToPDFConverter.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.Presentation.Base" Assemblies="Presentation.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.Presentation.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.PresentationToPdfConverter.Base" Assemblies="PresentationToPdfConverter.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.PresentationToPdfConverter.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+	<Package Name="Syncfusion.HtmlConverter.Base" Assemblies="HtmlConverter.Base" Dependent="" DependentPackages="" Description="Nuget package contains Syncfusion.HtmlConverter.Base assembly" Design="" Scripts="" SupportedFramework="20,35,40,45,451,46" Webconfig=""/>
+	
+  </Platform>
+</Platforms>

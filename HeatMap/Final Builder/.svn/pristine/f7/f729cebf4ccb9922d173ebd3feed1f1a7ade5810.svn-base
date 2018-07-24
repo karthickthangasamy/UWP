@@ -1,0 +1,16 @@
+[FBVariables]
+PATH=C:\Work\SVN\RP15.1.0.1_UWP
+Assemblies=C:\Work\SVN\RP15.1.0.1_UWP
+STUDIO_VERSION=15.1.0.33
+BUILD_CONFIG=Release
+SVN=http://svn.syncfusion.com/svn/studio/Source/releaseprep/15.1.0.1
+PLATFORM=UWP Store SampleBrowser
+UWP=Calculate.UWP,Data.UWP,OfficeChart.UWP,Presentation.UWP,DocIO.UWP,Pdf.UWP,SfShared.UWP,SfAccordion.UWP,SfBarcode.UWP,SfBulletGraph.UWP,SfBusyIndicator.UWP,SfCarousel.UWP,SfChart.UWP,SfRadialMenu.UWP,SfColorPickers.UWP,SfDiagram.UWP,SfGauge.UWP,SfInput.UWP,SfGrid.UWP,XlsIO.UWP,SfHubTile.UWP,SfMaps.UWP,SfTabControl.UWP,SfDockingManager.UWP,SfRichTextBoxAdv.UWP,SfSchedule.UWP,SfTileView.UWP,SfTreeMap.UWP,SfTreeNavigator.UWP,SfRibbon.UWP,SfPdfViewer.UWP,SfGridConverter.UWP,SfProgressBar.UWP,SfGroupBar.UWP,SfMenu.UWP,SfGridCommon.UWP,ExcelChartToImageConverter.UWP,SfCellGrid.UWP,SfSpreadsheet.UWP,SfSpreadsheetHelper.UWP,PMML.UWP,Olap.UWP,PivotAnalysis.UWP,SfPivotChart.UWP,SfPivotGauge.UWP,SfPivotGrid.UWP,SfPivotShared.UWP,SfPivotGridConverter.UWP,SfPivotChartConverter.UWP,SfPivotClient.UWP,SfPullToRefresh.UWP,SfRotator.UWP,SfHeatMap.UWP,SfReportViewer.UWP,SfNavigationDrawer.UWP,SfSpellChecker.UWP,SfKanban.UWP,SfSunburstChart.UWP
+USERNAME=build
+PASSWORD=tmYSf8VQ9w
+RELEASE_VOLUME=2017 Volume 1
+Location=RDU
+BuildEnvironment=RP
+Machine=3397
+KarunaIP=\\172.16.100.69
+EymardIP=\\172.16.0.14

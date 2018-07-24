@@ -1,0 +1,205 @@
+<Build>
+  <Utilities>
+  
+    <Utility Framework="2.0" Name="License Management">
+      <Solutionfile>%PATH%\Build\Utilities\LicenseManager\LicenseManager_2005.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\LicenseManager\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\LicenseManager</Folder>
+	  </Folders>
+    </Utility>
+	
+	<Utility Framework="4.0" Name="Nuget Configuration">
+      <Solutionfile>%PATH%\Build\Utilities\NugetConfiguration\NugetConfiguration.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\NugetConfiguration\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\NugetConfiguration</Folder>
+	  </Folders>
+    </Utility>
+	
+    <Utility Framework="4.0" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSampleBrowserJS2\StartSampleBrowserJS2.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSampleBrowserJS2\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\4.0</ReferencePath>
+      <Folders>
+        <Folder>%PATH%\Build\Utilities\StartSampleBrowserJS2</Folder>
+      </Folders>
+    </Utility>
+    
+	<Utility Framework="4.0" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE-EJ2\StartSampleBrowserASPNETCORE-EJ2.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE-EJ2\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\4.0</ReferencePath>
+      <Folders>
+        <Folder>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE-EJ2</Folder>
+      </Folders>
+    </Utility>
+	
+	<Utility Framework="4.0" Name="Start Sample Browsers Utils">
+      <Solutionfile>%PATH%\Build\Utilities\StartSampleBrowserASPNETMVC-EJ2\StartSampleBrowserASPNETMVC-EJ2.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\StartSampleBrowserASPNETMVC-EJ2\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\4.0</ReferencePath>
+      <Folders>
+        <Folder>%PATH%\Build\Utilities\StartSampleBrowserASPNETMVC-EJ2</Folder>
+      </Folders>
+    </Utility>
+   
+    <Utility Framework="3.5" Name="Misc Utils">
+      <Solutionfile>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcher.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\WebConfigSwitcher\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\WebConfigSwitcher</Folder>
+	  </Folders>
+    </Utility>		
+	 
+	
+    <Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\DashBoardGenerator_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator</Folder>
+	  </Folders>
+    </Utility>
+   
+
+	<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\DashboardGeneratorUtility_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility</Folder>
+	  </Folders>
+    </Utility>
+   <Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Syncfusion.Installer.UIComponents_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents</Folder>
+	  </Folders>
+    </Utility>
+	
+  
+	<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard</Folder>
+	  </Folders>
+    </Utility>	
+	
+	<Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\SyncGacutil.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil</Folder>
+	  </Folders>
+    </Utility> 
+	
+	<Utility Framework="4.0" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\SyncGacutil_40.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40</Folder>
+	  </Folders>
+    </Utility>
+	
+
+	
+  </Utilities>
+  <Manifest>           
+          
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\bin\release\InstallInfoGenerator.exe</Path>
+	<Path>%PATH%\Build\Utilities\NugetConfiguration\bin\Release\SyncfusionNuGetConfiguration.exe</Path>
+	<Path>%PATH%\Build\Utilities\LicenseManager\bin\Release\LicenseManager.exe</Path>
+	
+	<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+	<Path>%PATH%\Build\Utilities\WebConfigSwitcher\bin\Release\WebConfigSwitcher.exe</Path>	
+	
+ <Path>%PATH%\Build\Utilities\StartSampleBrowserJS2\bin\Release\StartSampleBrowserJS2.exe</Path>
+<Path>%PATH%\Build\Utilities\StartSampleBrowserASPNETMVC-EJ2\bin\Release\StartSampleBrowserASPNETMVC-EJ2.exe</Path> 
+<Path>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE-EJ2\bin\Release\StartSampleBrowserASPNETCORE-EJ2.exe</Path> 
+   
+<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+<Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release\Syncfusion Control Panel.exe</Path>
+<Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\release\SyncGacutil.exe</Path>
+<Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\release\SyncGacutil_40.exe</Path>
+
+<Path>%PATH%\Build\Utilities\FindIISPortNo\bin\Release\FindIISPortNo.exe</Path>
+
+
+  </Manifest>
+  <!--List of files to be chaging version numbers EX: 8.1.0.12  -->
+  <VersionSwitcher>
+  <Path>%PATH%\Base\ProjIO.Base\ProjIO.Utilities\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolExporterCompiler\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Formula Validator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SamplesDatasourceUtility.OLAP\Properties\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Base\HTMLConverter.Base\Extensions\LegacyDrawing\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\DocIO.Windows\Document Explorer\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\Diagram.Windows\Symbol Designer\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\Diagram.WPF\AddIn\SymbolDesigner\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\FindIISPortNo\FindIISPortNo\Properties\AssemblyInfo.cs </Path>
+  <Path>%PATH%\Build\Utilities\JSShapeConverter\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\KeywordGeneratorUtility\AssemblyInfo.cs</Path>  
+   <Path>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcherWindows\Properties\AssemblyInfo.cs</Path>
+   <Path>%PATH%\Build\Utilities\WebConfigSwitcher\WebConfigSwitcher\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\NetDepends\NetDepends\NetdDepends\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\NetDepends\NetDependsConsole\NetDependsConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\SampleBrowser\AssemblyInfo.cs</Path>       
+  <Path>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerConsole\Properties\AssemblyInfo.cs</Path>
+<Path>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerWindows\Properties\AssemblyInfo.cs</Path> 
+<Path>%PATH%\Build\Utilities\NugetConfiguration\Properties\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerWindows\BuildManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\BuildManagerNew\BuildManagerConsole\BuildManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole\Properties\AssemblyInfo.cs</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole_VS2017\Properties\AssemblyInfo.cs</Path>
+<Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstaller_VS2017\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\AssemblyManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\AssemblyManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerConsole\MultiTargetManagerConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\MultiTargetManager_New\MultiTargetManagerWindows\MultiTargetManagerWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.DeleteRegistryKeys\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.RemoveStartMenu\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\WPFSampleBrowser\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserJS\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserJS2\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserEJMVC\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserPHP\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\asp\StartSampleBrowserEJWeb\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserASPNETCORE-EJ2\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\StartSampleBrowserASPNETMVC-EJ2\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Build\Utilities\ProjectMigration\Properties\AssemblyInfo.cs</Path>
+  
+  <Path>%PATH%\Build\Utilities\LicenseManager\AssemblyInfo.cs</Path>  
+  <Path>%PATH%\Supporting Files\Read Me\ASP.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\ASPMVC.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WindowsForms.html</Path>
+  <Path>%PATH%\Supporting Files\Read Me\WPF.html</Path>  
+  <Path>%PATH%\Build\Utilities\Dashboard\Form1.cs</Path>
+  <Path>%PATH%\Supporting Files\Tools\Migration\ConvertResxConsole\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\WPF\ReportDesigner.WPF\Utilities\Report Designer Utility\CS\Properties\AssemblyInfo.cs</Path> 
+  <Path>%PATH%\Base\XlsIO.Base\XlsIO File Explorer\Properties\AssemblyInfo.cs</Path>
+  <Path>%PATH%\Windows\Diagram.Windows\Diagram Builder\CS\AssemblyInfo.cs</Path>  
+  </VersionSwitcher>
+</Build>

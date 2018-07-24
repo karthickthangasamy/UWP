@@ -1,0 +1,19 @@
+[FBVariables]
+PATH=D:\Work\SVN\16.2.0.1
+BuildDetailPath=D:\EssentialStudioLog
+EJ2SourcePath=D:\Git\RP\EJ2
+EJ2CorePackages=EJ2,EJ2.MVC4,EJ2.MVC5,Compression.NETStandard,DocIO.NETStandard,OfficeChart.NETStandard,Pdf.NETStandard,Presentation.NETStandard,XlsIO.NETStandard,DocIORenderer.NETStandard,EJ2.DocumentEditor,Licensing
+SVN=https://svn.syncfusion.com/svn/studio/Source/releaseprep/16.2.0.1
+Platform=ASPNETCORE-EJ2
+SetupName=Essential Studio for ASP.NET CORE (Essential JS 2)
+SetupType=ASPNETCore-EJ2
+platformname=ASP.NET Core - EJ2
+PlatformShortName=aspnetcore-js2
+PlatformType=Web
+Key=Use your Direct-Trac login credential.
+RELEASE_VOLUME=2018 Volume 2
+KarunaIP=\\172.16.100.69
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+MSILocation=\\172.16.102.62\Development\EssentialStudio
+ConfigPlatformName=ASP.NET CORE-EJ2

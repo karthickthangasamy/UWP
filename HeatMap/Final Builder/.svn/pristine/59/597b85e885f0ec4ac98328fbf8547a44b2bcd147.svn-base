@@ -1,0 +1,18 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+BuildDetailPath=D:\EssentialStudioLog
+SVN=http://svn.syncfusion.com/svn/studio/Source/trunk
+Platform=JSP
+SetupName=Essential Studio for JSP
+SetupType=JSP
+platformname=JSP
+PlatformShortName=jsp
+PlatformType=Web
+Key=Use your Direct-Trac login credential.
+RELEASE_VOLUME=2016 Volume 4
+KarunaIP=\\172.16.100.69
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+MSILocation=\\172.16.102.62\Development\EssentialStudio
+
+

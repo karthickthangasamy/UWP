@@ -1,0 +1,16 @@
+xcopy ..\..\..\..\JS\assets\scripts\web\ej.web.all.min.js ..\..\..\..\EJ.MVC\Samples\web\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\common\ej.unobtrusive.min.js ..\..\..\..\EJ.MVC\Samples\web\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\common\ej.widget.ko.min.js ..\..\..\..\EJ.MVC\Samples\web\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\common\ej.widget.angular.min.js ..\..\..\..\EJ.MVC\Samples\web\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\css\web\*.* ..\..\..\..\EJ.MVC\Samples\web\Content\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\ej.widgets.all.min.js ..\..\..\..\EJ.MVC\Samples\mobile\Scripts\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\mobile\ej.mobile.all.min.js ..\..\..\..\EJ.MVC\Samples\mobile\Scripts\ /s /y
+xcopy ..\..\..\..\JS\assets\css\mobile\ej.mobile.all.min.css ..\..\..\..\EJ.MVC\Samples\mobile\Themes\ /s /y
+xcopy ..\..\..\..\JS\assets\css\mobile\images\*.* ..\..\..\..\EJ.MVC\Samples\mobile\Themes\images\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\web\ej.web.all.min.js ..\..\..\..\EJ.MVC\Samples\Analytics\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\web\ej.web.all.min.js ..\..\..\..\EJ.MVC\Samples\IO\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\scripts\web\ej.web.all.js ..\..\..\..\EJ.MVC\Samples\IO\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\common\ej.unobtrusive.min.js ..\..\..\..\EJ.MVC\Samples\IO\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\common\ej.widget.ko.min.js ..\..\..\..\EJ.MVC\Samples\IO\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\scripts\common\ej.widget.angular.min.js ..\..\..\..\EJ.MVC\Samples\IO\Scripts\ej\ /s /y
+xcopy ..\..\..\..\JS\assets\css\web\*.* ..\..\..\..\EJ.MVC\Samples\IO\Content\ej\ /s /y

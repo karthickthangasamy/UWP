@@ -1,0 +1,121 @@
+<html>
+  <head>
+    <title>
+    </title>
+  </head>
+  <body>
+    <table cellpadding="10px">
+      <tr align="left">
+        <td>Hi Everyone,</td>
+      </tr>
+      <tr align="left">
+        <td>
+          <font size="12px">Please find the list of projects that had some mismatched configuration settings.
+		  </font>
+        </td>
+      </tr>
+      <br>
+      </br>
+      <tr>
+        <td>
+          <img src="cid:companylogo" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <table width="100%">
+            <tr>
+              <td>
+                <table width="100%" style="background:#4BACC6;">
+                  <thead style="background:#4BACC6; color:White" align="left">
+                    <tr>
+                      <td>
+                        <b>Project Details</b>
+                      </td>
+                    </tr>
+                  </thead>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table name="ProjectReport" border="1" width="100%" style="background:#D2EAF1">
+                  <tr>
+                    <th>Platform Name</th>
+                    <th>Project Name</th>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr align="left">
+        <td>
+          <table width="100%">
+            <tr>
+              <td>
+                <table width="100%" style="background:#4BACC6; color:White">
+                  <thead align="left">
+                    <tr>
+                      <td colspan="2">
+                        <b>SVN Update Details</b>
+                      </td>
+                    </tr>
+                  </thead>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <table width="100%" style="background:#D2EAF1">
+                  <tbody align="left">
+                    <tr>
+                      <td>
+                        <b>Start Time</b>
+                      </td>
+                      <td>10-09-2013 22:34:39</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <b>End Time</b>
+                      </td>
+                      <td>10-09-2013 22:35:17</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr align="left">
+        <td>
+          <table width="100%">
+            <tr>
+              <td>
+                <table width="100%" style="background:#4BACC6; color:White">
+                  <thead align="left">
+                    <tr>
+                      <td colspan="2">
+                        <font size="12px">Please refer<b><a href="http://svn.syncfusion.com/svn/studio/Source/trunk/Guideline/ProjectSettings.docx">ProjectSettings</a></b> document for further details regarding project settings.
+						</font>
+                      </td>
+                    </tr>
+                  </thead>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>
+Thanks,<br></br>
+Build Team.<br></br>
+Syncfusion Software.
+</td>
+      </tr>
+    </table>
+  </body>
+</html>

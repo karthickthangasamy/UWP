@@ -1,0 +1,25 @@
+﻿<html>
+<head>
+    <title></title>
+    </head>
+<body>
+<table cellpadding="10px">
+<tr align="left"><td>Hi Everyone,</td></tr>
+<tr align="left"><td>Xamarin Automation has been started</td></tr>
+<tr align="left"><td>
+<table width="100%">
+<tr><td><table width="100%" style="background:#4BACC6; color:White"><thead align="left"><tr><td colspan="2"><b>Build Start Detail</b></td></tr></thead></table></td></tr>
+<tr><td><table width="100%" style="background:#D2EAF1"><tbody align="left">
+<tr><td><b>Build Start Time </b></td><td>##BUILDSTARTTIME##</td></tr>
+</tbody>
+</table></td></tr>
+</table>
+</td></tr>
+<tr><td>
+Thanks,<br />
+Build Team.<br />
+Syncfusion Software.
+</td></tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+GitLabPath=D:\Git\Dev
+BuildDetailPath=D:\EssentialStudioLog
+SVN=http://svn.syncfusion.com/svn/studio/Source/trunk/
+Platform=FileFormats
+SetupName=Essential Studio for File Formats
+SetupType=FileFormats
+platformname=File Formats
+PlatformShortName=fileformats
+PlatformType=Desktop
+Packingalone=True
+RELEASE_VOLUME=2018 Volume 2
+Key=Use your Direct-Trac login credential.
+KarunaIP=\\172.16.100.69
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+DesktopIP=\\172.16.102.189\svn\Trunk\ZipFiles\IOSamplesZipFiles
+MSILocation=\\172.16.102.62\Development\EssentialStudio
+ConfigPlatformName=FileFormats

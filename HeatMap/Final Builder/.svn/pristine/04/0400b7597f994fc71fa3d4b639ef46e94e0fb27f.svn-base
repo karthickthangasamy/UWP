@@ -1,0 +1,17 @@
+﻿<html>
+<head>
+    <title></title>
+    </head>
+<body>
+<table cellpadding="10px">
+<tr align="left"><td>Hi Everyone,</td></tr>
+<tr><td><img src="cid:companylogo"/></td></tr>
+<tr><td>Few projects are not compiling from <a href="http://svn.syncfusion.com/syncfusion/studio/Source/trunk">Trunk location</a>. Please look into the error log attached with this mail for more details and fix it ASAP.</td></tr>
+<tr><td>
+Thanks,<br />
+Build Team.<br />
+Syncfusion Softwares.
+</td></tr>
+</table>
+</body>
+</html>

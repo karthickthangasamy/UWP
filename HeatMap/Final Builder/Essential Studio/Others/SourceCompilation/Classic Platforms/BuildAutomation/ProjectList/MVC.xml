@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Projects>
+  <ProjectDetails ProjectName="DocIO.MVC" SourceType="GitLab" RepositoryName="DocIO" />  
+  <ProjectDetails ProjectName="Pdf.MVC" SourceType="GitLab" RepositoryName="PDF" />  
+  <ProjectDetails ProjectName="XlsIO.MVC" SourceType="GitLab" RepositoryName="XlsIO" />  
+</Projects>

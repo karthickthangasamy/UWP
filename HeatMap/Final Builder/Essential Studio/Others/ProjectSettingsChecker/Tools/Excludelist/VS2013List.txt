@@ -1,0 +1,1 @@
+HTMLToDLS.Base,Barcode.Base,CompoundFile.Base,DLS.Base,Pdf.Legacy.Base,Barcodes.Web,GridConverter.Web,ProjIO.WPF,SfDockingManager.WPF,SfRichTextBoxAdv.WPF,SfTileLayoutControl.VisualStudio.Design,Spreadsheet.WPF.ClientProfile,ChartCPP.WinRT,Linq.WinRT,Dashboard.Base,EJ.WebApi,ReportControls.WPF.ClientProfile,ReportDesigner.WPF.ClientProfile,ReportViewer.WPF.ClientProfile

@@ -1,0 +1,129 @@
+<html>
+<head>
+    <style type="text/css">
+        body {
+            font-family: Calibri;
+        }
+
+
+        table tr {
+            border: none;
+        }
+
+        a, a:link, a:visited, a:active {
+            text-decoration: none;
+            color: #09B0CE;
+        }
+
+        img {
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table cellspacing="1"  cellpadding="0" align="center" id="main-panel" style="width: 100%; background-color:#f2f2f2; color: rgb(75, 75, 75); border-collapse: collapse; border: 1px solid #f2f2f2;">
+        <tbody>
+            <tr>
+                
+                <td >
+                    <table  align="center" width="640px" style="width: 640px; padding: 2px 0px 2px 0px; background-color: #17B8DD">
+                        <tbody>
+                            <tr>
+                                <td style="width:100%;">
+									<table>
+										<tr>
+											<td width="85%" style="padding-top:10px">
+												<a href="http://www.syncfusion.com">
+												<img src="http://files2.syncfusion.com/Installs/Support/KB/Sync_logo.png" alt="Syncfusion Inc."/>
+												</a>
+											</td>
+										</tr>
+									</table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+			
+  <tr>
+	<td >
+	  <table cellspacing="1"  cellpadding="0" align="center" id="main-panel" style="width: 640px; background-color:#ffffff; color: rgb(75, 75, 75); border-collapse: collapse; border: 1px solid #C6C6C6;">
+        <tbody>
+            <tr style="width: 100%;">
+			<td>
+			 <table cellspacing="1"  cellpadding="0" align="center" id="main-panel" style="width: 600px;background-color:#ffffff;color: rgb(75, 75, 75); border-collapse: collapse;">
+              <tbody>
+			  <tr style="width: 100%;">
+                <td style="padding:0px 0px;">
+                    <table style=" width: 100%; padding: 0px 0px; ">
+                        <tbody>
+                            <tr>
+                                <td style="color: #4D4D4D; width: 100%; font-weight: normal;padding-top:20px; padding-bottom: 20px; font-size: 14px;">
+                                    Hi Everyone,<br/> 
+									<p style="mso-line-height-rule: exactly;line-height:150%;">Find the build started details below</p>
+                                    
+								</td>
+							
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+			<tr>
+			<td style="padding: 0px 0px 0px 0px;">		
+		</td>
+		</tr>
+		    <tr>
+                <td style="padding: 0px 0px 0px 0px;">
+                    <table style="width: 100%; background-color: #cccccc;padding: 5px 0px 5px 5px;">
+                        <tbody>
+                            <tr>
+                                <td style="color: white; font-size: 14px;"><b>Build Start Details</b>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style="padding: 0px 0px 0px 0px;">
+
+                    <table id="incidentdetails" style="color: #4D4D4D; font-size: 14px; font-weight: normal; border:1px solid #cccccc;width: 100%; background-color: #ffffff; padding: 10px 0px 10px 20px;">
+                        <tbody>  							
+							<tr style="padding: 10px 10px 5px 10px;">
+                                <td style="width: 42%"><b>Build Started Time</b></td>
+                                <td style="width: 58%">##BUILDSTARTTIME##</td>
+                            </tr>
+							
+							<tr style="padding: 10px 10px 5px 10px;">
+                                <td style="width: 42%"><b>Build Type</b></td>
+                                <td style="width: 58%">##BUILDTYPE##</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td style=" color:#4D4D4D;padding: 20px 0px 40px 0px ; font-size: 14px;">
+
+                    <div><b>Thanks,</b></div>
+                    <div><b>Build Team.</b></div>
+					<div><b>Syncfusion Software.</b></div>
+                </td>
+            </tr>
+         </tbody>
+                    </table>
+                </td>
+            </tr>
+</tbody>
+                    </table>
+                </td>
+            </tr>			
+        </tbody>
+    </table>
+</body>
+</html>

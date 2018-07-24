@@ -1,0 +1,22 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+GitLabPath=D:\Git\Dev
+LogDetailPath=D:\EssentialStudioLog
+FinalBuilderBinariesPath=D:\Work\Tools\Automation\Trunk\Binaries\BuildAutomation
+FRAMEWORK_VERSION=2.0,3.5,4.0,4.5,4.5.1,4.6
+PlatformType=UWP
+STUDIO_VERSION=16.2.0.1
+BUILD_CONFIG=Release
+SVN=https://svn.syncfusion.com/svn/studio/Source/trunk
+PASSWORD=tmYSf8VQ9w
+PLATFORMS=BASE,WPF,JS,Portable,UWP
+BuildEnvironment=Trunk
+Machine=172.16.102.62
+Location=RDU
+Branch=development
+2017MSBuildPath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\MSBuild\15.0\Bin\MSBuild.exe
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+SvnSharedPath=\\\\syncdeskn15781\\SVN\\Trunk
+GitlabSharedPath=\\\\syncdeskn15781\\Git\\Dev
+MachineName=syncdeskn15781

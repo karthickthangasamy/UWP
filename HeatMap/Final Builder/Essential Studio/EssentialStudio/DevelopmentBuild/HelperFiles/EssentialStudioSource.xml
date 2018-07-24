@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ComponentGroups>
+
+<!-- COMMON -->
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Common\Data"</SourcePath>
+<GroupName>comp_common_samples_data</GroupName>
+<DirectoryReference>dir_common_samples</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\common_samples_data.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Common\Images"</SourcePath>
+<GroupName>comp_common_samples_images</GroupName>
+<DirectoryReference>dir_common_samples</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\common_samples_images.wxs"</OutputPath>
+</ComponentGroup>
+
+<!-- SAMPLEBROWSER -->
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Build\Utilities\SampleBrowser\Resources\templates"</SourcePath>
+<GroupName>comp_infrastructure_templates</GroupName>
+<DirectoryReference>dir_startsamplebrowser_windowsforms</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\infrastructure_samplebrowser_templates.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Build\Utilities\SampleBrowser\Resources\images"</SourcePath>
+<GroupName>comp_infrastructure_images</GroupName>
+<DirectoryReference>dir_startsamplebrowser_windowsforms</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\infrastructure_samplebrowser_images.wxs"</OutputPath>
+</ComponentGroup>
+
+<!-- JS -->
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\JS\assets\scripts"</SourcePath>
+<GroupName>comp_JS_Scripts</GroupName>
+<DirectoryReference>dir_js_assets</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\JS_Scripts.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\JS\assets\typescript"</SourcePath>
+<GroupName>comp_JS_TypeScripts</GroupName>
+<DirectoryReference>dir_js_assets</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\JS_TypeScripts.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\JS\assets\css"</SourcePath>
+<GroupName>comp_JS_Themes</GroupName>
+<DirectoryReference>dir_js_assets</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\JS_Themes.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\JS\assets\external"</SourcePath>
+<GroupName>comp_JS_Extenal</GroupName>
+<DirectoryReference>dir_js_assets</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\JS_External.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\JS\assets-src"</SourcePath>
+<GroupName>comp_JS_Source</GroupName>
+<DirectoryReference>dir_js</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\JS_Source.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<!-- WinRT -->
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfShared.WinRT"</SourcePath>
+    <GroupName>comp_Sfshared81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfShared81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfNavigationDrawer.WinRT"</SourcePath>
+    <GroupName>comp_Sfnavigation81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfNavigationDrawer81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfDiagram.WinRT"</SourcePath>
+    <GroupName>comp_Sfdiagram81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfDiagram81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.GridCommon.WinRT"</SourcePath>
+    <GroupName>comp_GridCommon81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\GridCommon81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGrid.WinRT"</SourcePath>
+    <GroupName>comp_SfGrid81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGrid81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfMaps.WinRT"</SourcePath>
+    <GroupName>comp_Sfmaps81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfMaps81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGauge.WinRT"</SourcePath>
+    <GroupName>comp_Sfgauge81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGauge81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfChart.WinRT"</SourcePath>
+    <GroupName>comp_Sfchart81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfChart81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfCarousel.WinRT"</SourcePath>
+    <GroupName>comp_SfCarousel81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfCarousel81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfInput.WinRT"</SourcePath>
+    <GroupName>comp_Sfinput81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfInput81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfHubTile.WinRT"</SourcePath>
+    <GroupName>comp_Sfhubtile81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfHubTiles81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+  
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfRadialMenu.WinRT"</SourcePath>
+    <GroupName>comp_Sfradialmenu81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRadialMenu81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTabControl.WinRT"</SourcePath>
+    <GroupName>comp_Sftabcontrol81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTabControl81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTileView.WinRT"</SourcePath>
+    <GroupName>comp_Sftileview81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTileView81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfRichTextBoxAdv.WinRT"</SourcePath>
+    <GroupName>comp_SfRichTextBoxAdv81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRichTextBoxAdv81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfAccordion.WinRT"</SourcePath>
+    <GroupName>comp_SfAccordion81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfAccordion81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTreeNavigator.WinRT"</SourcePath>
+    <GroupName>comp_SfTreeNavigator81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeNavigator81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfColorPickers.WinRT"</SourcePath>
+    <GroupName>comp_SfColorPickers81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfColorPickers81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfBulletGraph.WinRT"</SourcePath>
+    <GroupName>comp_SfBulletGraph81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBulletGraph81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGridBase.WinRT"</SourcePath>
+    <GroupName>comp_SfGridBase81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGridBase81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfReportViewer.WinRT"</SourcePath>
+    <GroupName>comp_SfReportViewer81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfReportViewer81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfBusyIndicator.WinRT"</SourcePath>
+    <GroupName>comp_SfBusyIndicator81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBusyIndicator81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfBarcode.WinRT"</SourcePath>
+    <GroupName>comp_SfBarcode81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBarcode81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTreeMap.WinRT"</SourcePath>
+    <GroupName>comp_SfTreeMap81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeMap81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfSchedule.WinRT"</SourcePath>
+    <GroupName>comp_SfSchedule81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSchedule81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfPdfViewer.WinRT"</SourcePath>
+    <GroupName>comp_SfPdfViewer81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPdfViewer81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfRibbon.WinRT"</SourcePath>
+<GroupName>comp_SfRibbon81_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRibbon81_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.PMML.WinRT"</SourcePath>
+    <GroupName>comp_PMML81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\PMML81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGridCommon.WinRT"</SourcePath>
+    <GroupName>comp_SfGridCommon81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGridCommon81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfCellGrid.WinRT"</SourcePath>
+    <GroupName>comp_SfCellGrid81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfCellGrid81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfSpreadsheet.WinRT"</SourcePath>
+    <GroupName>comp_SfSpreadsheet81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSpreadsheet81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.ExcelChartToImageConverter.WinRT"</SourcePath>
+    <GroupName>comp_ExcelChartToImageConverter81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\ExcelChartToImageConverter81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfSpreadsheetHelper.WinRT"</SourcePath>
+    <GroupName>comp_SfSpreadsheetHelper81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSpreadsheetHelper81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfProgressBar.WinRT"</SourcePath>
+    <GroupName>comp_SfProgressBar81_resource</GroupName>
+    <DirectoryReference>dir_redist_neutral_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfProgressBar81_WinRT.wxs"</OutputPath>
+  </ComponentGroup>
+
+
+<!-- WinRT Sample Browser -->
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\winrt\SampleBrowser\Common"</SourcePath>
+<GroupName>comp_winrtsamplebrowsercommon_resource</GroupName>
+<DirectoryReference>dir_winrtsamplebrowser</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\WinRT_SampleBrowser_common.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\winrt\SampleBrowser\SampleBrowser"</SourcePath>
+<GroupName>comp_winrtsamplebrowser_resource</GroupName>
+<DirectoryReference>dir_winrtsamplebrowser</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\WinRT_SampleBrowser.wxs"</OutputPath>
+</ComponentGroup>
+
+<!-- Universal Sample Browser -->
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Universal\SampleBrowser\SampleBrowser"</SourcePath>
+<GroupName>comp_universalsamplebrowser</GroupName>
+<DirectoryReference>dir_universalsamplebrowser</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Universal_SampleBrowser.wxs"</OutputPath>
+</ComponentGroup>
+
+<!-- Universal -->
+
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfAccordion.Universal"</SourcePath>
+    <GroupName>comp_SfAccordion81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfAccordion81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfNavigationDrawer.Universal"</SourcePath>
+    <GroupName>comp_SfNavigationDrawer81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfNavigationDrawer81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfBusyIndicator.Universal"</SourcePath>
+    <GroupName>comp_SfBusyIndicator81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBusyIndicator81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfRichTextBoxAdv.Universal"</SourcePath>
+    <GroupName>comp_SfRichTextBoxAdv81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRichTextBoxAdv81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfDiagram.Universal"</SourcePath>
+    <GroupName>comp_SfDiagram81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfDiagram81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+  <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfSchedule.Universal"</SourcePath>
+    <GroupName>comp_SfSchedule81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSchedule_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfCarousel.Universal"</SourcePath>
+    <GroupName>comp_SfCarousel81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfCarousel81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfColorPickers.Universal"</SourcePath>
+    <GroupName>comp_SfColorPickers81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfColorPickers81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfHubTile.Universal"</SourcePath>
+    <GroupName>comp_SfHubTile81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfHubTile81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfInput.Universal"</SourcePath>
+    <GroupName>comp_SfInput81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfInput81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfMaps.Universal"</SourcePath>
+    <GroupName>comp_SfMaps81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfMaps81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfRadialMenu.Universal"</SourcePath>
+    <GroupName>comp_SfRadialMenu81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRadialMenu81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfShared.Universal"</SourcePath>
+    <GroupName>comp_SfShared81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfShared81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTabControl.Universal"</SourcePath>
+    <GroupName>comp_SfTabControl81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTabControl81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTileView.Universal"</SourcePath>
+    <GroupName>comp_SfTileView81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTileView81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTreeMap.Universal"</SourcePath>
+    <GroupName>comp_SfTreeMap81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeMap81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfTreeNavigator.Universal"</SourcePath>
+    <GroupName>comp_SfTreeNavigator81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeNavigator81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.Data.Universal"</SourcePath>
+    <GroupName>comp_Data81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Data81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.DocIO.Universal"</SourcePath>
+    <GroupName>comp_DocIO81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\DocIO81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.Pdf.Universal"</SourcePath>
+    <GroupName>comp_Pdf81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Pdf81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfBulletGraph.Universal"</SourcePath>
+    <GroupName>comp_SfBulletGraph81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBulletGraph81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfBarcode.Universal"</SourcePath>
+    <GroupName>comp_SfBarcode81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBarcode81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfChart.Universal"</SourcePath>
+    <GroupName>comp_SfChart81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfChart81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGauge.Universal"</SourcePath>
+    <GroupName>comp_SfGauge81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGauge81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGrid.Universal"</SourcePath>
+    <GroupName>comp_SfGrid81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGrid81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.XlsIO.Universal"</SourcePath>
+    <GroupName>comp_XlsIO81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\XlsIO81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+    <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.Calculate.Universal"</SourcePath>
+    <GroupName>comp_Calculate81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Calculate81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+  
+     <ComponentGroup>
+    <DiskId>1</DiskId>
+    <SourcePath>"%PATH%\Assemblies\4.5.1\Syncfusion.SfGridConverter.Universal"</SourcePath>
+    <GroupName>comp_SfGridConverter81_Universal</GroupName>
+    <DirectoryReference>dir_redist_neutral_Universal_81</DirectoryReference>
+    <OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGridConverter81_Universal.wxs"</OutputPath>
+  </ComponentGroup>
+
+
+<!-- Window Phone -->
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfShared.WP"</SourcePath>
+<GroupName>comp_WPSfshared_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfShared_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfNavigationDrawer.WP"</SourcePath>
+<GroupName>comp_WPSfnavigation_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfNavigationDrawer_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfAccordion.WP"</SourcePath>
+<GroupName>comp_WPSfAccordion_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfAccordion_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfBulletGraph.WP"</SourcePath>
+<GroupName>comp_WPSfBulletGraph_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBulletGraph_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfBarcode.WP"</SourcePath>
+<GroupName>comp_WPSfBarcode_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBarcode_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfBusyIndicator.WP"</SourcePath>
+<GroupName>comp_WPSfBusyIndicator_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBusyIndicator_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfCarousel.WP"</SourcePath>
+<GroupName>comp_WPSfCarousel_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfCarousel_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfChart.WP"</SourcePath>
+<GroupName>comp_WPSfchart_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfChart_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfRadialMenu.WP"</SourcePath>
+<GroupName>comp_WPSfradialmenu_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRadialMenu_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfColorPickers.WP"</SourcePath>
+<GroupName>comp_WPSfColorPickers_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfColorPickers_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfGauge.WP"</SourcePath>
+<GroupName>comp_WPSfgauge_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGauge_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfHubTile.WP"</SourcePath>
+<GroupName>comp_WPSfhubtile_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfHubTiles_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfInput.WP"</SourcePath>
+<GroupName>comp_WPSfinput_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfInput_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfTileView.WP"</SourcePath>
+<GroupName>comp_WPSftileview_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTileView_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfTabControl.WP"</SourcePath>
+<GroupName>comp_WPSftabcontrol_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTabControl_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfTreeNavigator.WP"</SourcePath>
+<GroupName>comp_WPSfTreeNavigator_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeNavigator_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfTreeMap.WP"</SourcePath>
+<GroupName>comp_WPSfTreeMap_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeMap_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfMaps.WP"</SourcePath>
+<GroupName>comp_WPSfmaps_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfMaps_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.Data.WP"</SourcePath>
+<GroupName>comp_WPData_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Data_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfGrid.WP"</SourcePath>
+<GroupName>comp_WPSfGrid_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGrid_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfGridConverter.WP"</SourcePath>
+<GroupName>comp_WPSfGridConverter_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGridConverter_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<!-- <ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.Calculate.WP"</SourcePath>
+<GroupName>comp_WPCalculate_resource</GroupName>
+<DirectoryReference>dir_redist_neutral</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Calculate_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup> -->
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.DocIO.WP"</SourcePath>
+<GroupName>comp_WPDocIO_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\DocIO_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.XlsIO.WP"</SourcePath>
+<GroupName>comp_WPXlsIO_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\XlsIO_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.Pdf.WP"</SourcePath>
+<GroupName>comp_WPpdf_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Pdf_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfSchedule.WP"</SourcePath>
+<GroupName>comp_WPSfSchedule_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSchedule_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.5.1\WindowsPhone81\WinRT\Syncfusion.SfRichTextBoxAdv.WP"</SourcePath>
+<GroupName>comp_WPSfRichTextBoxAdv_resource</GroupName>
+<DirectoryReference>dir_redist_neutral_wp81</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRichTextBoxAdv_WP_WinRT.wxs"</OutputPath>
+</ComponentGroup>
+
+<!--UWP-->
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.Data.UWP"</SourcePath>
+<GroupName>comp_Data_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Data_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfGrid.UWP"</SourcePath>
+<GroupName>comp_SfGrid_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGrid_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfGridConverter.UWP"</SourcePath>
+<GroupName>comp_SfGridConverter_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGridConverter_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPdfViewer.UWP"</SourcePath>
+<GroupName>comp_SfPdfViewer_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPdfViewer_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfRibbon.UWP"</SourcePath>
+<GroupName>comp_SfRibbon_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRibbon_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.DocIO.UWP"</SourcePath>
+<GroupName>comp_DocIO_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\DocIO_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.Pdf.UWP"</SourcePath>
+<GroupName>comp_Pdf_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Pdf_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfAccordion.UWP"</SourcePath>
+<GroupName>comp_SfAccordion_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfAccordion_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfBarcode.UWP"</SourcePath>
+<GroupName>comp_SfBarcode_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBarcode_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfBulletGraph.UWP"</SourcePath>
+<GroupName>comp_SfBulletGraph_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBulletGraph_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfBusyIndicator.UWP"</SourcePath>
+<GroupName>comp_SfBusyIndicator_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfBusyIndicator_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfCarousel.UWP"</SourcePath>
+<GroupName>comp_SfCarousel_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfCarousel_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfChart.UWP"</SourcePath>
+<GroupName>comp_SfChart_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfChart_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfColorPickers.UWP"</SourcePath>
+<GroupName>comp_SfColorPickers_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfColorPickers_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfDiagram.UWP"</SourcePath>
+<GroupName>comp_SfDiagram_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfDiagram_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfGauge.UWP"</SourcePath>
+<GroupName>comp_SfGauge_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGauge_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfHubTile.UWP"</SourcePath>
+<GroupName>comp_SfHubTile_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfHubTile_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfInput.UWP"</SourcePath>
+<GroupName>comp_SfInput_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfInput_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfMaps.UWP"</SourcePath>
+<GroupName>comp_SfMaps_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfMaps_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfRadialMenu.UWP"</SourcePath>
+<GroupName>comp_SfRadialMenu_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRadialMenu_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfRichTextBoxAdv.UWP"</SourcePath>
+<GroupName>comp_SfRichTextBoxAdv_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRichTextBoxAdv_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfSchedule.UWP"</SourcePath>
+<GroupName>comp_SfSchedule_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSchedule_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfShared.UWP"</SourcePath>
+<GroupName>comp_SfShared_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfShared_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfTabControl.UWP"</SourcePath>
+<GroupName>comp_SfTabControl_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTabControl_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfTileView.UWP"</SourcePath>
+<GroupName>comp_SfTileView_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTileView_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfTreeMap.UWP"</SourcePath>
+<GroupName>comp_SfTreeMap_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeMap_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfTreeNavigator.UWP"</SourcePath>
+<GroupName>comp_SfTreeNavigator_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfTreeNavigator_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.XlsIO.UWP"</SourcePath>
+<GroupName>comp_XlsIO_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\XlsIO_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfProgressBar.UWP"</SourcePath>
+<GroupName>comp_SfProgressBar_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfProgressBar_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfGroupBar.UWP"</SourcePath>
+<GroupName>comp_SfGroupBar_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGroupBar_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfMenu.UWP"</SourcePath>
+<GroupName>comp_SfMenu_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfMenu_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfGridCommon.UWP"</SourcePath>
+<GroupName>comp_SfGridCommon_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfGridCommon_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfCellGrid.UWP"</SourcePath>
+<GroupName>comp_SfCellGrid_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfCellGrid_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfSpreadsheet.UWP"</SourcePath>
+<GroupName>comp_SfSpreadsheet_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSpreadsheet_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfSpreadsheetHelper.UWP"</SourcePath>
+<GroupName>comp_SfSpreadsheetHelper_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSpreadsheetHelper_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.ExcelChartToImageConverter.UWP"</SourcePath>
+<GroupName>comp_ExcelChartToImageConverter_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\ExcelChartToImageConverter_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.PMML.UWP"</SourcePath>
+<GroupName>comp_PMML_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\PMML_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.OfficeChart.UWP"</SourcePath>
+<GroupName>comp_OfficeChart_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\OfficeChart_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.Presentation.UWP"</SourcePath>
+<GroupName>comp_Presentation_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Presentation_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPullToRefresh.UWP"</SourcePath>
+<GroupName>comp_SfPullToRefresh_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPullToRefresh_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.Olap.UWP"</SourcePath>
+<GroupName>comp_Olap_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\Olap_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotChart.UWP"</SourcePath>
+<GroupName>comp_SfPivotChart_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotChart_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotGrid.UWP"</SourcePath>
+<GroupName>comp_SfPivotGrid_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotGrid_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotGauge.UWP"</SourcePath>
+<GroupName>comp_SfPivotGauge_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotGauge_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfRotator.UWP"</SourcePath>
+<GroupName>comp_SfRotator_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfRotator_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfHeatMap.UWP"</SourcePath>
+<GroupName>comp_SfHeatMap_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfHeatMap_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfReportViewer.UWP"</SourcePath>
+<GroupName>comp_SfReportViewer_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfReportViewer_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfNavigationDrawer.UWP"</SourcePath>
+<GroupName>comp_SfNavigationDrawer_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfNavigationDrawer_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfSpellChecker.UWP"</SourcePath>
+<GroupName>comp_SfSpellChecker_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSpellChecker_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfKanban.UWP"</SourcePath>
+<GroupName>comp_SfKanban_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfKanban_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.PivotAnalysis.UWP"</SourcePath>
+<GroupName>comp_PivotAnalysis_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\PivotAnalysis_UWP.wxs"</OutputPath>
+</ComponentGroup>
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotShared.UWP"</SourcePath>
+<GroupName>comp_SfPivotShared_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotShared_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotGridConverter.UWP"</SourcePath>
+<GroupName>comp_SfPivotGridConverter_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotGridConverter_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotChartConverter.UWP"</SourcePath>
+<GroupName>comp_SfPivotChartConverter_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotChartConverter_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfPivotClient.UWP"</SourcePath>
+<GroupName>comp_SfPivotClient_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfPivotClient_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfDockingManager.UWP"</SourcePath>
+<GroupName>comp_SfDockingManager_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfDockingManager_UWP.wxs"</OutputPath>
+</ComponentGroup>
+
+<ComponentGroup>
+<DiskId>1</DiskId>
+<SourcePath>"%PATH%\Assemblies\4.6\Syncfusion.SfSunburstChart.UWP"</SourcePath>
+<GroupName>comp_SfSunburstChart_resource_UWP</GroupName>
+<DirectoryReference>dir_redist_neutral_UWP</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\SfSunburstChart_UWP.wxs"</OutputPath>
+</ComponentGroup>
+<!--UWP Sample browser-->
+
+<ComponentGroup>
+<DiskId>1</DiskId> 	
+<SourcePath>"%PATH%\uwp\SampleBrowser\SampleBrowser"</SourcePath>
+<GroupName>comp_uwpsamplebrowser_resource_UWP</GroupName>
+<DirectoryReference>dir_uwpsamplebrowser</DirectoryReference>
+<OutputPath>"%PATH%\Build\Wix Burn\Wix\Essential Studio\FullInstaller\UWP_SampleBrowser.wxs"</OutputPath>
+</ComponentGroup>
+
+
+</ComponentGroups>
+

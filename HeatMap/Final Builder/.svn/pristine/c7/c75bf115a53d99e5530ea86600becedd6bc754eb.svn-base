@@ -1,0 +1,14 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+ASSEMBLYPATH=D:\Work\SVN\Trunk\Digitally Signed
+BuildDetailPath=D:\EssentialStudioLog
+SetupName=Essential Studio Digitally Signed Binaries
+SetupType=es
+VolumeInfo=2017 Volume 2
+PlatformShortName=studio
+Key=@31342e332e30LaA3snBkQywZQXQ+z7mAexIqvambF2fyhBa+8ojZvXs=
+IsServicePack=True
+KarunaIP=\\172.16.100.69
+EymardIP=\\172.16.0.14
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe

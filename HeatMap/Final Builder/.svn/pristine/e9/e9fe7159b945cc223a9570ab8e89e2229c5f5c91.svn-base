@@ -1,0 +1,15 @@
+[FBVariables]
+PATH=C:\Work\SVN\Trunk
+GitLabPath=C:\Work\GitLab\development
+BUILD_CONFIG=Release
+SVN=htttps://svn.syncfusion.com/svn/studio/Source/trunk 
+PASSWORD=tmYSf8VQ9w
+FRAMEWORK_VERSION=2.0,3.5,4.0,4.5,4.5.1,4.6
+PLATFORMS=Base,WPF,Reports,SkinWPF,Windows
+WPF=Shared.WPF,Tools.WPF,SfChart.WPF,ExcelChartToImageConverter.WPF,SfGridCommon.WPF,SfCellGrid.WPF,SfSpreadsheet.WPF,SfSpreadsheetHelper.WPF
+Windows=Diagram.Utility.Windows,Shared.Windows,Diagram.Windows,Grid.Windows,Tools.Windows
+RELEASE_VOLUME=2017 volume 1
+BuildEnvironment=Trunk
+Emailgroup=chnbuild@syncfusion.com,chnwindowsteam@syncfusion.com,chnwpfteam@syncfusion.com,bixamlteam@syncfusion.com,spreadsheetxaml@syncfusion.com,gridxaml@syncfusion.com,gaugedevelopment@syncfusion.com,toolsxaml@syncfusion.com,reports-dev@syncfusion.com,Chartwebteam@syncfusion.com,io-dev@syncfusion.com,mapsjs@syncfusion.com
+Branch=development
+FinalBuilderBinariesPath=C:\Work\Tools\Automation\Final Builder\Binaries\BuildAutomation

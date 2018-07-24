@@ -1,0 +1,125 @@
+<?js
+var self = this;
+var createObject= function (nameSpace, value, initIn) {
+	var splits = nameSpace.split('->'), start = initIn || {}, from = start, i, t;
+
+	for (i = 0; i < splits.length; i++) {
+	t = "$$$" + splits[i];
+		if (i + 1 == splits.length)
+			from[t] = value == null ? {} : value;
+		else if (from[t] == null)
+			from[t] = {};
+		from = from[t];
+	}
+
+	return start;
+}
+
+var treeIt = function(items){
+	var res = {};
+	for(var i =0;i< items.length;i++)
+		if(items[i].name)
+		createObject(items[i].name, { __value: items[i]}, res);
+	return res;
+}
+?>
+<div class="navigation">   
+    <div class="search">
+        <input id="search" type="text" class="form-control input-sm" placeholder="Search Documentations">
+    </div>
+    <ul class="list parent_tree" id="treemenu">
+    <?js
+    this.nav.forEach(function (item) {
+    ?>
+        <li class="item" data-name="<?js= item.longname ?>">
+            
+                <?js= self.linkto(item.longname, item.longname) ?>
+                <?js if (item.type === 'namespace') { ?>
+                <span class="static">static</span>
+                <?js } ?>
+          
+<ul class="members itemMembers sub_tree" >			
+            <?js
+			
+            if (item.members.length) {
+            ?>
+			  
+            <li class="sub-item">Members
+		    <ul class="child_tree">
+		    <?js= self.partial("childTree.tmpl", treeIt(item.members)) ?>
+			</ul>
+			</li>
+					
+               <?js
+			   }
+            ?>
+            
+            
+            <?js
+            if (item.typedefs.length) {
+            ?>
+			
+            <li class="sub-item">Typedefs
+			<ul class="child_tree">
+            <?js
+                item.typedefs.forEach(function (v) {
+            ?>
+                <li  class="child_title" data-name="<?js= v.longname ?>"><?js= self.linkto(v.longname, v.name) ?></li>
+            <?js
+                });
+				?>
+				</ul>
+				</li>
+				
+            <?js
+			}
+			?>
+        
+            
+            
+            <?js
+            if (item.methods.length) {
+            ?>
+			
+            <li class="sub-item">Methods
+			<ul  class="child_tree">
+            <?js
+
+                item.methods.forEach(function (v) {
+            ?>
+                <li  class="child_title" data-name="<?js= v.longname ?>"><?js= self.linkto(v.longname, v.name) ?></li>
+            <?js
+                });
+				?>
+				</ul>
+				</li>
+				
+            <?js
+			}
+            ?>
+           
+            
+            <?js
+            if (item.events.length) {
+            ?>
+			
+           <li class="sub-item"> Events
+		   <ul class="child_tree">
+            <?js
+                item.events.forEach(function (v) {
+            ?>
+                <li  class="child_title" data-name="<?js= v.longname ?>"><?js= self.linkto(v.longname, v.name) ?></li>
+            <?js
+                });
+				?>
+				</ul>
+				</li>
+				
+             <?js
+			 }
+            ?>    
+            </ul>
+        </li>
+    <?js }); ?>
+    </ul>
+</div>

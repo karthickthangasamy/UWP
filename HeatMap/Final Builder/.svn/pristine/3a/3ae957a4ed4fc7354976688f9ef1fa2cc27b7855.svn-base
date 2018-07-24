@@ -1,0 +1,8 @@
+[FBVariables]
+PATH=C:\Work\SVN\Trunk
+DashboardPath=C:\Work\SVN\Dashboard_Application
+SVN=http://svn.syncfusion.com/svn/company/trunk/work_area/Dashboard_Application
+Version=1.0.0.1
+User=build
+Password=tmYSf8VQ9w
+WINZIPEXTRACTOR=C:\Program Files (x86)\WinZip Self-Extractor

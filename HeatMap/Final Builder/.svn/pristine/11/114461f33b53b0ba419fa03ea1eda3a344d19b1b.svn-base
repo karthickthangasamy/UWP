@@ -1,0 +1,17 @@
+[FBVariables]
+PATH=D:\Work\SVN\16.2.0.1
+BuildDetailPath=D:\EssentialStudioLog
+SVN=https://svn.syncfusion.com/svn/studio/Source/releaseprep/16.2.0.1
+Platform=ASPNETMVC-EJ2
+SetupName=Essential Studio for ASP.NET MVC (Essential JS 2)
+SetupType=EJMVC-EJ2
+platformname=ASP.NET MVC - EJ2
+PlatformShortName=aspnetmvc-js2
+PlatformType=Web
+Key=Use your Direct-Trac login credential.
+KarunaIP=\\172.16.100.69
+RELEASE_VOLUME=2018 Volume 2
+SQLConnectionString=User ID=BuildSyncfusionAdmin;Initial Catalog=BuildSyncfusion;Data Source=45.76.15.212,4858;password=VF$#%%fkjGHgh
+SignTool=C:\Program Files (x86)\Windows Kits\8.0\bin\x64\signtool.exe
+MSILocation=\\172.16.102.62\Development\EssentialStudio
+ConfigPlatformName=ASP.NET MVC-EJ2

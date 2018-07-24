@@ -1,0 +1,919 @@
+﻿<Syncfusion>
+  <Assemblies Path="\Assemblies">
+     <Assembly Name="Syncfusion.Calculate.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,EJ2"></Assembly>
+	 <Assembly Name="Syncfusion.PMML.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web"></Assembly>
+    
+    <Assembly Name="Syncfusion.Calculate.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.BulletGraph.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PivotChart.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PivotConverter.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Calculate.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Chart.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.OlapUWP.BaseWrapper" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+    
+    
+    <Assembly Name="Syncfusion.EJ.PdfViewer" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>
+    <Assembly Name="Syncfusion.EJ.DocumentEditor" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>			
+    
+    <Assembly Name="Syncfusion.SfHeatMap.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SfHeatMap.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SfHeatMap.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly> 
+    <Assembly Name="Syncfusion.Chart.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Chart.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Chart.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Chart.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ChartConverter.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Compression.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web,EJ2"></Assembly>
+    <Assembly Name="Syncfusion.Core" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+
+    <Assembly Name="Syncfusion.Diagram.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Diagram.Utility.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.Diagram.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Diagram.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Diagram.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Diagram.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.SfKanban.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SfKanban.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly> 
+    <Assembly Name="Syncfusion.SfSunburstChart.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SfSunburstChart.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly> 
+    <Assembly Name="Syncfusion.DLS.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.DocIO.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web,EJ2"></Assembly>
+	<Assembly Name="Syncfusion.DocIO.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.DocIO.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.DocIO.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    
+    <Assembly Name="Syncfusion.DocToPDFConverter.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web,EJ2"></Assembly>
+	<Assembly Name="Syncfusion.DocToPDFConverter.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ExcelToPDFConverter.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web,EJ2"></Assembly>
+	<Assembly Name="Syncfusion.ExcelToPDFConverter.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Edit.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Edit.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Edit.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Edit.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.EJ.Web" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>
+    
+    <Assembly Name="Syncfusion.Gauge.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Gauge.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Gauge.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.Grouping.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.Grid.Grouping.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.Grouping.Windows.XmlSerializers" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    
+    
+    
+    <Assembly Name="Syncfusion.Grid.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.Windows.XmlSerializers" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.Wpf" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grid.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.GridCommon.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.GridConverter.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.GridConverter.Wpf" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.GridHelperClasses.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Grouping.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.Grouping.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.HtmlConverter.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web,EJ2"></Assembly>
+    <Assembly Name="Syncfusion.HTMLToDLS.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.HTMLUI.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.HTMLUI.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Linq.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web"></Assembly>
+    <Assembly Name="Syncfusion.MIME.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Olap.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web"></Assembly>
+    
+     <Assembly Name="Syncfusion.Olap.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web"></Assembly>
+    
+    
+    
+    
+    <Assembly Name="Syncfusion.OlapChart.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapChart.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapChart.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.OlapClient.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapClient.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapClient.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    
+    <Assembly Name="Syncfusion.OlapGauge.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.OlapGauge.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+    <Assembly Name="Syncfusion.SfKanban.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+    
+	<Assembly Name="Syncfusion.SfPivotShared.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+	
+	<Assembly Name="Syncfusion.SfPivotGridConverter.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+	
+	<Assembly Name="Syncfusion.SfPivotChartConverter.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+	
+	<Assembly Name="Syncfusion.SfPivotClient.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+	
+	<Assembly Name="Syncfusion.SfDockingManager.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+	<Assembly Name="Syncfusion.SfSmithChart.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+    
+    
+    <Assembly Name="Syncfusion.OlapGrid.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapGrid.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapGrid.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapSampleUtils" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapShared.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.OlapShared.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapShared.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+   
+    <Assembly Name="Syncfusion.OlapSilverlight.BaseWrapper" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapTools.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Pdf.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,EJ2"></Assembly>
+	<Assembly Name="Syncfusion.Pdf.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Pdf.Legacy.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.Pdf.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Pdf.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ReportWriter.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	<Assembly Name="Syncfusion.ReportViewer.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ReportViewer.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ReportViewer.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ReportControls.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+
+	
+	
+	
+
+	<Assembly Name="Syncfusion.RichTextBoxAdv.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.RichTextBoxAdv.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.RichTextBoxAdv.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.RichTextBoxAdv.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly> 
+	
+	<Assembly Name="Syncfusion.RichTextDocIOParser.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly> 
+	
+	<Assembly Name="Syncfusion.RichTextRibbon.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.RichTextRibbon.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.RichTextRibbon.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.RichTextRibbon.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly> 
+	<Assembly Name="Syncfusion.ExcelChartToImageConverter.Wpf" XMLDocumentation2_0="False" XMLDocumentation3_5="false" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="false" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,EJ2"></Assembly>
+	
+	
+    
+    
+    
+    <Assembly Name="Syncfusion.SampleBrowserUtils.Silverlight" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.SampleLayout" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SampleLayout.Wpf" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Schedule.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    <Assembly Name="Syncfusion.Schedule.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Scripting.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Scripting.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    
+    <Assembly Name="Syncfusion.Shared.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    <Assembly Name="Syncfusion.Shared.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Shared.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Shared.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Shared.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Tools.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Spreadsheet.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SpreadsheetHelper.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    
+    
+    <Assembly Name="Syncfusion.Tools.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Tools.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Tools.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Tools.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+   
+    <Assembly Name="Syncfusion.XlsIO.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web,EJ2" ></Assembly>
+	<Assembly Name="Syncfusion.XlsIO.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.XlsIO.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.XlsIO.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Chart.WPF.resources" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="\en-US" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    <Assembly Name="Syncfusion.Shared.WPF.resources" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="\en-US" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Tools.WPF.resources" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="\en-US" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+    
+    
+    
+    
+    
+    
+    
+	
+	<Assembly Name="Syncfusion.Chart.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Shared.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Tools.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Diagram.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Gauge.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Edit.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	
+	
+	
+	
+	
+	
+	<Assembly Name="Syncfusion.Design.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Schedule.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Schedule.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.Schedule.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+    
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Assembly Name="Syncfusion.PivotAnalysis.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web"></Assembly>
+	<Assembly Name="Syncfusion.PivotAnalysis.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.PivotAnalysis.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.PivotAnalysis.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PropertyGrid.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.PropertyGrid.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.PropertyGrid.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PropertyGrid.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<Assembly Name="Syncfusion.OlapChartConverter.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapGridConverter.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.OlapGridCommon.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PivotGridConverter.Wpf" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PivotGridConverter.WPF.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	
+	
+
+	<Assembly Name="Syncfusion.Maps.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Maps.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Maps.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Maps.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Maps.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	<Assembly Name="Syncfusion.SfSmithChart.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.SfSmithChart.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.SfSmithChart.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	
+
+	<Assembly Name="Syncfusion.ReportDesigner.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ReportDesigner.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ReportDesigner.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+
+
+	
+	
+	<Assembly Name="Syncfusion.OlapGrid.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PivotAnalysis.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.OlapGauge.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.OlapChart.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	
+	
+	
+	
+	<Assembly Name="Syncfusion.Gauge.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PdfViewer.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PdfViewer.Windows.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PdfViewer.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType=""></Assembly>
+	<Assembly Name="Syncfusion.PdfViewer.WPF.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PdfViewer.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.PdfViewer.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Gantt.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Gantt.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Gantt.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	
+	
+	<Assembly Name="Syncfusion.Spreadsheet.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.Spreadsheet.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Spreadsheet.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.Spreadsheet.WPF.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	<Assembly Name="Syncfusion.DICOM.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	<Assembly Name="Syncfusion.ProjIO.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    <Assembly Name="Syncfusion.EJ.AspNet.Core" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>
+	<Assembly Name="Syncfusion.DocIO.Helper.Mvc" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Web,EJ2"></Assembly>
+	<Assembly Name="Syncfusion.Pdf.Helper.Mvc" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Web,EJ2"></Assembly>
+	<Assembly Name="Syncfusion.XlsIO.Helper.Mvc" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Web,EJ2"></Assembly>
+	
+	<Assembly Name="Syncfusion.PivotAnalysis.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	
+	
+	<Assembly Name="Syncfusion.Grid.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.Gantt.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.Spreadsheet.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	
+	
+	
+	<Assembly Name="Syncfusion.Olap.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+	<Assembly Name="Syncfusion.Tools.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.Shared.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	
+	
+	<Assembly Name="Syncfusion.Chart.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.Theme.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.OCRProcessor.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web"></Assembly>		
+	<Assembly Name="Syncfusion.Edit.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.Maps.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.RichTextBoxAdv.MVVM.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+	<Assembly Name="Syncfusion.SfAccordion.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+ 
+	
+	<Assembly Name="Syncfusion.SfChart.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,EJ2"></Assembly>	  
+	
+	
+   
+    <Assembly Name="Syncfusion.SfChart.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	  
+    <Assembly Name="Syncfusion.SfChart.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType=""></Assembly>	 
+    
+	
+	
+		<Assembly Name="Syncfusion.SfBarcode.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfBarcode.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfBarcode.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfTreeMap.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeMap.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeMap.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfMaps.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfMaps.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfMaps.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfBulletGraph.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfBulletGraph.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfBulletGraph.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfSchedule.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfSchedule.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfSchedule.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfGauge.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfGauge.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfGauge.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfBusyIndicator.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfBusyIndicator.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfBusyIndicator.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfColorPalette.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfColorPalette.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfColorPalette.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfHubTile.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfHubTile.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfHubTile.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRadialMenu.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRadialMenu.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRadialMenu.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeNavigator.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeNavigator.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeNavigator.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfInput.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfInput.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfInput.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfChromelessWindow.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfChromelessWindow.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="False" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfChromelessWindow.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="False" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfBarcode.Windows" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>		
+		<Assembly Name="Syncfusion.SfDiagram.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfDiagram.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfDiagram.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfGrid.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfGrid.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfGrid.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.Data.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfGridConverter.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		<Assembly Name="Syncfusion.TreeMap.Windows" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.EJ" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>
+		<Assembly Name="Syncfusion.EJ.Pivot" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>
+		<Assembly Name="Syncfusion.EJ.Export" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Web" ></Assembly>	    
+		<Assembly Name="Syncfusion.EJ.ReportDesigner" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Web"></Assembly>
+        
+		<Assembly Name="Syncfusion.Presentation.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.ReportWriter.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="REPORTS"></Assembly>
+		<Assembly Name="Syncfusion.ReportControls.Wpf.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.ReportViewer.Wpf.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.ReportDesigner.Wpf.ClientProfile" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+        <Assembly Name="Syncfusion.PresentationToPdfConverter.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.OfficeChart.Base" XMLDocumentation2_0="True" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.OfficeChartToImageConverter.Wpf" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.SfDiagram.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfDiagram.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfDiagram.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+    
+        <Assembly Name="Syncfusion.SfNavigationDrawer.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfNavigationDrawer.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfNavigationDrawer.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+
+		<Assembly Name="Syncfusion.SfSkinManager.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextRibbon.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+        <Assembly Name="Syncfusion.SfRichTextRibbon.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextRibbon.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextRibbon.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextBoxAdv.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextBoxAdv.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+        <Assembly Name="Syncfusion.SfRichTextBoxAdv.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextBoxAdv.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>		
+
+		<Assembly Name="Syncfusion.SfGridCommon.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfCellGrid.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfSpreadsheet.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfSpreadsheetHelper.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>	
+        <Assembly Name="Syncfusion.SfSpreadsheet.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+
+		<Assembly Name="Syncfusion.Themes.Blend.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office365.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.VisualStudio2015.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2016Colorful.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2016DarkGray.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2016White.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Metro.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.VisualStudio2013.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2010Blue.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2010Silver.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2010Black.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2013White.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2013LightGray.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Office2013DarkGray.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Lime.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Themes.Saffron.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+	
+		<Assembly Name="Syncfusion.Calculate.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.Data.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.DocIO.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.ExcelChartToImageConverter.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.OfficeChart.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.Olap.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.PMML.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.Pdf.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.Presentation.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfAccordion.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfBarcode.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfBulletGraph.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfBusyIndicator.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfCarousel.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfCellGrid.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfChart.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfColorPickers.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfDiagram.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfGauge.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfGrid.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfGridCommon.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfGridConverter.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfGroupBar.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfHeatMap.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfHubTile.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfInput.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfMaps.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfMenu.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfNavigationDrawer.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfPdfViewer.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfPivotChart.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfPivotGauge.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfPivotGrid.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfProgressBar.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfPullToRefresh.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfRadialMenu.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfReportViewer.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfRibbon.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfRichTextBoxAdv.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfRotator.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfSchedule.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfShared.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfSpreadsheet.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfSpreadsheetHelper.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfTabControl.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfTileView.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeMap.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfTreeNavigator.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.XlsIO.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfSpellChecker.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfSunburstChart.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.PivotAnalysis.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP" ></Assembly>
+		<Assembly Name="Syncfusion.SfGantt.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.SfImageEditor.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		<Assembly Name="Syncfusion.OfficeChartToImageConverter.UWP" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="UWP"></Assembly>
+		
+		<Assembly Name="Syncfusion.SpellChecker.Base" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web"></Assembly>
+		
+		<Assembly Name="Syncfusion.SfSpellChecker.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfKanban.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfSunburstChart.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		
+		
+		<Assembly Name="Syncfusion.Compression.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.OfficeChart.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.Presentation.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+				
+		<Assembly Name="Syncfusion.DocIO.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.XlsIO.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.Pdf.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.PMML.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web"></Assembly>
+		<Assembly Name="Syncfusion.DocIORenderer.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web,EJ2"></Assembly>
+		<Assembly Name="Syncfusion.Calculate.Portable" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="False" v4_5="False" v4_5_1="False" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Xamarin,Web"></Assembly>
+		
+		
+		
+		
+		<Assembly Name="Syncfusion.VectorImages.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="True" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfShared.WPF" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.OlapGauge.WPF.dll.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="True" v4_0="False" v4_5="False" v4_5_1="False" v4_6="False" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfShared.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfShared.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfAccordion.WPF.VisualStudio.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfAccordion.WPF.Expression.Design" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>			
+		<Assembly Name="Syncfusion.SfInput.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.GridCommon.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Data.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfDataGrid.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Core.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfSmithChart.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfDataGridConverter.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.SfListView.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.DataSource.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Office2016Theme.WinForms" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="True" XMLDocumentation4_5="True" XMLDocumentation4_5_1="True" XMLDocumentation4_6="True" v2_0="False" v3_5="False" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop"></Assembly>
+		<Assembly Name="Syncfusion.Licensing" XMLDocumentation2_0="False" XMLDocumentation3_5="False" XMLDocumentation4_0="False" XMLDocumentation4_5="False" XMLDocumentation4_5_1="False" XMLDocumentation4_6="False" v2_0="True" v3_5="True" v4_0="True" v4_5="True" v4_5_1="True" v4_6="True" Path="" Authenticode="True" Sign="True" PlatformType="Desktop,UWP,Web,EJ2"></Assembly>
+  </Assemblies> 
+<VSIXFiles>
+<VSIX Name="Syncfusion Web Conversion and Migration.vsix" Path="\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2010\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion Web Conversion and Migration.vsix" Path="\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2012\Release" PlatformType="Web"></VSIX> 
+<VSIX Name="Syncfusion Web Conversion and Migration.vsix" Path="\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2013\Release" PlatformType="Web"></VSIX>
+<VSIX Name="SyncfusionAssemblyReference.vsix" Path="\Utilities\VSExtension\SyncfusionAssemblyReference\SyncfusionAssemblyReference\bin\Release" PlatformType="Desktop"></VSIX>
+<VSIX Name="Syncfusion.WindowsForms.Package.vsix" Path="\Extensions\Extensions\Utilities\Windows Form\Src\bin_2010\Release" PlatformType="Desktop"></VSIX>
+<VSIX Name="Syncfusion.WindowsForms.Package.vsix" Path="\Extensions\Extensions\Utilities\Windows Form\Src\bin_2010\Release" PlatformType="Desktop"></VSIX>
+<VSIX Name="Syncfusion.WindowsForms.Package.vsix" Path="\Extensions\Extensions\Utilities\Windows Form\Src\bin_2010\Release" PlatformType="Desktop"></VSIX>
+<VSIX Name="Syncfusion.WindowsForms.Package.vsix" Path="\Extensions\Extensions\Utilities\Windows Form\Src\bin_2010\Release" PlatformType="Desktop"></VSIX>
+<VSIX Name="Syncfusion.ASP.NET.Extension.vsix" Path="\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2010\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.ASP.NET.Extension.vsix" Path="\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2012\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.ASP.NET.Extension.vsix" Path="\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2013\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.ASP.NET.Extension.vsix" Path="\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2015\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.MVC.VSPackage.Web.vsix" Path="\Utilities\MVC\VSExtension\HTML5Edition4.0\VS Package_JavaScript\bin\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.MVC.VSPackage.Web.vsix" Path="\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2012\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.MVC.VSPackage.Web.vsix" Path="\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2013\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.MVC.VSPackage.Web.vsix" Path="\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2015\Release" PlatformType="Web"></VSIX>
+<VSIX Name="Syncfusion.EJ2.AspNet.Core.VSExtension.vsix" Path="\Extensions\Extensions\Utilities\EJ2\Syncfusion.EJ2.ASPNETCore\Src\bin\Release" PlatformType="EJ2"></VSIX>
+<VSIX Name="Syncfusion.EJ2.AspNet.MVC.VSExtension.vsix" Path="\Extensions\Extensions\Utilities\EJ2\Syncfusion.EJ2.MVC\Src\bin_2013\Release" PlatformType="EJ2"></VSIX>
+<VSIX Name="Syncfusion.EJ2.AspNet.MVC.VSExtension.vsix" Path="\Extensions\Extensions\Utilities\EJ2\Syncfusion.EJ2.MVC\Src\bin_2015\Release" PlatformType="EJ2"></VSIX>
+<VSIX Name="Syncfusion.EJ2.AspNet.MVC.VSExtension.vsix" Path="\Extensions\Extensions\Utilities\EJ2\Syncfusion.EJ2.MVC\Src\bin_2017\Release" PlatformType="EJ2"></VSIX>
+<VSIX Name="Syncfusion Xamarin Toolbox.vsix" Path="\Extensions\Extensions\Utilities\XamarinToolbox\Syncfusion.Xamarin.Toolbox\bin_2015\Release" PlatformType="Xamarin"></VSIX>
+<VSIX Name="Syncfusion Xamarin Toolbox.vsix" Path="\Extensions\Extensions\Utilities\XamarinToolbox\Syncfusion.Xamarin.Toolbox\bin_2017\Release" PlatformType="Xamarin"></VSIX>
+<VSIX Name="SF.Xamarin.Template" Path="\Extensions\Extensions\Utilities\Xamarin Project Template\Xamarin.ProjectTemplate\Src\bin\Release" PlatformType="Xamarin"></VSIX>
+</VSIXFiles>  
+
+<EJ2CorePackages Path="\Assemblies\NuGetPackages">    
+    <Package Name="Syncfusion.EJ2" />
+    <Package Name="Syncfusion.EJ2.MVC4"/>    
+	<Package Name="Syncfusion.EJ2.MVC5"/>	
+	<Package Name="Syncfusion.Compression.NETStandard"/>
+	<Package Name="Syncfusion.DocIO.NETStandard"/>
+	<Package Name="Syncfusion.DocIORenderer.NETStandard"/>
+	<Package Name="Syncfusion.EJ2.DocumentEditor"/>
+	<Package Name="Syncfusion.OfficeChart.NETStandard"/>
+	<Package Name="Syncfusion.Pdf.NETStandard"/>
+	<Package Name="Syncfusion.Presentation.NETStandard"/>
+	<Package Name="Syncfusion.XlsIO.NETStandard"/>	
+	<Package Name="Syncfusion.Compression.Base"/>
+	<Package Name="Syncfusion.OfficeChart.Base"/>
+	<Package Name="Syncfusion.DocIO.Base"/>
+	<Package Name="Syncfusion.DocToPdfConverter.Base"/>
+	<Package Name="Syncfusion.Pdf.Base"/>
+	<Package Name="Syncfusion.OfficeChartToImageConverter.WPF"/>
+	<Package Name="Syncfusion.SfChart.WPF"/>
+	<Package Name="Syncfusion.XlsIO.Base"/>
+	<Package Name="Syncfusion.ExcelToPDFConverter.Base"/>
+	<Package Name="Syncfusion.ExcelChartToImageConverter.WPF"/>
+	<Package Name="Syncfusion.Presentation.Base"/>
+	<Package Name="Syncfusion.PresentationToPdfConverter.Base"/>
+	<Package Name="Syncfusion.HtmlConverter.Base"/>
+	<Package Name="Syncfusion.Licensing"/>
+</EJ2CorePackages>
+
+<EJ2JS2Packages Path="\ej2-es-build\EssentialJS2">
+	<Package Name="EJ2Packages" />
+	<Package Name="EJ2Samples" />
+</EJ2JS2Packages>
+
+  <Utilities>
+	 <Utility Name="SampleCreator" Path="\Utilities\MVC\ProjectCreator\ASPNETMVCProjectWizard\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="SampleCreator.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="True"></Application>		
+      </Applications>
+     </Utility>
+	 
+     <Utility Name="ToolboxInstallerWindows" Path="\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerWindows\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="ToolboxInstallerWindows.exe" FileVersion="True" Manifest="ToolboxInstallerWindows.manifest" AssemblyReference="False" Authenticode="True" Sign="False"></Application>		
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="ToolboxInstaller" Path="\Build\Utilities\ToolboxInstallers\VS2005ToolboxInstaller\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="ToolboxInstaller.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>		
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="ToolboxInstallerConsole" Path="\Build\Utilities\ToolboxInstallers\SyncfusionToolboxInstallerConsole\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="SyncfusionToolboxInstaller.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+        <Application Name="ToolboxInstallerConsole_VS2017.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>		
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="AssemblyManagerWindows" Path="\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="AssemblyManagerWindows.exe" FileVersion="True" Manifest="AssemblyManagerWindows.exe.manifest" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="AssemblyManagerConsole" Path="\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="AssemblyManagerConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>		
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="WebConfigSwitcher" Path="\Build\Utilities\WebConfigSwitcher\bin\Release" PlatformType="Web,EJ2">
+      <Applications>
+        <Application Name="WebConfigSwitcher.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False" ></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="DashboardGeneratorUtility" Path="\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release" PlatformType="Desktop,UWP,Xamarin,Web,EJ2">
+      <Applications>
+        <Application Name="DashboardGeneratorUtility.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="Syncfusion Control Panel" Path="\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release" PlatformType="Desktop,UWP,Xamarin,Web,EJ2">
+      <Applications>
+        <Application Name="Syncfusion Control Panel.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="License Manager" Path="\Build\Utilities\LicenseManager\bin\Release" PlatformType="Desktop,UWP,Xamarin,Web,EJ2">
+      <Applications>
+        <Application Name="LicenseManager.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="ASPNET" Path="\Build\Utilities\StartSampleBrowserEJWEB\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="StartSampleBrowserASP.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="ASPNET MVC" Path="\Build\Utilities\StartSampleBrowserEJMVC\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="StartSampleBrowserMVC.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="ASPNETCORE" Path="\Build\Utilities\StartSampleBrowserASPNETCORE\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="StartSampleBrowserASPNETCORE.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="JavaScript" Path="\Build\Utilities\StartSampleBrowserJS\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="StartSampleBrowserJS.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="Windows Forms" Path="\Build\Utilities\SampleBrowser\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="SampleBrowser.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="WPF" Path="\Build\Utilities\WPFSampleBrowser\bin_2010\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="WPFSampleBrowser.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="WPFThemeStudio" Path="\Build\Utilities\WPF Theme Studio\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="WPFThemeStudio.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="XlsIO Code Generator" Path="\Base\XlsIO.Base\XlsIO File Explorer\bin_2010\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="XlsIO Code Generator.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="Dependency Checker" Path="\Build\Utilities\NetDepends\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="NetDepends.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+        <Application Name="NetDependsConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>		
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="InstallInfoGenerator" Path="\Build\Utilities\InstallInfo\InstallInfoGenerator\bin\release" PlatformType="Desktop,UWP,Xamarin,Web,EJ2">
+      <Applications>
+        <Application Name="InstallInfoGenerator.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 
+	 <Utility Name="JSShapeConverter" Path="\Build\Utilities\JSShapeConverter\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="MapsUtility.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="4.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+    
+    <Utility Name="Build Manager" Path="\Build\Utilities\BuildManagerNew\bin" PlatformType="" >
+      <Applications>
+        <Application Name="BuildManagerConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+        <Application Name="BuildManagerWindows.exe" FileVersion="True" Manifest="buildmanagerwindows.exe" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+    <Utility Name="Formula Validator" Path="\Build\Utilities\Formula Validator\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="Formula Validator.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="2.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+    
+	<Utility Name="MultiTargetManager" Path="\Build\Utilities\MultiTargetManager_New\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="MultiTargetManagerWindows.exe" FileVersion="True" Manifest="MultiTargetManagerWindows.exe.manifest" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+		<Application Name="MultiTargetManagerConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>    	
+    <Utility Name="Document Explorer" Path="\CustomUtilities\Document Explorer\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="Document Explorer.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="2.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	 <Utility Name="LegacyDrawing" Path="\CustomUtilities\LegacyDrawing\bin\Release" PlatformType="Desktop,Web">
+      <Applications>
+        <Application Name="IE Legacy Drawing.exe" FileVersion="True" Manifest="IE Legacy Drawing.exe.manifest" AssemblyReference="False" Version="2.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Symbol Designer" Path="\CustomUtilities\Symbol Designer\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="Syncfusion.SymbolDesigner.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="2.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Symbol Designer WPF" Path="\CustomUtilities\SymbolDesigner\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="Syncfusion.Windows.Diagram.SymbolDesigner.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="4.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+    <Utility Name="Symbol Diagram Exporter" Path="\CustomUtilities\SymbolExporterCompiler\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="SyncfusionDiagramExporterExe.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="4.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Diagram Builder" Path="\CustomUtilities\Diagram Builder\CS\bin\Release" PlatformType="Desktop" >
+      <Applications>
+        <Application Name="DiagramBuilder.exe" FileVersion="True" Manifest="False" AssemblyReference="True" Version="2.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Migration" Path="\Supporting Files\Tools\Migration\ConvertResx\2.0" PlatformType="Desktop">
+      <Applications>
+        <Application Name="ConvertResX.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Migration" Path="\Supporting Files\Tools\Migration\ConvertResx\4.0" PlatformType="Desktop">
+      <Applications>
+        <Application Name="ConvertResX.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Migration" Path="\Supporting Files\Tools\Migration\ConvertResx\3.5" PlatformType="Desktop">
+      <Applications>
+        <Application Name="ConvertResX.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	
+	<Utility Name="Migration" Path="\Supporting Files\Tools\Migration\ConvertResxConsole\2.0" PlatformType="Desktop">
+      <Applications>
+        <Application Name="ConvertResxConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Migration" Path="\Supporting Files\Tools\Migration\ConvertResxConsole\4.0" PlatformType="Desktop">
+      <Applications>
+        <Application Name="ConvertResxConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Migration" Path="\Supporting Files\Tools\Migration\ConvertResxConsole\3.5" PlatformType="Desktop">
+      <Applications>
+        <Application Name="ConvertResxConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	
+	<Utility Name="ProjectMigration" Path="\Build\Utilities\ProjectMigration\ProjectMigrationConsole\bin\Release" PlatformType="Web">
+      <Applications>
+        <Application Name="ProjectMigrationConsole.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="ProjectMigration" Path="\Build\Utilities\ProjectMigration\ProjectMigrationWindows\bin\Release" PlatformType="Desktop,UWP,Web">
+      <Applications>
+        <Application Name="ProjectMigrationWindows.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	
+	<Utility Name="Report Builder" Path="\WPF\ReportBuilder.WPF\Src\bin\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="Report Builder.exe" FileVersion="False" Manifest="app.manifest" AssemblyReference="True"  Version="3.5" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Report Builder_2010" Path="\WPF\ReportBuilder.WPF\Src\bin_2010\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="Report Builder.exe" FileVersion="False" Manifest="app.manifest" AssemblyReference="True"  Version="4.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="ProjIO.Utilities_2010" Path="\Base\ProjIO.Base\ProjIO.Utilities\bin_2010\Release" PlatformType="Desktop">
+      <Applications>
+        <Application Name="EssentialGanttViewer.exe" FileVersion="False" Manifest="False" AssemblyReference="True"  Version="4.0" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="SyncfusionVSIXInstallerConsole" Path="\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerConsole\bin\Release" PlatformType="Desktop,UWP,Web">
+      <Applications>
+		<Application Name="SyncfusionVSIXInstallerConsole.exe" FileVersion="True" Manifest="SyncfusionVSIXInstallerConsole.manifest" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+     <Utility Name="SyncfusionVSIXInstallerWindows" Path="\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerWindows\bin\Release" PlatformType="Desktop,UWP,Web">
+      <Applications>
+		<Application Name="SyncfusionVSIXInstallerWindows.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+
+	<Utility Name="Report Designer_2008" Path="\CustomUtilities\Report Designer Utility\CS\bin_2008\Release" PlatformType="Desktop">
+      <Applications>
+		<Application Name="ReportDesignerUtility.exe" FileVersion="True" Manifest="app.manifest" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	<Utility Name="Report Designer_2010" Path="\CustomUtilities\Report Designer Utility\CS\bin_2010\Release" PlatformType="Desktop">
+      <Applications>
+		<Application Name="ReportDesignerUtility.exe" FileVersion="True" Manifest="app.manifest" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+    </Utility>
+	
+	<Utility Name="JS2" Path="\Build\Utilities\StartSampleBrowserJS2\bin\Release" PlatformType="EJ2">
+      <Applications>
+        <Application Name="StartSampleBrowserJS2.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>	 
+	 <Utility Name="ASPNETCORE-EJ2" Path="\Build\Utilities\StartSampleBrowserASPNETCORE-EJ2\bin\Release" PlatformType="EJ2">
+      <Applications>
+        <Application Name="StartSampleBrowserASPNETCORE-EJ2.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>	 
+	 <Utility Name="ASPNETMVC-EJ2" Path="\Build\Utilities\StartSampleBrowserASPNETMVC-EJ2\bin\Release" PlatformType="EJ2">
+      <Applications>
+        <Application Name="StartSampleBrowserASPNETMVC-EJ2.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>
+      </Applications>
+     </Utility>
+	 <Utility Name="NugetConfiguration" Path="\Build\Utilities\NugetConfiguration\bin\Release" PlatformType="EJ2" >
+      <Applications>
+        <Application Name="SyncfusionNuGetConfiguration.exe" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>        
+      </Applications>
+    </Utility>
+	<Utility Name="Syncfusion.Installer.UIComponents" Path="\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\bin_2010\Release" PlatformType="EJ2" >
+      <Applications>
+        <Application Name="Syncfusion.Installer.UIComponents.dll" FileVersion="True" Manifest="False" AssemblyReference="False" Authenticode="True" Sign="False"></Application>        
+      </Applications>
+    </Utility>
+	</Utilities>
+</Syncfusion>

@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Xamarin>
+  <Platform Name="XForms" CommonDescription="Note: This package needs to be installed in all Xamarin.Forms projects (PCL, Android, iOS and UWP).">
+    <Project Name="SfChart" IsAddXForms="True" Description="Essential Chart for Xamarin.Forms is a feature rich, highly customizable and presentable business Chart control. It is intended for developers looking to add advanced, feature rich, visually appealing charts to the cross-platform mobile applications.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfChart.Xforms,Syncfusion.SfChart.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfChart.XForms,Syncfusion.SfChart.XForms.IOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfChart.XForms,Syncfusion.SfChart.XForms.UWP,Syncfusion.SfChart.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfChart.XForms" />
+    </Project>
+    <Project Name="SfGauge" IsAddXForms="True" Description="Essential Gauge for Xamarin.Forms is ideal to visualize numeric values. The appearance of the gauge can be fully customized to seamlessly integrate with your applications.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfGauge.Xforms,Syncfusion.SfGauge.XForms.Android,Syncfusion.SfGauge.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfGauge.XForms,Syncfusion.SfGauge.XForms.IOS,Syncfusion.SfGauge.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfGauge.XForms,Syncfusion.SfGauge.XForms.UWP,Syncfusion.SfGauge.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfGauge.XForms" />
+    </Project>
+    <Project Name="SfTreeMap" IsAddXForms="True" Description="Essential Treemap for Xamarin.Forms provides a simple yet effective way to visualize flat or hierarchical data as clustered rectangles, with a specific weighted attribute determining the size of the rectangle.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfTreeMap.Xforms,Syncfusion.SfTreeMap.XForms.Android,Syncfusion.SfTreeMap.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfTreeMap.XForms,Syncfusion.SfTreeMap.XForms.IOS,Syncfusion.SfTreeMap.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfTreeMap.XForms,Syncfusion.SfTreeMap.XForms.UWP,Syncfusion.SfTreeMap.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfTreeMap.XForms" />
+    </Project>
+    <Project Name="SfBarcode" IsAddXForms="True" Description="Essential Barcode for Xamarin.Froms helps rendering bar codes in effective way and it encodes the text using supported one dimensional and two dimensional symbologies.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfBarcode.Xforms,Syncfusion.SfBarcode.XForms.Android,Syncfusion.SfBarcode.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfBarcode.XForms,Syncfusion.SfBarcode.XForms.IOS,Syncfusion.SfBarcode.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfBarcode.XForms,Syncfusion.SfBarcode.XForms.UWP,Syncfusion.SfBarcode.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfBarcode.XForms" />
+    </Project>
+    <Project Name="SfBusyIndicator" IsAddXForms="True" Description="Essential BusyIndicator for Xamarin.Froms is includes over 13 built-in animations that can be displayed within your applications.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfBusyIndicator.Xforms,Syncfusion.SfBusyIndicator.XForms.Android,Syncfusion.SfBusyIndicator.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfBusyIndicator.XForms,Syncfusion.SfBusyIndicator.XForms.IOS,Syncfusion.SfBusyIndicator.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfBusyIndicator.XForms,Syncfusion.SfBusyIndicator.XForms.UWP,Syncfusion.SfBusyIndicator.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfBusyIndicator.XForms" />
+    </Project>
+    <Project Name="SfRangeSlider" IsAddXForms="True" Description="Essential RangeSlider for Xamarin.Froms is allows you to select the range of value within the specified minimum and maximum limits.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRangeSlider.Xforms,Syncfusion.SfRangeSlider.XForms.Android,Syncfusion.SfRangeSlider.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRangeSlider.XForms,Syncfusion.SfRangeSlider.XForms.IOS,Syncfusion.SfRangeSlider.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRangeSlider.XForms,Syncfusion.SfRangeSlider.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRangeSlider.XForms" />
+    </Project>
+    <Project Name="SfAutoComplete" IsAddXForms="True"  Description="Essential AutoComplete for providing suggestions to user while typing.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfAutoComplete.Xforms,Syncfusion.SfAutoComplete.XForms.Android,Syncfusion.SfAutoComplete.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfAutoComplete.XForms,Syncfusion.SfAutoComplete.XForms.IOS,Syncfusion.SfAutoComplete.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfAutoComplete.XForms,Syncfusion.SfAutoComplete.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfAutoComplete.XForms" />
+    </Project>
+    <Project Name="SfNumericTextBox" IsAddXForms="True" Description="Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.Android,Syncfusion.SfNumericTextBox.XForms.Android.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfNumericTextBox.Xforms,Syncfusion.SfNumericTextBox.XForms.Android,Syncfusion.SfNumericTextBox.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.XForms.IOS,Syncfusion.SfNumericTextBox.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfNumericTextBox.XForms" />
+    </Project>
+    
+    <Project Name="SfDataGrid" IsAddXForms="True" Description="Essential DataGrid for Xamarin.Forms is a high performance grid component that helps you to create entirely customizable features used to display and manipulate the huge amount of data in a tabular view. It is intended for developers looking to use advanced DataGrid in the cross-platform mobile applications.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfDataGrid.Xforms,Syncfusion.SfDataGrid.XForms.Android,Syncfusion.GridCommon.Portable,Syncfusion.Data.Portable,Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.Android,Syncfusion.SfNumericTextBox.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.SfDataGrid.XForms.IOS,Syncfusion.GridCommon.Portable,Syncfusion.Data.Portable,Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.iOS,Syncfusion.SfNumericTextBox.XForms.iOS"/>
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.SfDataGrid.XForms.UWP,Syncfusion.GridCommon.Portable,Syncfusion.Data.Portable,Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfInput.UWP,Syncfusion.SfNumericTextBox.XForms.UWP,Syncfusion.SfShared.UWP" IsResourcePresent="false" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfDataGrid.XForms,Syncfusion.Data.Portable,Syncfusion.GridCommon.Portable,Syncfusion.SfNumericTextBox.XForms" />
+    </Project>
+    <Project Name="SfGridConverter" IsAddXForms="True" Description="Syncfusion SfGridConverter is a .Net library for exporting the SfDataGrid to excel and pdf formats.">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfGridConverter.XForms,Syncfusion.XlsIO.Portable,Syncfusion.Pdf.Portable,Syncfusion.Data.Portable,Syncfusion.SfDataGrid.XForms,Syncfusion.Compression.Portable,Syncfusion.SfNumericTextBox.XForms" />
+	   <SubPlatform Name="Android" Dependent="Syncfusion.SfGridConverter.XForms,Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.Android,Syncfusion.SfNumericTextBox.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfGridConverter.XForms,Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfNumericTextBox.iOS,Syncfusion.SfNumericTextBox.XForms.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfGridConverter.XForms,Syncfusion.SfNumericTextBox.XForms,Syncfusion.SfInput.UWP,Syncfusion.SfNumericTextBox.XForms.UWP" IsResourcePresent="true"  />
+    </Project>
+    <Project Name="SfSchedule" IsAddXForms="True" Description="Essential Schedule control is used to schedule and manage appointments with intuitive user interface similar to native calendar. Its rich feature set includes functionalities like Navigation and Date Restrictions.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSchedule.Xforms,Syncfusion.SfSchedule.XForms,Syncfusion.SfSchedule.XForms.Android,Syncfusion.SfSchedule.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSchedule.XForms,Syncfusion.SfSchedule.XForms.IOS,Syncfusion.SfSchedule.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfSchedule.UWP,Syncfusion.SfSchedule.XForms,Syncfusion.SfSchedule.XForms.UWP,Syncfusion.SfTabControl.UWP,Syncfusion.SfShared.UWP,Syncfusion.SfRadialMenu.UWP,Syncfusion.SfInput.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfSchedule.XForms" />
+	  
+    </Project>
+    <Project Name="SfCalendar" IsAddXForms="True" Description="Essential Calendar widget provides the multi-view representation to display and select one or more dates within specified ranges. Also provides a gesture friendly UI to perform operations like navigations, events, etc.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfCalendar.Xforms,Syncfusion.SfCalendar.XForms.Android,Syncfusion.SfCalendar.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfCalendar.XForms,Syncfusion.SfCalendar.XForms.IOS,Syncfusion.SfCalendar.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfCalendar.XForms,Syncfusion.SfCalendar.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfCalendar.XForms" />
+    </Project>
+    <Project Name="SfRating" IsAddXForms="True" Description="Essential Rating control has a group of stars to indicate the rating with flexible precision. Also provides various customization support on item size, item spacing and the number of displayed items.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRating.Xforms,Syncfusion.SfRating.XForms.Android,Syncfusion.SfRating.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRating.XForms,Syncfusion.SfRating.XForms.IOS,Syncfusion.SfRating.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRating.XForms,Syncfusion.SfRating.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRating.XForms" />
+    </Project>
+    <Project Name="SfCarousel" IsAddXForms="True" Description="Essential Carousel control  is a user interface providing rich visual navigation experience of image data. Also provides efficient customization of items and interactive navigation features.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfCarousel.Xforms,Syncfusion.SfCarousel.XForms.Android,Syncfusion.SfCarousel.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfCarousel.XForms,Syncfusion.SfCarousel.XForms.IOS,Syncfusion.SfCarousel.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfCarousel.XForms,Syncfusion.SfCarousel.XForms.UWP,Syncfusion.SfCarousel.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfCarousel.XForms" />
+    </Project>
+    <Project Name="SfMaps" IsAddXForms="True" Description="Essential Maps control is a data visualization control to visualize statistical data of geographical area on globe as map.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfMaps.Xforms,Syncfusion.SfMaps.XForms.Android,Syncfusion.SfMaps.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfMaps.XForms,Syncfusion.SfMaps.XForms.IOS,Syncfusion.SfMaps.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfMaps.XForms,Syncfusion.SfMaps.XForms.UWP,Syncfusion.SfMaps.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfMaps.XForms" />
+    </Project>
+    <Project Name="SfNumericUpDown" IsAddXForms="True" Description="Essential NumericUpDown is an editor control which provides up and down repeat buttons to increment and decrement the values. The control respects the UI culture and can be configured to display different formats like currency format, scientific format, etc.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfNumericUpDown.Xforms,Syncfusion.SfNumericUpDown.XForms.Android,Syncfusion.SfNumericUpDown.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfNumericUpDown.XForms,Syncfusion.SfNumericUpDown.XForms.IOS,Syncfusion.SfNumericUpDown.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfNumericUpDown.XForms,Syncfusion.SfNumericUpDown.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfNumericUpDown.XForms" />
+    </Project>
+    <Project Name="SfRotator" IsAddXForms="True" Description="Essential Rotator control allows you to populate images and display them. These images can be navigated through Swiping, AutoPlay and NavigationBar.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRotator.Xforms,Syncfusion.SfRotator.XForms.Android,Syncfusion.SfRotator.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms.IOS,Syncfusion.SfRotator.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms,Syncfusion.SfRotator.XForms.UWP,Syncfusion.SfRotator.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRotator.XForms" />
+    </Project>
+	<Project Name="SfRadialMenu" IsAddXForms="True" Description="SfRadialMenu displays a hierarchical menu in circular layout optimized for touch devices. It can expose more menu items in the same space than traditional menus.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfRadialMenu.XForms,Syncfusion.SfRadialMenu.XForms.Android,Syncfusion.SfRadialMenu.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfRadialMenu.XForms,Syncfusion.SfRadialMenu.XForms.iOS,Syncfusion.SfRadialMenu.iOS" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfRadialMenu.XForms" />
+    </Project>
+	<Project Name="Calculate" IsAddXForms="False" Description="The Essential Calculate for Xamarin.Portable allows you to add extensive calculation support to your business objects">
+	  <SubPlatform Name="PCL" Dependent="Syncfusion.Calculate.Portable" />
+    </Project>
+    <Project Name="SfPullToRefresh" IsAddXForms="True" Description="SfPullToRefresh is a pullable panel which on pulling down the main content in order to refresh the data in the application application.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPullToRefresh.Xforms,Syncfusion.SfPullToRefresh.XForms.Android,Syncfusion.Core.XForms" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPullToRefresh.XForms,Syncfusion.SfPullToRefresh.XForms.IOS,Syncfusion.Core.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfPullToRefresh.XForms,Syncfusion.SfPullToRefresh.XForms.UWP,Syncfusion.Core.XForms" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfPullToRefresh.XForms,Syncfusion.Core.XForms" />
+    </Project>
+	<Project Name="SfTabControl" IsAddXForms="True" Description="NuGet package of Syncfusion.Xamarin.SfTabControl assembly">
+      
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfTabControl.UWP,Syncfusion.SfShared.UWP" />
+      
+    </Project>
+	
+    <Project Name="SfNavigationDrawer" IsAddXForms="True" Description="The NavigationDrawer is a sliding panel menu that comes out from the edge of the window and allows to have the contents in a hidden panel.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfNavigationDrawer.Xforms,Syncfusion.SfNavigationDrawer.XForms.Android,Syncfusion.SfNavigationDrawer.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfNavigationDrawer.XForms,Syncfusion.SfNavigationDrawer.XForms.IOS,Syncfusion.SfNavigationDrawer.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfNavigationDrawer.XForms,Syncfusion.SfNavigationDrawer.XForms.UWP,Syncfusion.SfNavigationDrawer.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfNavigationDrawer.XForms" />
+    </Project>
+    <Project Name="Compression" IsAddXForms="False" Description="NuGet package of Syncfusion.Xamarin.Compression assembly.">
+	  <SubPlatform Name="Android" Dependent="Syncfusion.Compression.Portable" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Compression.Portable" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Compression.Portable" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Compression.Portable" />
+    </Project>
+    <Project Name="OfficeChart" IsAddXForms="True" Description="Essential OfficeChart Provides support to create and manipulate charts.">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.OfficeChart.Portable,Syncfusion.Compression.Portable" />
+    </Project>
+    <Project Name="Presentation" IsAddXForms="False" Description="Essential Presentation is a .NET class library that can read, write, modify and render Microsoft PowerPoint files (*.pptx only). It features a full-fledged object model to represent presentations, slides and its contents.">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Presentation.Portable,Syncfusion.OfficeChart.Portable,Syncfusion.Compression.Portable" />
+    </Project>
+    <Project Name="DocIO" IsAddXForms="False" Description="Essential DocIO is a .Net library for creating and manipulating Word documents without using Microsoft Office.">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.DocIO.Portable,Syncfusion.Compression.Portable,Syncfusion.OfficeChart.Portable" />
+    </Project>
+    <Project Name="Pdf" IsAddXForms="False" Description="Essential PDF is a .Net library for creating and manipulating PDF documents without using Adobe Acrobat.">
+	  <SubPlatform Name="Android" Dependent="Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable" />
+    </Project>
+    <Project Name="XlsIO" IsAddXForms="False" Description="Essential XlsIO is a .Net library for creating and manipulating Excel documents without using Microsoft Office.">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.XlsIO.Portable,Syncfusion.Compression.Portable" />
+    </Project>
+   
+    <Project Name="DataSource" IsAddXForms="False" Description="Syncfusion.DataSource.Portable is a .Net library that consumes raw data and processes data operations such as sorting, filtering and grouping saving developers’ time and efforts in building the functionality themselves.">
+      <SubPlatform Name="PCL" Dependent="Syncfusion.DataSource.Portable" />
+    </Project>
+<Project Name="SfPdfViewer" IsAddXForms="True" Description="Essential PDF Viewer for Xamarin.Forms is a control with the ability of display PDF documents with options to zoom and navigate among the pages.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable,Syncfusion.SfPdfViewer.XForms.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable,Syncfusion.SfPdfViewer.XForms.iOS" />
+	  <SubPlatform Name="PCL" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable" />
+	  <SubPlatform Name="UWP" Dependent="Syncfusion.SfPdfViewer.XForms,Syncfusion.Pdf.Portable,Syncfusion.Compression.Portable,Syncfusion.SfPdfViewer.XForms.UWP" />
+    </Project>	
+	<Project Name="SfKanban" IsAddXForms="True" Description="The Essential Kanban control for Xamarin.Forms is an efficient control to visualize the workflow at each stage along its path to completion.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfKanban.XForms,Syncfusion.SfKanban.XForms.Android,Syncfusion.SfKanban.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfKanban.XForms,Syncfusion.SfKanban.XForms.iOS,Syncfusion.SfKanban.iOS" />
+	  <SubPlatform Name="PCL" Dependent="Syncfusion.SfKanban.XForms" />
+	  <SubPlatform Name="UWP" Dependent="Syncfusion.SfKanban.XForms,Syncfusion.SfKanban.XForms.UWP,Syncfusion.SfKanban.UWP" />
+    </Project>
+	<Project Name="SfSparkline" IsAddXForms="True" Description="A sparkline is a very small chart, typically drawn without axes or coordinates. It presents the general shape of data’s in a simple and highly condensed way.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSparkline.XForms,Syncfusion.SfSparkline.XForms.Android,Syncfusion.SfSparkline.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSparkline.XForms,Syncfusion.SfSparkline.XForms.iOS,Syncfusion.SfSparkline.iOS" />
+	  <SubPlatform Name="PCL" Dependent="Syncfusion.SfSparkline.XForms" />	  
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfSparkline.XForms,Syncfusion.SfSparkline.XForms.UWP" />
+    </Project>
+	<Project Name="SfListView" IsAddXForms="True" Description="Essential SfListView for Xamarin.Forms is presenting a set of data items in different layouts or views. It can be used to easily visualize your items in groups,sorted and filtered in accordance with your criteria.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.Android,Syncfusion.GridCommon.Portable,Syncfusion.DataSource.Portable,Syncfusion.Core.XForms" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.iOS,Syncfusion.GridCommon.Portable,Syncfusion.DataSource.Portable,Syncfusion.Core.XForms" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfListView.XForms,Syncfusion.SfListView.XForms.UWP,Syncfusion.GridCommon.Portable,Syncfusion.DataSource.Portable,Syncfusion.Core.XForms" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfListView.XForms,Syncfusion.GridCommon.Portable,Syncfusion.DataSource.Portable,Syncfusion.Core.XForms" />
+    </Project>
+	<Project Name="SfSunburstChart" IsAddXForms="True" Description="Essential SfSunburstchart for Xamarin.Forms provides a simple yet effective way to visualise flat or hierarchical data as clustered circles. The center circle represents the root level in the hierarchy, with outer circles representing the higher levels of the hierarchy.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfSunburstChart.Xforms,Syncfusion.SfSunburstChart.XForms.Android,Syncfusion.SfSunburstChart.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfSunburstChart.XForms,Syncfusion.SfSunburstChart.XForms.IOS,Syncfusion.SfSunburstChart.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfSunburstChart.XForms,Syncfusion.SfSunburstChart.XForms.UWP,Syncfusion.SfSunburstChart.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfSunburstChart.XForms" />
+    </Project>
+	<Project Name="SfImageEditor" IsAddXForms="True" Description="SfImageEditor control allows user to view and perform simple manipulations on images like inverting the pixels in an image, transforming an image, annotate on image for detailed view,rotating an image drawing on an image etc.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfImageEditor.XForms,Syncfusion.SfImageEditor.XForms.Android,Syncfusion.SfImageEditor.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfImageEditor.XForms,Syncfusion.SfImageEditor.XForms.iOS,Syncfusion.SfImageEditor.iOS" />
+	  <SubPlatform Name="PCL" Dependent="Syncfusion.SfImageEditor.XForms" />	  
+    </Project>
+	<Project Name="SfDiagram" IsAddXForms="True" Description="The Diagram control is used for creating diagrams like flow charts, organizational charts and Directed Tree Charts either through code or through a visual interface that is like Visio.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfDiagram.Xforms,Syncfusion.SfDiagram.XForms.Android,Syncfusion.SfDiagram.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfDiagram.Xforms,Syncfusion.SfDiagram.XForms.iOS,Syncfusion.SfDiagram.iOS" />
+	  <SubPlatform Name="UWP" Dependent="Syncfusion.SfDiagram.Xforms,Syncfusion.SfDiagram.XForms.UWP,Syncfusion.SfDiagram.UWP" />	  
+	  <SubPlatform Name="PCL" Dependent="Syncfusion.SfDiagram.Xforms" />
+    </Project>
+	<Project Name="SfPicker" IsAddXForms="True" Description="A SfPicker control allows user to pick an item among a list of Items that can be customize or template with custom view. This control can also open as dialog.">
+      <SubPlatform Name="Android" Dependent="Syncfusion.SfPicker.XForms,Syncfusion.SfPicker.XForms.Android,Syncfusion.SfPicker.Android" />
+      <SubPlatform Name="IOS-unified" Dependent="Syncfusion.SfPicker.XForms,Syncfusion.SfPicker.XForms.iOS,Syncfusion.SfPicker.iOS" />
+      <SubPlatform Name="UWP" Dependent="Syncfusion.SfPicker.XForms,Syncfusion.SfPicker.XForms.UWP,Syncfusion.SfInput.UWP,Syncfusion.SfShared.UWP" />
+      <SubPlatform Name="PCL" Dependent="Syncfusion.SfPicker.XForms" />
+    </Project>
+   </Platform>
+  <Platform Name="Android" CommonDescription="Note: This package is intended to be installed in native Xamarin.Android projects only.">
+    <Project Name="SfChart" Dependent="Syncfusion.SfChart.Android" Description="Essential Chart for Xamarin.Android is a feature rich, highly customizable and presentable business Chart control.It is intended for developers looking to add charts to the cross-platform mobile applications." />
+    <Project Name="SfGauge" Dependent="Syncfusion.SfGauge.Android" Description="Essential Gauge for Xamarin.Android is ideal to visualize numeric values. The appearance of the gauge can be fully customized to seamlessly integrate with your applications." />
+    <Project Name="SfTreeMap" Dependent="Syncfusion.SfTreeMap.Android" Description="Essential Treemap for Xamarin.Android provides a simple yet effective way to visualize flat or hierarchical data as clustered rectangles, with a specific weighted attribute determining the size of the rectangle." />
+    <Project Name="SfBarcode" Dependent="Syncfusion.SfBarcode.Android" Description="Essential Barcode for Xamarin.Android helps rendering bar codes in effective way and it encodes the text using supported one dimensional and two dimensional symbologies." />
+    <Project Name="SfBusyIndicator" Dependent="Syncfusion.SfBusyIndicator.Android" Description="Essential BusyIndicator for Xamarin.Android is includes over 13 built-in animations that can be displayed within your applications." />
+    <Project Name="SfRangeSlider" Dependent="Syncfusion.SfRangeSlider.Android" Description="Essential RangeSlider for Xamarin.Android is allows you to select the range of value within the specified minimum and maximum limits." />
+    <Project Name="SfDataGrid" Dependent="Syncfusion.SfDataGrid.Android,Syncfusion.GridCommon.Portable,Syncfusion.Linq.Android,Syncfusion.SfNumericTextBox.Android" Description="Essential DataGrid for Xamarin.Android is a high performance grid component that helps you to create entirely customizable features used to display and manipulate the huge amount of data in a tabular view. It is intended for developers looking to use advanced DataGrid in the iOS mobile applications." />
+    <Project Name="SfDataForm" Dependent="Syncfusion.SfDataForm.Android,Syncfusion.SfNumericTextBox.Android,Syncfusion.SfNumericUpDown.Android" Description="The SfDataForm control helps to develop various forms such as login, reservation and data entry, etc. The control displays properties in list or grid layout with convenient editors based on its type." />
+    <Project Name="SfDiagram" Dependent="Syncfusion.SfDiagram.Android" Description="The Diagram control is used for creating diagrams like flow charts, organizational charts and Directed Tree Charts either through code or through a visual interface that is like Visio." />
+	<Project Name="SfAutoComplete" Dependent="Syncfusion.SfAutoComplete.Android" Description="Essential AutoComplete for providing suggestions to user while typing." />
+    <Project Name="SfNumericTextBox" Dependent="Syncfusion.SfNumericTextBox.Android" Description="Essential NumericTextBox is an advanced version of the Entry control, which restricts input to numeric values." />
+    <Project Name="SfNavigationDrawer" Dependent="Syncfusion.SfNavigationDrawer.Android" Description="The Essential NavigationDrawer is a sliding panel menu that comes out from the edge of the window and allows to have the contents in a hidden panel. It can be shown by swiping from any of the four screen edges or by demand." />
+    <Project Name="SfMaps" Dependent="Syncfusion.SfMaps.Android" Description="Essential Maps control is a data visualization control to visualize statistical data of geographical area on globe as map." />
+    <Project Name="SfGridConverter" Dependent="Syncfusion.SfGridConverter.Android,Syncfusion.Linq.Android,Syncfusion.SfDataGrid.Android,Syncfusion.Pdf.Portable,Syncfusion.XlsIO.Portable,Syncfusion.Compression.Portable,Syncfusion.GridCommon.Portable" Description="NuGet package of Syncfusion SfGridConverter." />
+    <Project Name="SfCalendar" Dependent="Syncfusion.SfCalendar.Android" Description="Essential Calendar widget provides the multi-view representation to display and select one or more dates within specified ranges. Also provides a gesture friendly UI to perform operations like navigations, events, etc." />
+    <Project Name="SfSchedule" Dependent="Syncfusion.SfSchedule.Android" Description="Essential Schedule control is used to schedule and manage appointments with intuitive user interface similar to native calendar. Its rich feature set includes functionalities like Navigation and Date Restrictions." />
+    <Project Name="SfRating" Dependent="Syncfusion.SfRating.Android" Description="Essential Rating control has a group of stars to indicate the rating with flexible precision. Also provides various customization support on item size, item spacing and the number of displayed items." />
+    <Project Name="SfCarousel" Dependent="Syncfusion.SfCarousel.Android" Description="Essential Carousel control  is a user interface providing rich visual navigation experience of image data. Also provides efficient customization of items and interactive navigation features." />
+    <Project Name="SfNumericUpDown" Dependent="Syncfusion.SfNumericUpDown.Android" Description="Essential NumericUpDown is an editor control which provides up and down repeat buttons to increment and decrement the values. The control respects the UI culture and can be configured to display different formats like currency format, scientific format, etc." />
+    <Project Name="SfRotator" Dependent="Syncfusion.SfRotator.Android" Description="Essential Rotator control allows you to populate images and display them. These images can be navigated through Swiping, AutoPlay and NavigationBar." />
+    <Project Name="SfPullToRefresh" Dependent="Syncfusion.SfPullToRefresh.Android" Description="SfPullToRefresh is a pullable panel which on pulling down the main content in order to refresh the data in the application application." />
+    <Project Name="Calculate" Dependent="Syncfusion.Calculate.Android" Description="The Essential Calculate for Xamarin.Portable allows you to add extensive calculation support to your business objects." />
+    <Project Name="SfKanban" Dependent="Syncfusion.SfKanban.Android" Description="The Essential Kanban control for Xamarin.Android is an efficient control to visualize the workflow at each stage along its path to completion." />
+	<Project Name="SfRadialMenu" Dependent="Syncfusion.SfRadialMenu.Android" Description="The SfRadialMenu displays a hierarchical menu in a circular layout optimized for touch devices. It can expose more menu items in the same space than traditional menus." />
+	<Project Name="SfSparkline" Dependent="Syncfusion.SfSparkline.Android" Description="A sparkline is a very small chart, typically drawn without axes or coordinates. It presents the general shape of data’s in a simple and highly condensed way." />
+	<Project Name="SfPdfViewer" Dependent="Syncfusion.SfPdfViewer.Android,Syncfusion.Compression.Portable,Syncfusion.Pdf.Portable" Description="Essential PDF Viewer for Xamarin Android is a control with the ability of display PDF documents with options to zoom and navigate among the pages." />
+	<Project Name="SfSunburstChart" Dependent="Syncfusion.SfSunburstChart.Android" Description="Essential SfSunburstchart for Xamarin.Android provides a simple yet effective way to visualise flat or hierarchical data as clustered circles. The center circle represents the root level in the hierarchy, with outer circles representing the higher levels of the hierarchy." />
+	<Project Name="SfImageEditor" Dependent="Syncfusion.SfImageEditor.Android" Description="SfImageEditor control allows user to view and perform simple manipulations on images like inverting the pixels in an image, transforming an image, annotate on image for detailed view,rotating an image drawing on an image etc." />
+    <Project Name="SfPicker" Dependent="Syncfusion.SfPicker.Android" Description="A SfPicker control allows user to pick an item among a list of Items that can be customize or template with custom view. This control can also open as dialog." />
+  </Platform>
+  <Platform Name="IOS-unified" CommonDescription="Note: This package is intended to be installed in native Xamarin.iOS projects only.">
+	  <Project Name="SfTreeMap"  Dependent="Syncfusion.SfTreeMap.iOS" Description="Essential Treemap for Xamarin.IOS provides a simple yet effective way to visualize flat or hierarchical data as clustered rectangles, with a specific weighted attribute determining the size of the rectangle."/>
+	  <Project Name="SfBarCode"  Dependent="Syncfusion.SfBarcode.iOS" Description="Essential Barcode for Xamarin.IOS helps rendering bar codes in effective way and it encodes the text using supported one dimensional and two dimensional symbologies."/>
+	  <Project Name="SfBusyIndicator"  Dependent="Syncfusion.SfBusyIndicator.iOS" Description="Essential BusyIndicator for Xamarin.IOS is includes over 13 built-in animations that can be displayed within your applications."/>
+	  <Project Name="SfRangeSlider" Dependent="Syncfusion.SfRangeSlider.iOS" Description="Essential RangeSlider for Xamarin.IOS is allows you to select the range of value within the specified minimum and maximum limits."/>
+	  <Project Name="SfDataGrid"  Dependent="Syncfusion.SfDataGrid.IOS,Syncfusion.Linq.IOs,Syncfusion.GridCommon.Portable,Syncfusion.SfNumericTextBox.iOS" Description="Essential DataGrid for Xamarin.IOS is a high performance grid component that helps you to create entirely customizable features used to display and manipulate the huge amount of data in a tabular view. It is intended for developers looking to use advanced DataGrid in the iOS mobile applications ."/>
+	  <Project Name="SfDataForm"  Dependent="Syncfusion.SfDataForm.iOS,Syncfusion.SfNumericTextBox.iOS,Syncfusion.SfNumericUpDown.iOS" Description="The SfDataForm control helps to develop various forms such as login, reservation and data entry, etc. The control displays properties in list or grid layout with convenient editors based on its type."/>
+	  <Project Name="SfDiagram"  Dependent="Syncfusion.SfDiagram.iOS" Description="The Diagram control is used for creating diagrams like flow charts, organizational charts and Directed Tree Charts either through code or through a visual interface that is like Visio."/>
+	  <Project Name="SfAutoComplete"  Dependent="Syncfusion.SfAutoComplete.iOS" Description="Essential AutoComplete for providing suggestions to user while typing."/>
+	  <Project Name="SfNumericTextBox"  Dependent="Syncfusion.SfNumericTextBox.iOS" Description="Essential NumericTextBox is an advanced version of the Entry control, which restricts input to numeric values."/> 
+	  <Project Name="SfGridConverter"  Dependent="Syncfusion.SfGridConverter.iOS,Syncfusion.XlsIO.Portable,Syncfusion.Pdf.Portable,Syncfusion.SfDataGrid.IOS,Syncfusion.Linq.IOs,Syncfusion.GridCommon.Portable,Syncfusion.Compression.Portable" Description="Syncfusion SfGridConverter is a .Net library for exporting the SfDataGrid to excel and pdf formats."/> 
+	  <Project Name="SfMaps"  Dependent="Syncfusion.SfMaps.iOS" Description="Essential Maps control is a data visualization control to visualize statistical data of geographical area on globe as map."/>
+	  <Project Name="SfNavigationDrawer" Dependent="Syncfusion.SfNavigationDrawer.IOS" Description="The Essential NavigationDrawer is a sliding panel menu that comes out from the edge of the window and allows to have the contents in a hidden panel. It can be shown by swiping from any of the four screen edges or by demand"/>
+	  <Project Name="SfCalendar" Dependent="Syncfusion.SfCalendar.IOS" Description="Essential Calendar widget provides the multi-view representation to display and select one or more dates within specified ranges. Also provides a gesture friendly UI to perform operations like navigations, events, etc."/>
+	  <Project Name="SfCarousel" Dependent="Syncfusion.SfCarousel.IOS" Description="Essential Carousel control  is a user interface providing rich visual navigation experience of image data. Also provides efficient customization of items and interactive navigation features."/>
+	  <Project Name="SfRating" Dependent="Syncfusion.SfRating.IOS" Description="Essential Rating control has a group of stars to indicate the rating with flexible precision. Also provides various customization support on item size, item spacing and the number of displayed items."/>
+	  <Project Name="SfSchedule" Dependent="Syncfusion.SfSchedule.IOS" Description="Essential Schedule control is used to schedule and manage appointments with intuitive user interface similar to native calendar. Its rich feature set includes functionalities like Navigation and Date Restrictions."/>
+	  <Project Name="SfRotator" Dependent="Syncfusion.SfRotator.IOS" Description="Essential Rotator control allows you to populate images and display them. These images can be navigated through Swiping, AutoPlay and NavigationBar."/>  
+	  <Project Name="SfNumericUpDown" Dependent="Syncfusion.SfNumericUpDown.IOS" Description="Essential NumericUpDown is an editor control which provides up and down repeat buttons to increment and decrement the values. The control respects the UI culture and can be configured to display different formats like currency format, scientific format, etc."/>
+	  <Project Name="SfGauge" Dependent="Syncfusion.SfGauge.IOS" Description="Essential Gauge for Xamarin.IOS is ideal to visualize numeric values. The appearance of the gauge can be fully customized to seamlessly integrate with your applications."/>
+	  <Project Name="SfKanban" Dependent="Syncfusion.SfKanban.IOS" Description="The Essential Kanban control for Xamarin.IOS is an efficient control to visualize the workflow at each stage along its path to completion"/>
+	  <Project Name="Calculate" Dependent="Syncfusion.Calculate.IOS" Description="The Essential Calculate for Xamarin.IOS allows you to add extensive calculation support to your business objects"/>  
+	  <Project Name="SfPullToRefresh" Dependent="Syncfusion.SfPullToRefresh.iOS" Description="SfPullToRefresh is a pullable panel which on pulling down the main content in order to refresh the data in the application application."/> 
+	  <Project Name="SfChart" Dependent="Syncfusion.SfChart.iOS" Description="Essential Chart for Xamarin.iOS is a feature rich, highly customizable and presentable business Chart control.It is intended for developers looking to add charts to the cross-platform mobile applications."/> 
+	  <Project Name="SfRadialMenu" Dependent="Syncfusion.SfRadialMenu.iOS" Description="The SfRadialMenu displays a hierarchical menu in a circular layout optimized for touch devices. It can expose more menu items in the same space than traditional menus." />
+	  <Project Name="SfSparkline" Dependent="Syncfusion.SfSparkline.iOS" Description="A sparkline is a very small chart, typically drawn without axes or coordinates. It presents the general shape of data’s in a simple and highly condensed way." />
+	  <Project Name="SfPdfViewer" Dependent="Syncfusion.SfPdfViewer.iOS,Syncfusion.Compression.Portable,Syncfusion.Pdf.Portable" Description="Essential PDF Viewer for Xamarin iOS is a control with the ability of display PDF documents with options to zoom and navigate among the pages." />
+	  <Project Name="SfSunburstChart" Dependent="Syncfusion.SfSunburstChart.iOS" Description="Essential SfSunburstchart for Xamarin.iOS provides a simple yet effective way to visualise flat or hierarchical data as clustered circles. The center circle represents the root level in the hierarchy, with outer circles representing the higher levels of the hierarchy." />
+	  <Project Name="SfImageEditor" Dependent="Syncfusion.SfImageEditor.iOS" Description="SfImageEditor control allows user to view and perform simple manipulations on images like inverting the pixels in an image, transforming an image, annotate on image for detailed view,rotating an image drawing on an image etc." />
+	  <Project Name="SfPicker" Dependent="Syncfusion.SfPicker.iOS" Description="A SfPicker control allows user to pick an item among a list of Items that can be customize or template with custom view. This control can also open as dialog."/>
+ </Platform>
+  <Products>SfChart,SfGauge,SfTreeMap,SfBarcode,SfBusyIndicator,SfRangeSlider,SfAutoComplete,SfNumericTextBox,SfDataGrid,SfGridConverter,SfSchedule,SfCalendar,SfRating,SfCarousel,SfMaps,SfNumericUpDown,SfRotator,SfPullToRefresh,SfNavigationDrawer,Compression,OfficeChart,Presentation,DocIO,Pdf,XlsIO,DataSource,Calculate,SfKanban,SfPdfViewer,SfRadialMenu,SfSparkline,SfListView,SfSunburstChart,SfImageEditor,SfDataForm,SfDiagram,SfPicker</Products>
+  <URL>http://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin</URL>
+<Externaldependencies>
+	<Externaldependency>
+	<![CDATA[<dependency id="Xamarin.Forms" version="2.3.3.180" />]]>
+	</Externaldependency>
+  </Externaldependencies>
+  <Internaldependencies>
+	<Internaldependency>
+	<![CDATA[<dependency id="Syncfusion.Xamarin.Compression" version="###Version" />]]>
+	</Internaldependency>
+  </Internaldependencies>
+</Xamarin>

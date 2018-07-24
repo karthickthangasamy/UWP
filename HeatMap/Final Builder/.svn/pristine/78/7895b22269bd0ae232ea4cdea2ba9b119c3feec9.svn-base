@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbactionpackage name="New Action Package" author="" copyright="" fbversion="60" pro="0">
+  <propertypages/>
+  <action name="AssemblyInfoVersionSwitcher" category="Syncfusion Build" id="{AF2CC547-AA1B-4BA9-B65D-30BA94AD16E4}" progid="AssemblyInfoVersionSwitcher.AssemblyInfoVersionSwitcher" typeenabled="-1" pro="0" searchkeywords="" assembly="AssemblyInfoVersionSwitcher.dll" descriptionformat="Syncfusion Assembly Info Version Switcher" type="DotNet" base="Standard Action" version="0" author="" copyright="" autoincver="False" language="VBScript" uilanguage="JavaScript" quickhelpfilename="" helptopicid="0"><bitmap><![CDATA[424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000080000000800000FEFEFE00F2EFE200FDFDFC00F6F5EE00F0EEE100F0EEE100F0EEE100F0EEE100F0EEE200F4F3EA00FDFCFB0000800000008000000080000000800000F9F8F300C1B16D00A38C2800FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C8A000D5CEAA00EFEDE000FEFEFE0000800000FEFEFE00C2B370009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D2CAA300F5F4EC0000800000F3F0E3009F871D009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00E4DFC80000800000E7E1C6009B8213009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D6CFAC00E4E0CA00E4E0CA00D5CEAA00D0C89F00D0C89F00DBD5B70000800000E5DFC3009B8213009B821400A0882000F5F3E900E0DBBF00CDC49800CDC59900DBD5B600FAF9F500FBFAF600DAD5B500D0C89F00D0C89F00DBD5B70000800000E5DFC3009B8213009B8214009D841800A6903200A7923600A8953C00AD9C4900B4A65C00BEB27500C8BF8C00CFC89E00D0C89F00D0C89F00E2DDC40000800000E5DFC3009B8213009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00EFECDE0000800000E5DFC3009B8213009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00E9E5D20000800000E5DFC3009B8213009B8214009E851B00C2B37200C6B87C00C8BB8200CBC08B00CFC69600D4CCA300DAD5B300D3CCA700D0C89F00D0C89F00DED9BD0000800000E5DFC3009B8213009B821400A0882000F4F3EB00F9F9F400FAF9F400FAF9F500FAFAF600FBFAF700FBFBF800DAD5B500D0C89F00D0C89F00DAD4B50000800000ECE7D3009C8316009B8214009D841800A6913200A9953B00AC9A4500B1A15200B7AA6300BFB37700C9C08E00CFC89F00D0C89F00D0C89F00DED9BD0000800000FCFBF800AD9940009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00ECE9D9000080000000800000E8E2C900A48D2A009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00DED9BC00FDFCFB000080000000800000FEFEFE00F2EEE100CCBF8800BDAD6800BEAF6B00BDAE6A00C1B47500C5BB8200CBC29200D4CCA500E0DBC100EEECDD00FDFDFC00008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000]]>
+      </bitmap>
+    <properties><property name="SourcePath" type="string" required="false" stringsubtype="2" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="IncludeFilter" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"><defaultvalue><![CDATA[Src,Utilities]]>
+          </defaultvalue>
+        </property>
+      <property name="ExcludeFilter" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"><defaultvalue><![CDATA[Src]]>
+          </defaultvalue>
+        </property>
+      <property name="Version" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="AssemblyFileVersion" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="AssemblyProduct" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="AssemblyTitle" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="ProductVersion" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="Copyright" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"><defaultvalue><![CDATA[Copyright (c) 2001-2010 Syncfusion. Inc,]]>
+          </defaultvalue>
+        </property>
+      <property name="Platform" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      </properties>
+    <events/>
+    <propertypages><propertypage name="AssemblyInfo Version Switcher"><controls>
+					<StdImage Height="24" Width="24" Left="10" Top="11" Name="FBStandardImage1" Hint="" StdImageType="OPTIONS"/>
+          <Label Height="13" Width="127" Left="40" Top="15" Name="FBLabel1" Caption="Property Page Caption" Hint="" ParentFont="False"><Font Height="-11" Name="Tahoma" Style="[fsBold]" Color="-16777208"/>
+            </Label>
+          <Bevel Height="2" Width="326" Left="175" Top="23" Name="FBBevel1" Hint=""/>
+          <Label Height="17" Width="75" Left="30" Top="76" Name="FBLabel2" Caption="Source Path" Hint=""/>
+          <Label Height="17" Width="44" Left="31" Top="107" Name="FBLabel5" Caption="Version" Hint=""/>
+          <Label Height="17" Width="76" Left="30" Top="173" Name="FBLabel3" Caption="Include Filter" Hint=""/>
+          <Label Height="15" Width="126" Left="31" Top="191" Name="FBLabel4" Caption="Separated by Comma (,)" Hint="" ParentFont="False"><Font Height="-13" Name="Times New Roman" Style="[]" Color="-16777208"/>
+            </Label>
+          <Label Height="17" Width="119" Left="29" Top="140" Name="FBLabel6" Caption="AssemblyFileVersion" Hint=""/>
+          <Label Height="17" Width="134" Left="28" Top="220" Name="FBLabel7" Caption="Copyright information" Hint=""/>
+          <Label Height="17" Width="81" Left="33" Top="255" Name="FBLabel9" Caption="AssemblyTitle" Hint=""/>
+          <Label Height="17" Width="106" Left="34" Top="292" Name="FBLabel10" Caption="AssemblyProduct" Hint=""/>
+          <Label Height="17" Width="51" Left="44" Top="332" Name="FBLabel8" Caption="Platform" Hint=""/>
+          <FolderNameEdit AutoSize="False" Height="21" Width="300" Left="184" Top="72" Name="FBFolderNameEdit1" BindTo="SourcePath" ControlProp="Text" Text="" Hint="" TabOrder="0"><ButtonPair Height="18" Width="17" Left="279" Top="0" Name="" Hint="" TabOrder="0" Color="-16777211"><ControlButton Height="17" Width="17" Left="0" Top="0" Name="" Caption="" Hint="Click to browse for folder"/>
+              <ControlButton Height="21" Width="17" Left="0" Top="0" Visible="False" Name="" Caption="" Hint=""/>
+              </ButtonPair>
+            </FolderNameEdit>
+          <TextEdit AutoSize="False" Height="21" Width="300" Left="184" Top="105" Name="FBEdit3" BindTo="Version" ControlProp="Text" Text="" Hint="" TabOrder="1"/>
+          <TextEdit AutoSize="False" Height="21" Width="301" Left="183" Top="172" Name="FBEdit1" BindTo="IncludeFilter" ControlProp="Text" Text="" Hint="" TabOrder="2"/>
+          <TextEdit AutoSize="False" Height="21" Width="302" Left="183" Top="138" Name="FBEdit2" BindTo="AssemblyFileVersion" ControlProp="Text" Text="" Hint="" TabOrder="3"/>
+          <TextEdit AutoSize="False" Height="21" Width="302" Left="182" Top="219" Name="FBEdit4" BindTo="Copyright" ControlProp="Text" Text="" Hint="" TabOrder="4"/>
+          <TextEdit AutoSize="False" Height="21" Width="303" Left="182" Top="253" Name="FBEdit6" BindTo="AssemblyTitle" ControlProp="Text" Text="" Hint="" TabOrder="5"/>
+          <TextEdit AutoSize="False" Height="21" Width="303" Left="182" Top="287" Name="FBEdit7" BindTo="AssemblyProduct" ControlProp="Text" Text="" Hint="" TabOrder="6"/>
+          <TextEdit Height="25" Width="303" Left="183" Top="328" Name="FBEdit5" BindTo="Platform" ControlProp="Text" Text="" Hint="" TabOrder="7"/>
+          </controls>
+        <scripts><script name="ReadData" scripttype="1"/>
+          <script name="WriteData" scripttype="1"/>
+          <script name="Validate" scripttype="0"/>
+          </scripts>
+        </propertypage>
+      </propertypages>
+    <scripts><script name="CommonScript" scripttype="2"><scriptcode><![CDATA[&#39;Any script in here is available to the other script events for this action]]>
+          </scriptcode>
+        </script>
+      </scripts>
+    </action>
+  <action name="CopyrightInfoUpdater" category="" id="{B4DA0EEE-DFF6-40D2-A6D0-A82E5756F98C}" progid="CopyrightInfoUpdater.CopyrightInfoUpdater" typeenabled="-1" pro="0" searchkeywords="" assembly="CopyrightInfoUpdater.dll" descriptionformat="Syncfusion Copyright Info Updater" type="DotNet" base="Standard Action" version="0" author="" copyright="" autoincver="False" language="VBScript" uilanguage="JavaScript" quickhelpfilename="" helptopicid="0"><bitmap><![CDATA[424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000080000000800000FEFEFE00F2EFE200FDFDFC00F6F5EE00F0EEE100F0EEE100F0EEE100F0EEE100F0EEE200F4F3EA00FDFCFB0000800000008000000080000000800000F9F8F300C1B16D00A38C2800FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C8A000D5CEAA00EFEDE000FEFEFE0000800000FEFEFE00C2B370009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D2CAA300F5F4EC0000800000F3F0E3009F871D009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00E4DFC80000800000E7E1C6009B8213009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D6CFAC00E4E0CA00E4E0CA00D5CEAA00D0C89F00D0C89F00DBD5B70000800000E5DFC3009B8213009B821400A0882000F5F3E900E0DBBF00CDC49800CDC59900DBD5B600FAF9F500FBFAF600DAD5B500D0C89F00D0C89F00DBD5B70000800000E5DFC3009B8213009B8214009D841800A6903200A7923600A8953C00AD9C4900B4A65C00BEB27500C8BF8C00CFC89E00D0C89F00D0C89F00E2DDC40000800000E5DFC3009B8213009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00EFECDE0000800000E5DFC3009B8213009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00E9E5D20000800000E5DFC3009B8213009B8214009E851B00C2B37200C6B87C00C8BB8200CBC08B00CFC69600D4CCA300DAD5B300D3CCA700D0C89F00D0C89F00DED9BD0000800000E5DFC3009B8213009B821400A0882000F4F3EB00F9F9F400FAF9F400FAF9F500FAFAF600FBFAF700FBFBF800DAD5B500D0C89F00D0C89F00DAD4B50000800000ECE7D3009C8316009B8214009D841800A6913200A9953B00AC9A4500B1A15200B7AA6300BFB37700C9C08E00CFC89F00D0C89F00D0C89F00DED9BD0000800000FCFBF800AD9940009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00ECE9D9000080000000800000E8E2C900A48D2A009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00DED9BC00FDFCFB000080000000800000FEFEFE00F2EEE100CCBF8800BDAD6800BEAF6B00BDAE6A00C1B47500C5BB8200CBC29200D4CCA500E0DBC100EEECDD00FDFDFC00008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000]]>
+      </bitmap>
+    <properties><property name="SourcePath" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="ExcludeFolder" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      </properties>
+    <events/>
+    <propertypages><propertypage name="New Property Page"><controls>
+					<StdImage Height="24" Width="24" Left="10" Top="10" Name="FBStandardImage1" Hint="" StdImageType="OPTIONS"/>
+          <Label Height="13" Width="127" Left="40" Top="15" Name="FBLabel1" Caption="Property Page Caption" Hint="" ParentFont="False"><Font Height="-11" Name="Tahoma" Style="[fsBold]" Color="-16777208"/>
+            </Label>
+          <Bevel Height="2" Width="326" Left="175" Top="23" Name="FBBevel1" Hint=""/>
+          <Label Height="13" Width="106" Left="55" Top="88" Name="FBLabel2" Caption="Source Folder Name : " Hint=""/>
+          <Label Height="13" Width="104" Left="52" Top="140" Name="FBLabel3" Caption="Exclude Folder Name:" Hint=""/>
+          <FolderNameEdit AutoSize="False" Height="21" Width="292" Left="172" Top="83" Name="FBFolderNameEdit1" BindTo="SourcePath" ControlProp="Text" Text="" Hint="" TabOrder="0"><ButtonPair Height="18" Width="17" Left="271" Top="0" Name="" Hint="" TabOrder="0" Color="-16777211"><ControlButton Height="17" Width="17" Left="0" Top="0" Name="" Caption="" Hint="Click to browse for folder"/>
+              <ControlButton Height="21" Width="17" Left="0" Top="0" Visible="False" Name="" Caption="" Hint=""/>
+              </ButtonPair>
+            </FolderNameEdit>
+          <TextEdit AutoSize="False" Height="21" Width="291" Left="172" Top="136" Name="FBEdit1" BindTo="ExcludeFolder" ControlProp="Text" Text="" Hint="" TabOrder="1"/>
+          </controls>
+        <scripts><script name="ReadData" scripttype="1"/>
+          <script name="WriteData" scripttype="1"/>
+          <script name="Validate" scripttype="0"/>
+          </scripts>
+        </propertypage>
+      </propertypages>
+    <scripts><script name="CommonScript" scripttype="2"><scriptcode><![CDATA[&#39;Any script in here is available to the other script events for this action]]>
+          </scriptcode>
+        </script>
+      </scripts>
+    </action>
+  <options title="Options Title" guid="{B49D17E8-8FBF-43FD-A7EE-C39B7F89052B}" category="" optionkeyname="" framehelptopic="0" optionslocation="MACHINE" searchkeywords=""><bitmap><![CDATA[424D36040000000000003600000028000000100000001000000001002000000000000004000000000000000000000000000000000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000]]>
+      </bitmap>
+    <properties><property name="NewOption" type="string" required="false" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      </properties>
+    </options>
+  </fbactionpackage>

@@ -1,0 +1,8 @@
+[FBVariables]
+PATH=D:\Work\SVN\Trunk
+STUDIO_VERSION=12.3.0.36
+SVN=http://svn.syncfusion.com/svn/studio/Source/trunk
+USER=build
+PASSWORD=tmYSf8VQ9w
+EXCLUDEFILES=web\buttoon.js
+DESTINATIONDIR=D:\Documentation\UG\js\api

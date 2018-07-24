@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Projects>
+  <ProjectDetails ProjectName="DocIO.Web" SourceType="GitLab" RepositoryName="DocIO" />  
+  <ProjectDetails ProjectName="pdf.Web" SourceType="GitLab" RepositoryName="PDF" />  
+  <ProjectDetails ProjectName="XlsIO.Web" SourceType="GitLab" RepositoryName="XlsIO" />
+<ProjectDetails ProjectName="SfBarcode.Web" SourceType="GitLab" RepositoryName="Barcode" />  
+</Projects>

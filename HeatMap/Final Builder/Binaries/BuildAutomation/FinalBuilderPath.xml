@@ -1,0 +1,22 @@
+<FinalBuilderPath FBInstalledPath="C:\Program Files (x86)\FinalBuilder 7\FinalBuilder7.exe">
+<Compilation>
+<FB StudioName="EssentialStudio" ProjectLocation="D:\Work\Tools\Automation\16.1.0.1\Essential Studio\EssentialStudio\BuildAutomation_Desktop.fbz7"  />
+</Compilation>
+<IsPackingAlone>
+<FB BuildVariant="EssentialStudio" ProjectLocation="D:\Work\Tools\Automation\16.1.0.1\Essential Studio\EssentialStudio\Essential Studio FB\EssentialStudio.fbz7" PlatformType="" />
+<FB BuildVariant="ASP.NET MVC" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\ASPNETMVC_EJ1\EssentialStudio_ASPNETMVC_EJ1.fbz6" PlatformType="Web" />
+<FB BuildVariant="ASP.NET" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\ASPNET_EJ1\EssentialStudio_ASPNET_EJ1.fbz6" PlatformType="Web" />
+<FB BuildVariant="JavaScript" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\JavaScript_EJ1\EssentialStudio_JavaScript_EJ1.fbz6"  PlatformType="Web"/>
+<FB BuildVariant="Universal Windows" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\UWP\EssentialStudio_UWP.fbz6"  PlatformType="UWP" />
+<FB BuildVariant="Windows Forms" ProjectLocation="D:\Work\Tools\Automation\16.1.0.1\Essential Studio\WindowsForms\EssentialStudio_WindowsForms.fbz6" PlatformType="Desktop" />
+<FB BuildVariant="WPF" ProjectLocation="D:\Work\Tools\Automation\16.1.0.1\Essential Studio\WPF\EssentialStudio_WPF.fbz6" PlatformType="Desktop" />
+<FB BuildVariant="Xamarin" ProjectLocation="D:\Work\Tools\Trunk\Essential Studio\Xamarin\EssentialStudio_Xamarin.fbz6" PlatformType="Xamarin" />
+<FB BuildVariant="FileFormats" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\FILEFORMATS\EssentialStudio_FileFormat.fbz6" PlatformType=""  />
+<FB BuildVariant="ASP.NET CORE" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\ASPNETCORE_EJ1\EssentialStudio_ASPNETCORE_EJ1.fbz6" PlatformType="Web" />
+<FB BuildVariant="PHP" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\PHP\EssentialStudio_PHP.fbz6" PlatformType="Web" />
+<FB BuildVariant="JSP" ProjectLocation="E:\Work\Tools\Trunk\Essential Studio\JSP\EssentialStudio_JSP.fbz6" PlatformType="Web" />
+<FB BuildVariant="ASP.NET Core - JS2" ProjectLocation="D:\Work\Tools\Trunk\Essential Studio\ASPNETCore_EJ2\EssentialStudio_ASPNETCore_EJ2.fbz6" PlatformType="EJ2" />
+<FB BuildVariant="ASP.NET MVC - JS2" ProjectLocation="D:\Work\Tools\Trunk\Essential Studio\ASPNETMVC_EJ2\EssentialStudio_ASPNETMVC_EJ2.fbz6" PlatformType="EJ2" />
+<FB BuildVariant="EJS2" ProjectLocation="D:\Work\Tools\Trunk\Essential Studio\JavaScript_EJ2\EssentialStudio_JavaScript_EJ2.fbz6" PlatformType="EJ2" />
+</IsPackingAlone>
+</FinalBuilderPath> 

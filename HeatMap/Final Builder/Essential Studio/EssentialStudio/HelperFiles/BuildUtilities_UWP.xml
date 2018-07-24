@@ -1,0 +1,200 @@
+<Build>
+  <Utilities>
+     
+	  <!--<Utility Framework="4.0" Name="LicenseEnabler">
+      <Solutionfile>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerConsole\LicenseEnablerConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerConsole\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerConsole</Folder>
+	  </Folders>
+    </Utility>
+	
+	<Utility Framework="4.0" Name="LicenseEnabler">
+      <Solutionfile>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerWindows\LicenseEnablerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerWindows\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerWindows</Folder>
+	  </Folders>
+    </Utility>-->
+	
+    <Utility Framework="4.0" Name="License Management">
+      <Solutionfile>%PATH%\Build\Utilities\LicenseManager\LicenseManager.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\LicenseManager\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\LicenseManager</Folder>
+	  </Folders>
+    </Utility>
+    
+	
+    <Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\AssemblyManagerConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\MultiTargetManager\bin\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\AssemblyManager New</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\AssemblyManagerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\2.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\AssemblyManager New</Folder>
+	  </Folders>
+    </Utility>
+	
+	
+    <Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\DashBoardGenerator_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator</Folder>
+	  </Folders>
+    </Utility>
+    
+	<Utility Framework="4.0" Name="Migration Utility">
+      <Solutionfile>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\ProjectMigrationConsole_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Migration Utility">
+      <Solutionfile>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\ProjectMigrationWindows_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\4.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows</Folder>
+	  </Folders>
+    </Utility>
+    
+	<Utility Framework="3.5" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\SyncGacutil.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil</Folder>
+	  </Folders>
+    </Utility> 
+	<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\DashboardGeneratorUtility_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility</Folder>
+	  </Folders>
+    </Utility>
+   <Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Syncfusion.Installer.UIComponents_2010.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\bin_2010\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents</Folder>
+	  </Folders>
+    </Utility>
+	<Utility Framework="4.0" Name="Assembly Management">
+      <Solutionfile>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\SyncGacutil_40.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40</Folder>
+	  </Folders>
+    </Utility>
+	
+	<Utility Framework="4.0" Name="Dashboard">
+      <Solutionfile>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\bin_2010\Release</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard</Folder>
+	  </Folders>
+    </Utility>	
+	
+	<Utility Framework="4.0" Name="MVC Extension">
+      <Solutionfile>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerConsole\SyncfusionVSIXInstallerConsole.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerConsole\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\4.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncfusionVSIXInstaller</Folder>
+	  </Folders>
+    </Utility>
+    <Utility Framework="4.0" Name="MVC Extension">
+      <Solutionfile>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerWindows\SyncfusionVSIXInstallerWindows.sln</Solutionfile>
+      <Output>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerWindows\bin\Release</Output>
+      <ReferencePath>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\4.0,%PATH%\Assemblies\4.0</ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Build\Utilities\SyncfusionVSIXInstaller</Folder>
+	  </Folders>
+    </Utility>	
+	<Utility Framework="4.0" Name="NuGet Manager">
+      <Solutionfile>%PATH%\Utilities\Syncfusion NuGet Manager\SyncfusionNuGetManager.sln</Solutionfile>
+      <Output>%PATH%\Utilities\Syncfusion NuGet Manager\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+	  <Folders>
+	  <Folder>%PATH%\Utilities\Syncfusion NuGet Manager</Folder>
+	  </Folders>
+    </Utility>	
+	
+	<Utility Framework="4.0" Name="GatherLogs">
+      <Solutionfile>%PATH%\Build\Internal Tools\GatherLogs\GatherLogs.sln</Solutionfile>
+      <Output>%PATH%\Build\Internal Tools\GatherLogs\bin\Release</Output>
+      <ReferencePath></ReferencePath>
+      <Folders>
+        <Folder>%PATH%\Build\Internal Tools\GatherLogs</Folder>
+      </Folders>
+    </Utility>
+	
+  </Utilities>
+  
+  <Manifest>         
+     <Path>%PATH%\Build\Internal Tools\GatherLogs\bin\Release\GatherLogs.exe</Path> 
+    <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\bin\Release\AssemblyManagerWindows.exe</Path>
+	<Path>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerConsole\bin\Release\SyncfusionVSIXInstallerConsole.exe</Path> 
+    <Path>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerWindows\bin\Release\SyncfusionVSIXInstallerWindows.exe</Path> 	
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\bin\release\InstallInfoGenerator.exe</Path>	
+	<Path>%PATH%\Build\Utilities\LicenseManager\bin\Release\LicenseManager.exe</Path>	
+	<Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>	
+    <Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\bin_2010\Release\DashboardGeneratorUtility.exe</Path>
+    <Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\bin_2010\Release\Syncfusion Control Panel.exe</Path>
+    <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\bin\Release\AssemblyManagerConsole.exe</Path>
+    <Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil\bin\release\SyncGacutil.exe</Path>
+    <Path>%PATH%\Build\Utilities\SyncGacutil\SyncGacutil_40\bin\release\SyncGacutil_40.exe</Path>
+    <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\bin\Release\ProjectMigrationWindows.exe</Path>
+    <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\bin\Release\ProjectMigrationConsole.exe</Path>
+	<Path>%PATH%\Utilities\Syncfusion NuGet Manager\bin\Release\SyncfusionNuGetManager.exe</Path>
+	<!--<Path>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerConsole\LicenseEnablerConsole\bin\Release\LicenseEnablerConsole.exe</Path>
+    <Path>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerWindows\LicenseEnablerWindows\bin\Release\LicenseEnablerWindows.exe</Path>-->
+  </Manifest>
+  
+  <!--List of files to be chaging version numbers EX: 8.1.0.12  -->
+  <VersionSwitcher>
+    <Path>%PATH%\Build\Internal Tools\GatherLogs\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerConsole\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\SyncfusionVSIXInstaller\SyncfusionVSIXInstallerWindows\Properties\AssemblyInfo.cs</Path> 
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path> 
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerWindows\AssemblyManagerWindows\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\AssemblyManager New\AssemblyManagerConsole\AssemblyManagerConsole\Properties\AssemblyInfo.cs</Path>  
+    <Path>%PATH%\Build\Utilities\Dashboard_2011\Dashboard\Dashboard\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\Dashboard_2011\DashboardGeneratorUtility\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\Dashboard_2011\DashBoardGenerator\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoClassLibrary\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\InstallInfo\InstallInfoGenerator\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.DeleteRegistryKeys\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Wix Installer\CustomAction\Syncfusion.RemoveStartMenu\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationWindows\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\ProjectMigration\ProjectMigrationConsole\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\Dashboard_2011\Syncfusion.Installer.UIComponents\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\ProjectMigration\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\LicenseManager\AssemblyInfo.cs</Path>  
+    <Path>%PATH%\Build\Utilities\Dashboard\Form1.cs</Path>  
+	<Path>%PATH%\Utilities\Syncfusion NuGet Manager\SyncfusionNugetManager\Properties\AssemblyInfo.cs</Path>
+    <!--<Path>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerConsole\Properties\AssemblyInfo.cs</Path>
+    <Path>%PATH%\Build\Utilities\LicenseEnabler\LicenseEnablerWindows\Properties\AssemblyInfo.cs</Path>-->	
+  </VersionSwitcher>
+</Build>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fbactionpackage name="SendEmail Using Webmail" author="Vijayanand" copyright="" fbversion="80" pro="0">
+  <propertypages/>
+  <action name="Syncfusion SendEmail Action" category="" id="{02DEC1B6-4A9F-41B1-9358-9C05A5AD2493}" serialize-as="SyncfusionSendEmailAction" progid="SendEmailFinalBuilderCustomAction.SendEmailCustomAction" typeenabled="-1" pro="0" skufilter="" searchkeywords="" assembly="SendEmailFinalBuilderCustomAction.dll" descriptionformat="{Action Name}" type="DotNet" base="Standard Action" version="0" author="Vijayanand" copyright="" autoincver="False" language="VBScript" uilanguage="JavaScript" quickhelpfilename="" helptopicid="0">
+    <bitmap>
+      <![CDATA[424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000080000000800000FEFEFE00F2EFE200FDFDFC00F6F5EE00F0EEE100F0EEE100F0EEE100F0EEE100F0EEE200F4F3EA00FDFCFB0000800000008000000080000000800000F9F8F300C1B16D00A38C2800FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C8A000D5CEAA00EFEDE000FEFEFE0000800000FEFEFE00C2B370009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D2CAA300F5F4EC0000800000F3F0E3009F871D009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00D0C89F00E4DFC80000800000E7E1C6009B8213009B821400A0882000FBFAF500E4E0C900D0C89F00D0C89F00D6CFAC00E4E0CA00E4E0CA00D5CEAA00D0C89F00D0C89F00DBD5B70000800000E5DFC3009B8213009B821400A0882000F5F3E900E0DBBF00CDC49800CDC59900DBD5B600FAF9F500FBFAF600DAD5B500D0C89F00D0C89F00DBD5B70000800000E5DFC3009B8213009B8214009D841800A6903200A7923600A8953C00AD9C4900B4A65C00BEB27500C8BF8C00CFC89E00D0C89F00D0C89F00E2DDC40000800000E5DFC3009B8213009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00EFECDE0000800000E5DFC3009B8213009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00E9E5D20000800000E5DFC3009B8213009B8214009E851B00C2B37200C6B87C00C8BB8200CBC08B00CFC69600D4CCA300DAD5B300D3CCA700D0C89F00D0C89F00DED9BD0000800000E5DFC3009B8213009B821400A0882000F4F3EB00F9F9F400FAF9F400FAF9F500FAFAF600FBFAF700FBFBF800DAD5B500D0C89F00D0C89F00DAD4B50000800000ECE7D3009C8316009B8214009D841800A6913200A9953B00AC9A4500B1A15200B7AA6300BFB37700C9C08E00CFC89F00D0C89F00D0C89F00DED9BD0000800000FCFBF800AD9940009B8214009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00D0C89F00ECE9D9000080000000800000E8E2C900A48D2A009D8417009E861E00A18A2700A4903200A9984100B0A25300B8AC6900C3BA8300CEC79C00D0C89F00DED9BC00FDFCFB000080000000800000FEFEFE00F2EEE100CCBF8800BDAD6800BEAF6B00BDAE6A00C1B47500C5BB8200CBC29200D4CCA500E0DBC100EEECDD00FDFDFC00008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000008000000080000000800000]]>
+    </bitmap>
+    <properties>
+      <property name="To" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false">
+        <defaultvalue>
+          <![CDATA[chnbuild@syncfusion.com]]>
+        </defaultvalue>
+      </property>
+      <property name="Body" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="Subject" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="AttachmentFile" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="LogoImage" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+    </properties>
+    <events/>
+    <propertypages>
+      <propertypage name="SendEmail Page">
+        <controls>
+          <StdImage Height="24" Width="24" Left="10" Top="10" Name="FBStandardImage1" Hint="" StdImageType="OPTIONS"/>
+          <Label Height="13" Width="127" Left="40" Top="15" Name="FBLabel1" Caption="Property Page Caption" Hint="" ParentFont="False">
+            <Font Height="-11" Name="Tahoma" Style="[fsBold]" Color="-16777208"/>
+          </Label>
+          <Bevel Height="2" Width="326" Left="175" Top="23" Name="FBBevel1" Hint=""/>
+          <Label Height="13" Width="36" Left="40" Top="104" Name="FBLabel5" Caption="Subject" Hint=""/>
+          <Label Height="13" Width="12" Left="48" Top="71" Name="FBLabel7" Caption="To" Hint=""/>
+          <Label Height="13" Width="24" Left="43" Top="226" Name="FBLabel8" Caption="Body" Hint=""/>
+          <Label Height="13" Width="59" Left="35" Top="171" Name="FBLabel2" Caption="Attachment " Hint=""/>
+          <Label Height="13" Width="23" Left="47" Top="138" Name="FBLabel3" Caption="Logo" Hint=""/>
+          <TextEdit Height="21" Width="238" Left="128" Top="99" Name="FBEdit4" BindTo="Subject" ControlProp="Text" Text="" Hint="" TabOrder="0"/>
+          <TextEdit Height="21" Width="238" Left="128" Top="65" Name="FBEdit6" BindTo="To" ControlProp="Text" Text="" Hint="" TabOrder="1"/>
+          <TextEdit AutoSize="False" Height="111" Width="321" Left="128" Top="203" Name="FBEdit7" BindTo="Body" ControlProp="Text" Text="" Hint="" TabOrder="2"/>
+          <FileNameEdit Height="21" Width="241" Left="126" Top="168" Name="FBFileNameEdit1" BindTo="AttachmentFile" ControlProp="Text" Text="" Hint="" TabOrder="3" FileFilter="All Files|*.*">
+            <ButtonPair Height="18" Width="17" Left="220" Top="0" Name="" Hint="" TabOrder="0" Color="-16777211">
+              <ControlButton Height="17" Width="17" Left="0" Top="0" Name="" Caption="" Hint="Click to browse for file"/>
+              <ControlButton Height="21" Width="17" Left="0" Top="0" Visible="False" Name="" Caption="" Hint=""/>
+            </ButtonPair>
+          </FileNameEdit>
+          <FileNameEdit Height="21" Width="239" Left="127" Top="134" Name="LogoImage" BindTo="LogoImage" ControlProp="Text" Text="" Hint="" TabOrder="4" FileFilter="All Files|*.*">
+            <ButtonPair Height="18" Width="17" Left="218" Top="0" Name="" Hint="" TabOrder="0" Color="-16777211">
+              <ControlButton Height="17" Width="17" Left="0" Top="0" Name="" Caption="" Hint="Click to browse for file"/>
+              <ControlButton Height="21" Width="17" Left="0" Top="0" Visible="False" Name="" Caption="" Hint=""/>
+            </ButtonPair>
+          </FileNameEdit>
+        </controls>
+        <scripts>
+          <script name="ReadData" scripttype="1"/>
+          <script name="WriteData" scripttype="1"/>
+          <script name="Validate" scripttype="0"/>
+        </scripts>
+      </propertypage>
+    </propertypages>
+    <scripts>
+      <script name="CommonScript" scripttype="2">
+        <scriptcode>
+          <![CDATA[&#39;Any script in here is available to the other script events for this action]]>
+        </scriptcode>
+      </script>
+    </scripts>
+  </action>
+  <propertyset typename="EmailPropert Set" id="{8BAEDC8B-3A3E-4D56-9D62-F0E175758C0A}">
+    <properties>
+      <property name="From" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="Sender" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="Port" type="integer" required="false" encrypted="0" ishidden="false" isdesigntimereadonly="false"/>
+      <property name="SMTP" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false"/>
+    </properties>
+  </propertyset>
+  <options title="Options Title" guid="{03077815-666E-4AC1-9697-2BD18075A90E}" category="Test" optionkeyname="test" framehelptopic="0" optionslocation="MACHINE" searchkeywords="">
+    <bitmap>
+      <![CDATA[424D36040000000000003600000028000000100000001000000001002000000000000004000000000000000000000000000000000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000FF000000]]>
+    </bitmap>
+    <properties>
+      <property name="From" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false">
+        <defaultvalue>
+          <![CDATA[vijays_syncfusion_c]]>
+        </defaultvalue>
+      </property>
+      <property name="Sender" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false">
+        <defaultvalue>
+          <![CDATA[vijays@syncfusion.com]]>
+        </defaultvalue>
+      </property>
+      <property name="Port" type="integer" required="false" encrypted="0" ishidden="false" isdesigntimereadonly="false">
+        <defaultvalue>
+          <![CDATA[587]]>
+        </defaultvalue>
+      </property>
+      <property name="SMTP" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false">
+        <defaultvalue>
+          <![CDATA[smtp.ihostexchange.net]]>
+        </defaultvalue>
+      </property>
+      <property name="To" type="string" required="false" encrypted="0" stringsubtype="0" ishidden="false" isdesigntimereadonly="false">
+        <defaultvalue>
+          <![CDATA[vijays@syncfusion.com]]>
+        </defaultvalue>
+      </property>
+    </properties>
+    <optionpages>
+      <propertypage name="Send Email Action" language="JavaScript">
+        <controls>
+          <StdImage Height="24" Width="24" Left="10" Top="10" Name="FBStandardImage1" Hint="" StdImageType="OPTIONS"/>
+          <Label Height="13" Width="114" Left="40" Top="15" Name="FBLabel1" Caption="Option Page Caption" Hint="" ParentFont="False">
+            <Font Height="-11" Name="Tahoma" Style="[fsBold]" Color="-16777208"/>
+          </Label>
+          <Bevel Height="2" Width="326" Left="175" Top="23" Name="FBBevel1" Hint=""/>
+          <Label Height="13" Width="24" Left="87" Top="61" Name="FBLabel2" Caption="From" Hint=""/>
+          <Label Height="13" Width="34" Left="76" Top="104" Name="FBLabel3" Caption="Sender" Hint=""/>
+          <Label Height="13" Width="20" Left="71" Top="140" Name="FBLabel4" Caption="Port" Hint=""/>
+          <Label Height="13" Width="26" Left="71" Top="170" Name="FBLabel5" Caption="SMTP" Hint=""/>
+          <Label Height="13" Width="12" Left="72" Top="204" Name="FBLabel6" Caption="To" Hint=""/>
+          <Button Height="25" Width="75" Left="84" Top="235" Name="FBButton1" Caption="Submit" Hint="" TabOrder="0"/>
+          <Button Height="25" Width="75" Left="195" Top="235" Name="FBButton2" Caption="Cancel" Hint="" TabOrder="1"/>
+          <TextEdit Height="21" Width="121" Left="166" Top="55" Name="FBEdit2" BindTo="From" ControlProp="Text" Text="" Hint="" TabOrder="2"/>
+          <TextEdit Height="21" Width="121" Left="164" Top="100" Name="FBEdit1" BindTo="Sender" ControlProp="Text" Text="" Hint="" TabOrder="3"/>
+          <TextEdit Height="21" Width="121" Left="166" Top="133" Name="FBEdit3" BindTo="Port" ControlProp="Text" Text="" Hint="" TabOrder="4"/>
+          <TextEdit Height="21" Width="121" Left="166" Top="163" Name="FBEdit4" BindTo="SMTP" ControlProp="Text" Text="" Hint="" TabOrder="5"/>
+          <TextEdit Height="21" Width="121" Left="165" Top="194" Name="FBEdit5" BindTo="To" ControlProp="Text" Text="" Hint="" TabOrder="6"/>
+        </controls>
+        <controlevents>
+          <controlevent name="OnClick" controlname="FBButton1" parameters="Sender=Button"/>
+        </controlevents>
+        <scripts>
+          <script name="ReadData" scripttype="1"/>
+          <script name="WriteData" scripttype="1"/>
+          <script name="Validate" scripttype="0"/>
+        </scripts>
+      </propertypage>
+    </optionpages>
+  </options>
+</fbactionpackage>

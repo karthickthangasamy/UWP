@@ -1,0 +1,41 @@
+<ESFiles>
+<Web>
+	<File>##PATH##\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2010\Release\Syncfusion Web Conversion and Migration.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2012\Release\Syncfusion Web Conversion and Migration.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2013\Release\Syncfusion Web Conversion and Migration.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\ConversionProject\Syncfusion.ASP.NET.MVC.Extension\bin_2017\Release\Syncfusion Web Conversion and Migration.vsix</File>
+	<File>##PATH##\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2010\Release\Syncfusion.ASP.NET.Extension.vsix</File>
+	<File>##PATH##\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2012\Release\Syncfusion.ASP.NET.Extension.vsix</File>
+	<File>##PATH##\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2013\Release\Syncfusion.ASP.NET.Extension.vsix</File>
+	<File>##PATH##\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2015\Release\Syncfusion.ASP.NET.Extension.vsix</File>
+	<File>##PATH##\Utilities\ASPNET\VS Extension\Syncfusion.ASP.NET.Extension\bin_2017\Release\Syncfusion.ASP.NET.Extension.vsix</File>	
+	<File>##PATH##\Utilities\ASP.NET Core\ASP.NETCore.Extension\bin_2017\Release\Syncfusion.ASP.NETCore.Extension.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2012\Release\Syncfusion.MVC.VSPackage.Web.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2013\Release\Syncfusion.MVC.VSPackage.Web.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2015\Release\Syncfusion.MVC.VSPackage.Web.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\HTML5Edition4.5\VS Package_JavaScript\bin_2017\Release\Syncfusion.MVC.VSPackage.Web.vsix</File>
+	<File>##PATH##\Utilities\MVC\VSExtension\HTML5Edition4.0\VS Package_JavaScript\bin\Release\Syncfusion.MVC.VSPackage.Web.vsix</File>
+	<File>##PATH##\EJ.JSP\Src\syncfusion-taglib-##STUDIO_VERSION##.jar</File>
+	<Folder>##PATH##\Assemblies</Folder>
+	<Folder>##PATH##\ZipFiles\SamplesZipFiles</Folder>	
+	<Folder>##PATH##\JS\assets</Folder>	
+	<Folder>##PATH##\JS\assets-src</Folder>
+	<Folder>##PATH##\JS\ejResources</Folder>
+	<Folder>%USERPROFILE%\.sfnuget</Folder>
+</Web>
+<UWP>
+	<File>##PATH##\Extensions\Extensions\Utilities\UWP\Src\bin_2015\Release\Syncfusion.UWP.VSExtension.vsix</File>
+	<File>##PATH##\Extensions\Extensions\Utilities\UWP\Src\bin_2017\Release\Syncfusion.UWP.VSExtension.vsix</File>
+	<File>##PATH##\UWP\SDKManifest.xml</File>
+	<Folder>##PATH##\Assemblies</Folder>
+	<Folder>##PATH##\ZipFiles\SamplesZipFiles</Folder>
+	<Folder>##GitLabPath##\UWPSampleBrowser\sfshared-xaml</Folder>
+</UWP>
+<Xamarin>
+	<File>##GitLabPath##\xamarinforms-samplebrowser\ReadMe.txt</File>
+	<Folder>##PATH##\ZipFiles\SamplesZipFiles</Folder>
+</Xamarin>
+<EJ2>	
+	<Folder>##PATH##\ZipFiles\SamplesZipFiles</Folder>
+</EJ2>
+</ESFiles>
