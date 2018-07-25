@@ -27,8 +27,9 @@
 
   
    ## Navigation
- | [Tab Control](TabControl) |[Radial Menu](RadialMenu)|Tree Navigator|[Navigator Drawer](Navigation) |
-  | --------- | --------- | ----------|--------------|  
+  | | | | |
+  | --------- | --------- | ----------|--------------|
+   | [Tab Control](TabControl) |[Radial Menu](RadialMenu)|Tree Navigator|[Navigator Drawer](Navigation) |
   |Rotator|[Group Bar](GroupBar)|[Menu](Menu)|
 
 ## Editors
@@ -41,12 +42,13 @@
  |Radial Slider|[Color Picker ](ColorPickers/View)|[Color palette](ColorPickers/View)|[Picker](Picker)|
 
   ## Layout
- | [Docking Manager](Docking%20Manager) |[Tile View](TileView)|[Carousel](Carousel) |[Accordion](Accordion) |
+  | | | | |
   | --------- | --------- | ----------|--------------|  
+  | [Docking Manager](Docking%20Manager) |[Tile View](TileView)|[Carousel](Carousel) |[Accordion](Accordion) |
   |[Ribbon](Ribbon)|
   
    ## Notification
- | [Busy Indicator](BusyIndicator) |[Hub Tile](HubTiles)|[Progress Bar](ProgressBar) |Pull-To-Refresh|
+  | [Busy Indicator](BusyIndicator) |[Hub Tile](HubTiles)|[Progress Bar](ProgressBar) |Pull-To-Refresh|
   | --------- | --------- | ----------|--------------|  
   
    ## Miscellaneous
