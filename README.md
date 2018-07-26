@@ -169,31 +169,36 @@ Tree Navigator
 <td>
 <a href="RichTextEditor">Rich Text Box</a>
 </td>
-<td>
-<a href="Editor/Editors/Controls">Drop Down Button</a>
-</td>
+
 
 </tr>
   <tr>
+  <td>
+<a href="Editor/Editors/Controls">Drop Down Button</a>
+</td>
   <td>
 MultiColumn Drop-Down
 </td>
 <td>
 <a href="Editor/DateTimePickers">Date Picker</a>
 </td>
-<td>
+
+
+</tr>
+   <tr>
+   <td>
 <a href="Editor/DateTimePickers">Time Picker</a>
 </td>
 <td>
 <a href="Calendar">Calender</a>
 </td>
-
-</tr>
-   <tr>
    <td>
 <a href="Editors/Controls/NumericTextEdit">Numeric Text Box</a>
 </td>
-<td>
+
+  </tr>
+   <tr>
+   <td>
   <a href="NumericUpDown">Numeric Up-Down</a>
 </td>
 <td>
@@ -203,9 +208,11 @@ MultiColumn Drop-Down
 <a href="DateTimePickers">Date-Time Combo</a>
 </td>
 
+   
+
   </tr>
-   <tr>
-   <td>
+  <tr>
+  <td>
 <a href="Editors/Controls/MaskedEdit">Masked Text Box</a>
 </td>
 <td>
@@ -214,22 +221,25 @@ MultiColumn Drop-Down
 <td>
   <a href="RatingControl">Rating</a>
 </td>
-<td>
-<a href="RangeSlider">Range Slider</a>
-</td>
 
   </tr>
   <tr>
+  <td>
+<a href="RangeSlider">Range Slider</a>
+</td>
   <td>
 Radial Slider
 </td>
 <td>
 <a href="ColorPickers/View">Color Picker</a>
 </td>
-<td>
+
+  </tr>
+  <tr>
+  <td>
 <a href="ColorPickers/View">Color palette</a>
 </td>
-<td>
+<td colspan="2" rowspan="1">
   <a href="Picker">Picker</a>
 </td>
   </tr>
