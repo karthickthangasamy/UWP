@@ -48,10 +48,10 @@
 </tr>
   <tr>
   <td>
-Diagramming
+<a href="Diagram">Diagramming</a>
 </td>
 <td>
-Maps
+<a href="MapControl">Maps</a> 
 </td>
   <td>
 <a href="TreeMap">Tree Map</a>
@@ -144,10 +144,10 @@ Maps
 <a href="RadialMenu">Radial Menu</a>
 </td>
 <td>
-Tree Navigator
+<a href="Navigation">Tree Navigator</a>
 </td>
 <td>
-<a href="Navigation">Navigator Drawer</a>
+
 </td>
 </tr>
 <tr>
@@ -181,7 +181,7 @@ Tree Navigator
 <a href="Editor/Editors/Controls">Drop Down Button</a>
 </td>
   <td>
-MultiColumn Drop-Down
+<a href="SfDataGrid/Tutorials">MultiColumn Drop-Down</a>
 </td>
 <td>
 <a href="Editor/DateTimePickers">Date Picker</a>
