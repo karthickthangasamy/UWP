@@ -30,31 +30,37 @@
 <td>
 <a href="SfSmithChart">Smith Chart</a>
 </td>
-<td>
-<a href="SfKanban">Kanban</a>
-</td>
 
 </tr>
   <tr>
+  <td>
+<a href="SfKanban">Kanban</a>
+</td>
+
   <td>
 <a href="SfGantt">Gannt</a>
 </td>
 <td>
 <a href="Barcode">Bar Code</a>
 </td>
-<td>
+
+
+</tr>
+  <tr>
+  <td>
 Diagramming
 </td>
 <td>
 Maps
 </td>
-
-</tr>
-  <tr>
   <td>
 <a href="TreeMap">Tree Map</a>
 </td>
-<td>
+
+
+</tr>
+   <tr>
+   <td>
 <a href="ImageEditor">Image Editor</a>
 </td>
 <td>
@@ -63,10 +69,10 @@ Maps
 <td>
 <a href="SfSparkline">Sparkline</a>
 </td>
-
 </tr>
-   <tr>
-   <td>
+
+<tr>
+<td>
 <a href="Schedule">Scheduler</a>
 </td>
 <td>
@@ -75,19 +81,17 @@ Maps
 <td>
 <a href="Gauge">Linear Gauge</a>
 </td>
-<td>
-<a href="Gauge">Digital Gauge</a>
-</td>
-
 </tr>
 <tr>
 <td>
+<a href="Gauge">Digital Gauge</a>
+</td>
+<td>
 <a href="BulletGraph">Bullet Graph</a>
 </td>
-<td colspan="3" rowspan="1">
+<td>
 <a href="HeatMap">Heat Map</a>
 </td>
-
 </tr>
 </table>
 
