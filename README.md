@@ -1,4 +1,7 @@
-# UWP
+# Syncfusion UWP demos
+This repository contains the demo samples that demonstrates various features of Syncfusion controls for UWP platform.
+
+## Samples by Category
 
 <table>
   <tr>
