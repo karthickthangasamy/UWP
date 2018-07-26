@@ -33,11 +33,12 @@
 <td>
 <a href="SfKanban">Kanban</a>
 </td>
-<td>
-<a href="SfGantt">Gannt</a>
-</td>
+
 </tr>
   <tr>
+  <td>
+<a href="SfGantt">Gannt</a>
+</td>
 <td>
 <a href="Barcode">Bar Code</a>
 </td>
@@ -47,21 +48,25 @@ Diagramming
 <td>
 Maps
 </td>
-<td>
+
+</tr>
+  <tr>
+  <td>
 <a href="TreeMap">Tree Map</a>
 </td>
 <td>
 <a href="ImageEditor">Image Editor</a>
 </td>
-</tr>
-  <tr>
 <td>
 <a href="SfRangeNavigator">Range Navigator</a>
 </td>
 <td>
 <a href="SfSparkline">Sparkline</a>
 </td>
-<td>
+
+</tr>
+   <tr>
+   <td>
 <a href="Schedule">Scheduler</a>
 </td>
 <td>
@@ -70,23 +75,19 @@ Maps
 <td>
 <a href="Gauge">Linear Gauge</a>
 </td>
-</tr>
-   <tr>
 <td>
 <a href="Gauge">Digital Gauge</a>
 </td>
+
+</tr>
+<tr>
 <td>
 <a href="BulletGraph">Bullet Graph</a>
 </td>
-<td>
+<td colspan="3" rowspan="1">
 <a href="HeatMap">Heat Map</a>
 </td>
-<td>
 
-</td>
-<td>
-
-</td>
 </tr>
 </table>
 
@@ -104,9 +105,6 @@ Maps
 </td>
 <td>
 <a href="PivotClient">Pivot Client(Preview)</a>
-</td>
-<td>
-
 </td>
 </tr>
 </table>
@@ -147,25 +145,14 @@ Tree Navigator
 <td>
 <a href="Navigation">Navigator Drawer</a>
 </td>
-<td>
-Rotator
-</td>
 </tr>
 <tr>
+  <td>Rotator</td>
 <td>
 <a href="GroupBar">Group Bar</a>
 </td>
-<td>
+<td colspan="2" rowspan="1">
 <a href="Menu">Menu</a>
-</td>
-<td>
-
-</td>
-<td>
-
-</td>
-<td>
-
 </td>
 </tr>
 </table>
@@ -185,11 +172,12 @@ Rotator
 <td>
 <a href="Editor/Editors/Controls">Drop Down Button</a>
 </td>
-<td>
-MultiColumn Drop-Down
-</td>
+
 </tr>
   <tr>
+  <td>
+MultiColumn Drop-Down
+</td>
 <td>
 <a href="Editor/DateTimePickers">Date Picker</a>
 </td>
@@ -199,21 +187,25 @@ MultiColumn Drop-Down
 <td>
 <a href="Calendar">Calender</a>
 </td>
-<td>
+
+</tr>
+   <tr>
+   <td>
 <a href="Editors/Controls/NumericTextEdit">Numeric Text Box</a>
 </td>
 <td>
   <a href="NumericUpDown">Numeric Up-Down</a>
 </td>
-</tr>
-   <tr>
 <td>
 <a href="DomainUpDown">Domain Up-Down</a>
 </td>
 <td>
 <a href="DateTimePickers">Date-Time Combo</a>
 </td>
-<td>
+
+  </tr>
+   <tr>
+   <td>
 <a href="Editors/Controls/MaskedEdit">Masked Text Box</a>
 </td>
 <td>
@@ -222,12 +214,13 @@ MultiColumn Drop-Down
 <td>
   <a href="RatingControl">Rating</a>
 </td>
-  </tr>
-   <tr>
 <td>
 <a href="RangeSlider">Range Slider</a>
 </td>
-<td>
+
+  </tr>
+  <tr>
+  <td>
 Radial Slider
 </td>
 <td>
