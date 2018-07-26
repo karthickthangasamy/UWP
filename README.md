@@ -261,8 +261,8 @@ Radial Slider
 </td>
 <td>
   <a href="Picker">Picker</a>
-</td>
   </td>
+  <td/>
   </tr>
 
 <tr>
