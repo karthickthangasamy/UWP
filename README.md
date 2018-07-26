@@ -1,65 +1,317 @@
 # UWP
 
-## GRIDS
+<b>GRID</b>
+<table>
+<tr>
+<td>
+<a href="SfDataGrid">DataGrid</a>
+</td>
+<td>
+<a href="SfTreeGrid">Tree Grid</a>
+</td>
+<td>
+<a href="SfCellGrid">Cell Grid</a>
+</td>
+<td>
+<a href="SfSpreadsheet">Spreadsheet</a>
+</td>
+</tr>
+</table>
 
-| [Data Grid](SfDataGrid) | [Tree Grid](SfTreeGrid) |[Cell Grid](SfCellGrid) | [Spreed Sheet](SfSpreadsheet) |
-| --------- | --------- | ----------|--------------|
+<b> DATA VISUALIZATION</b>
+<table>
+<tr>
+<td>
+<a href="SfChart">Chart</a>
+</td>
+<td>
+<a href="SfSunburstChart">Sunburst Chart</a>
+</td>
+<td>
+<a href="SfSmithChart">Smith Chart</a>
+</td>
+<td>
+<a href="SfKanban">Kanban</a>
+</td>
+<td>
+<a href="SfGantt">Gannt</a>
+</td>
+</tr>
+  <tr>
+<td>
+<a href="Barcode">Bar Code</a>
+</td>
+<td>
+Diagramming
+</td>
+<td>
+Maps
+</td>
+<td>
+<a href="TreeMap">Tree Map</a>
+</td>
+<td>
+<a href="ImageEditor">Image Editor</a>
+</td>
+</tr>
+  <tr>
+<td>
+<a href="SfRangeNavigator">Range Navigator</a>
+</td>
+<td>
+<a href="SfSparkline">Sparkline</a>
+</td>
+<td>
+<a href="Schedule">Scheduler</a>
+</td>
+<td>
+<a href="Gauge">Radial Gauge</a>
+</td>
+<td>
+<a href="Gauge">Linear Gauge</a>
+</td>
+</tr>
+   <tr>
+<td>
+<a href="Gauge">Digital Gauge</a>
+</td>
+<td>
+<a href="BulletGraph">Bullet Graph</a>
+</td>
+<td>
+<a href="HeatMap">Heat Map</a>
+</td>
+<td>
 
+</td>
+<td>
 
-## DATA VISUALIZATION
-  | | | | |
-  | --------- | --------- | ----------|--------------|  
-  | [Chart](SfChart) | [Sunburst Chart](SfSunburstChart) |[Smith Chart](SfSmithChart)|[Kanban](SfKanban) |
-  |[Gannt](SfGantt)|[Bar Code](Barcode)|Diagramming|Maps|
-  |[Tree Map](TreeMap)|[Image Editor](ImageEditor)|[Range Navigator](SfRangeNavigator)|[Sparkline](SfSparkline)|
-  |[Scheduler](Schedule)|[Radial Gauge](Gauge)|[Linear Gauge](Gauge)|[Digital Gauge](Gauge)|
-  |[Bullet Graph](BulletGraph)|[Heat Map](HeatMap)|
+</td>
+</tr>
+</table>
 
-## BUSINESS INTELLIGENCE
- | [Pivot Chart](PivotChart) | [Pivot Grid](PivotGrid) |[Pivot Gauge](PivotGauge)|[Pivot Client(Preview)](PivotClient) |
-  | --------- | --------- | ----------|--------------|  
+<b> BUSINESS INTELLIGENCE</b>
+<table>
+<tr>
+<td>
+<a href="PivotChart">Pivot Chart</a>
+</td>
+<td>
+<a href="PivotGrid">Pivot Grid</a>
+</td>
+<td>
+<a href="PivotGauge">Pivot Gauge</a>
+</td>
+<td>
+<a href="PivotClient">Pivot Client(Preview)</a>
+</td>
+<td>
 
+</td>
+</tr>
+</table>
+
+<b> FILE FORMATS</b>
+<table>
+<tr>
+<td>
+<a href="XlsIO">Excel</a>
+</td>
+<td>
+<a href="PDF">PDF</a>
+</td>
+<td>
+<a href="DocIO">Word</a>
+</td>
+<td>
+<a href="PdfViewer">PDF Viewer</a>
+</td>
+<td>
+<a href="Presentation">Power Point</a>
+</td>
+</tr>
+  </table>
+
+<b> Navigation</b>
+<table>
+<tr>
+<td>
+<a href="TabControl">Tab Control</a>
+</td>
+<td>
+<a href="RadialMenu">Radial Menu</a>
+</td>
+<td>
+Tree Navigator
+</td>
+<td>
+<a href="Navigation">Navigator Drawer</a>
+</td>
+<td>
+Rotator
+</td>
+</tr>
+<tr>
+<td>
+<a href="GroupBar">Group Bar</a>
+</td>
+<td>
+<a href="Menu">Menu</a>
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+<td>
+
+</td>
+</tr>
+</table>
+
+<b> Editors</b>
+<table>
+<tr>
+<td>
+<a href="Editors/Controls/TextEdit">Text Box</a>
+</td>
+<td>
+<a href="Editors/Controls/ComboBox">Combo Box</a>
+</td>
+<td>
+<a href="RichTextEditor">Rich Text Box</a>
+</td>
+<td>
+<a href="Editor/Editors/Controls">Drop Down Button</a>
+</td>
+<td>
+MultiColumn Drop-Down
+</td>
+</tr>
+  <tr>
+<td>
+<a href="Editor/DateTimePickers">Date Picker</a>
+</td>
+<td>
+<a href="Editor/DateTimePickers">Time Picker</a>
+</td>
+<td>
+<a href="Calendar">Calender</a>
+</td>
+<td>
+<a href="Editors/Controls/NumericTextEdit">Numeric Text Box</a>
+</td>
+<td>
+  <a href="NumericUpDown">Numeric Up-Down</a>
+</td>
+</tr>
+   <tr>
+<td>
+<a href="DomainUpDown">Domain Up-Down</a>
+</td>
+<td>
+<a href="DateTimePickers">Date-Time Combo</a>
+</td>
+<td>
+<a href="Editors/Controls/MaskedEdit">Masked Text Box</a>
+</td>
+<td>
+<a href="Editors/Controls/CalculatorSample.xaml">Calculator</a>
+</td>
+<td>
+  <a href="RatingControl">Rating</a>
+</td>
+  </tr>
+   <tr>
+<td>
+<a href="RangeSlider">Range Slider</a>
+</td>
+<td>
+Radial Slider
+</td>
+<td>
+<a href="ColorPickers/View">Color Picker</a>
+</td>
+<td>
+<a href="ColorPickers/View">Color palette</a>
+</td>
+<td>
+  <a href="Picker">Picker</a>
+</td>
+  </tr>
+  </table>
   
-  ## FILE FORMATS
- | [Excel](XlsIO) | [PDF](PDF) |[Pivot Gauge](PivotGauge)|[Word](DocIO)|[PDF Viewer](PdfViewer) |[Power Point](Presentation)|
- | --------- | --------- | ----------|--------------|---------------| -| 
+  <b> Layout</b>
+<table>
+<tr>
+<td>
+<a href="Docking%20Manager">Docking Manager</a>
+</td>
+<td>
+<a href="TileView">Tile View</a>
+</td>
+<td>
+<a href="Carousel">Carousel</a>
+</td>
+<td>
+<a href="Accordion">Accordion</a>
+</td>
+<td>
+<a href="Ribbon">Ribbon</a>
+</td>
+</tr>
+  </table>
+  
+  
+<b> Notification</b>
+<table>
+<tr>
+<td>
+<a href="BusyIndicator">Busy Indicator</a>
+</td>
+<td>
+<a href="HubTiles">Hub Tile</a>
+</td>
+<td>
+<a href="ProgressBar">Progress Bar</a>
+</td>
+<td>
+Pull-To-Refresh
+</td>
+
+</tr>
+  </table>
+
+<b> Miscellaneous</b>
+<table>
+<tr>
+<td>
+<a href="Calculate">Calculate</a>
+</td>
+<td>
+<a href="SpellChecker">Spell Checker</a>
+</td>
+</tr>
+  </table>
+
+<b> Data Science</b>
+<table>
+<tr>
+<td>
+<a href="PredictiveAnalytics">Predictive Analytics</a>
+</td>
+</tr>
+  </table>
+  
+  <b> Reporting</b>
+<table>
+<tr>
+<td>
+<a href="ReportViewer">Report Viewer</a>
+</td>
+</tr>
+  </table>
+  
  
-
-  
-   ## Navigation
-  | | | | |
-  | --------- | --------- | ----------|--------------|
-   | [Tab Control](TabControl) |[Radial Menu](RadialMenu)|Tree Navigator|[Navigator Drawer](Navigation) |
-  |Rotator|[Group Bar](GroupBar)|[Menu](Menu)|
-
-## Editors
-  | | | | |
-  | --------- | --------- | ----------|--------------| 
-  |[Text Box](Editors/Controls/TextEdit) | [Combo Box](Editors/Controls/ComboBox) |[Rich Text Box](RichTextEditor)|[Drop Down Button](Editor/Editors/Controls) |
-  |MultiColumn Drop-Down|[Date Picker](Editor/DateTimePickers)|[Time Picker](Editor/DateTimePickers)|[Calender](Calendar)|
-  |[Numeric Text Box](Editors/Controls/NumericTextEdit)|[Numeric Up-Down](NumericUpDown)|[Domain Up-Down](DomainUpDown)|[Date-Time Combo](DateTimePickers)|
-  |[Masked Text Box](Editors/Controls/MaskedEdit)|[Calculator ](Editors/Controls/CalculatorSample.xaml)|[Rating](RatingControl)|[Range Slider](RangeSlider)|
- |Radial Slider|[Color Picker ](ColorPickers/View)|[Color palette](ColorPickers/View)|[Picker](Picker)|
-
-  ## Layout
-  | | | | |
-  | --------- | --------- | ----------|--------------|  
-  | [Docking Manager](Docking%20Manager) |[Tile View](TileView)|[Carousel](Carousel) |[Accordion](Accordion) |
-  |[Ribbon](Ribbon)|
-  
-   ## Notification
-  | [Busy Indicator](BusyIndicator) |[Hub Tile](HubTiles)|[Progress Bar](ProgressBar) |Pull-To-Refresh|
-  | --------- | --------- | ----------|--------------|  
-  
-   ## Miscellaneous
- | [Calculate](Calculate) |[Spell Checker](SpellChecker)|
-  | --------- | --------- |  
-  
-   ## Data Science
- | [Predictive Analytics](PredictiveAnalytics) |
-  | --------- |
-  
-   ## Reporting
- | [Report Viewer](ReportViewer) |
-  | --------- |
   
