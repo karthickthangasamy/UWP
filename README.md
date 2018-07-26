@@ -1,7 +1,11 @@
 # UWP
 
-<b>GRID</b>
 <table>
+  <tr>
+    <td colspan="3" rowspan="1">
+    <b>GRIDS<b>
+    </td>
+</tr>    
 <tr>
 <td>
 <a href="SfDataGrid">DataGrid</a>
@@ -12,15 +16,21 @@
 <td>
 <a href="SfCellGrid">Cell Grid</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="SfSpreadsheet">Spreadsheet</a>
 </td>
-</tr>
-</table>
 
-<b> DATA VISUALIZATION</b>
-<table>
+<td/>
+<td/>
+</tr>
 <tr>
+    <td colspan="3" rowspan="1">
+    <b>DATA VISUALIZATION<b>
+    </td>
+</tr>   
+      <tr>
 <td>
 <a href="SfChart">Chart</a>
 </td>
@@ -93,11 +103,12 @@
 <a href="HeatMap">Heat Map</a>
 </td>
 </tr>
-</table>
-
-<b> BUSINESS INTELLIGENCE</b>
-<table>
 <tr>
+    <td colspan="3" rowspan="1">
+    <b>BUSINESS INTELLIGENCE<b>
+    </td>
+</tr>   
+      <tr>
 <td>
 <a href="PivotChart">Pivot Chart</a>
 </td>
@@ -107,14 +118,18 @@
 <td>
 <a href="PivotGauge">Pivot Gauge</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="PivotClient">Pivot Client(Preview)</a>
 </td>
-</tr>
-</table>
-
-<b> FILE FORMATS</b>
-<table>
+<td/>
+<td/>
+<tr>
+    <td colspan="3" rowspan="1">
+    <b>FILE FORMATS<b>
+    </td>
+</tr>  
 <tr>
 <td>
 <a href="XlsIO">Excel</a>
@@ -125,17 +140,23 @@
 <td>
 <a href="DocIO">Word</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="PdfViewer">PDF Viewer</a>
 </td>
 <td>
 <a href="Presentation">Power Point</a>
 </td>
+  <td/>
 </tr>
-  </table>
+      
+<tr>
+<td colspan="3" rowspan="1">
+<b>Navigation<b>
+</td>
+</tr>  
 
-<b> Navigation</b>
-<table>
 <tr>
 <td>
 <a href="TabControl">Tab Control</a>
@@ -145,9 +166,6 @@
 </td>
 <td>
 <a href="Navigation">Tree Navigator</a>
-</td>
-<td>
-
 </td>
 </tr>
 <tr>
@@ -159,10 +177,12 @@
 <a href="Menu">Menu</a>
 </td>
 </tr>
-</table>
 
-<b> Editors</b>
-<table>
+<tr>
+    <td colspan="3" rowspan="1">
+    <b>Editors<b>
+    </td>
+</tr>
 <tr>
 <td>
 <a href="Editors/Controls/TextEdit">Text Box</a>
@@ -211,10 +231,7 @@
 <td>
 <a href="DateTimePickers">Date-Time Combo</a>
 </td>
-
-   
-
-  </tr>
+</tr>
   <tr>
   <td>
 <a href="Editors/Controls/MaskedEdit">Masked Text Box</a>
@@ -237,20 +254,22 @@ Radial Slider
 <td>
 <a href="ColorPickers/View">Color Picker</a>
 </td>
-
   </tr>
   <tr>
   <td>
 <a href="ColorPickers/View">Color palette</a>
 </td>
-<td colspan="2" rowspan="1">
+<td>
   <a href="Picker">Picker</a>
 </td>
+  </td>
   </tr>
-  </table>
-  
-  <b> Layout</b>
-<table>
+
+<tr>
+    <td colspan="3" rowspan="1">
+    <b>Layout<b>
+    </td>
+</tr> 
 <tr>
 <td>
 <a href="Docking%20Manager">Docking Manager</a>
@@ -261,19 +280,24 @@ Radial Slider
 <td>
 <a href="Carousel">Carousel</a>
 </td>
+</tr>
+<tr>
 <td>
 <a href="Accordion">Accordion</a>
 </td>
 <td>
 <a href="Ribbon">Ribbon</a>
 </td>
+<td/>
 </tr>
-  </table>
-  
-  
-<b> Notification</b>
-<table>
+      
 <tr>
+ <td colspan="3" rowspan="1">
+  <b>Notification<b>
+ </td>
+</tr>
+   
+   <tr>
 <td>
 <a href="BusyIndicator">Busy Indicator</a>
 </td>
@@ -283,15 +307,20 @@ Radial Slider
 <td>
 <a href="ProgressBar">Progress Bar</a>
 </td>
+</tr>
+<tr>
 <td>
 Pull-To-Refresh
 </td>
-
+<td/>
+<td/>
 </tr>
-  </table>
 
-<b> Miscellaneous</b>
-<table>
+<tr>
+ <td colspan="3" rowspan="1">
+  <b>Miscellaneous<b>
+ </td>
+</tr>
 <tr>
 <td>
 <a href="Calculate">Calculate</a>
@@ -299,26 +328,32 @@ Pull-To-Refresh
 <td>
 <a href="SpellChecker">Spell Checker</a>
 </td>
+<td/>
 </tr>
-  </table>
-
-<b> Data Science</b>
-<table>
+   
+<tr>
+ <td colspan="3" rowspan="1">
+  <b>Data Science<b>
+ </td>
+</tr>
 <tr>
 <td>
 <a href="PredictiveAnalytics">Predictive Analytics</a>
 </td>
+<td/>
+<td/>
 </tr>
-  </table>
-  
-  <b> Reporting</b>
-<table>
+
+<tr>
+ <td colspan="3" rowspan="1">
+  <b>Reporting<b>
+ </td>
+</tr>
 <tr>
 <td>
 <a href="ReportViewer">Report Viewer</a>
 </td>
+<td/>
+<td/>
 </tr>
-  </table>
-  
- 
-  
+</table>
