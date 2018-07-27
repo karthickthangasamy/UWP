@@ -361,9 +361,10 @@ Pull-To-Refresh
 </tr>
 </table>
 
-
+<div>
 <style type='text/css'>
   .markdown-body table tr:nth-child(2n) {
   background: transparent;
 }
 </style>
+  </div>
