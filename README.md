@@ -360,3 +360,10 @@ Pull-To-Refresh
 <td/>
 </tr>
 </table>
+
+<style>
+  table.no-zebra tbody tr:nth-child(even) td,
+table.no-zebra tbody tr.even td {
+  background: transparent;
+}
+</style>
