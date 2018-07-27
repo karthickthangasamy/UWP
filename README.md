@@ -362,8 +362,7 @@ Pull-To-Refresh
 </table>
 
 <style>
-  table.no-zebra tbody tr:nth-child(even) td,
-table.no-zebra tbody tr.even td {
+  .markdown-body table tr:nth-child(2n) {
   background: transparent;
 }
 </style>
