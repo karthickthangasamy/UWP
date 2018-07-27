@@ -361,8 +361,10 @@ Pull-To-Refresh
 </tr>
 </table>
 
-<style>
+(setq markdown-xhtml-header-content
+"<style type='text/css'>
   .markdown-body table tr:nth-child(2n) {
   background: transparent;
 }
-</style>
+</style>"
+)
